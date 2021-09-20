@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
+  m_Name: RPG_QUEST_KillWolves
+  m_EditorClassIdentifier: 
+  ID: 3
+  _name: KillWolves
+  displayName: Kill Wolves
+  _fileName: RPG_QUEST_KillWolves
+  description: Walk down the forest and help us kill the wolves
+  ObjectiveText: Kill wolves
+  ProgressText: Wolves Killed
+  repeatable: 0
+  canBeTurnedInWithoutNPC: 0
+  questRequirements: []
+  itemsGiven: []
+  objectives:
+  - objectiveType: 0
+    taskID: 3
+    taskREF: {fileID: 11400000, guid: 4ec3fc4fdb4841c48965394fdbec4575, type: 2}
+    timeLimit: 0
+  rewardsGiven:
+  - rewardType: 1
+    itemID: -1
+    itemREF: {fileID: 0}
+    currencyID: 0
+    currencyREF: {fileID: 11400000, guid: 3867fead1dc71464f8d362779b4029be, type: 2}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 15
+    Experience: 0
+  - rewardType: 4
+    itemID: -1
+    itemREF: {fileID: 0}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: 0
+    factionREF: {fileID: 11400000, guid: 3373acf609049604096ebefd29b9dd77, type: 2}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 25
+    Experience: 0
+  - rewardType: 3
+    itemID: -1
+    itemREF: {fileID: 0}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: 1
+    weaponTemplateREF: {fileID: 11400000, guid: 7accf06b502d08d4793be3ec3e5817b0,
+      type: 2}
+    count: 0
+    Experience: 50
+  rewardsToPick:
+  - rewardType: 0
+    itemID: 54
+    itemREF: {fileID: 11400000, guid: ea8cda4c138a30642977198a340e5230, type: 2}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 1
+    Experience: 0
+  - rewardType: 0
+    itemID: 56
+    itemREF: {fileID: 11400000, guid: 3661aa89e45fabd4eafbbae6a10b748e, type: 2}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 1
+    Experience: 0
+  - rewardType: 0
+    itemID: 55
+    itemREF: {fileID: 11400000, guid: a4d712502da17da41a8796f013fac99c, type: 2}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 1
+    Experience: 0

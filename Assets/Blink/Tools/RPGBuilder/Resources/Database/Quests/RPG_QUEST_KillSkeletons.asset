@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb18b8dfb0f3be4cb9856d31baa677e, type: 3}
+  m_Name: RPG_QUEST_KillSkeletons
+  m_EditorClassIdentifier: 
+  ID: 5
+  _name: KillSkeletons
+  displayName: Kill Skeletons
+  _fileName: RPG_QUEST_KillSkeletons
+  description: Purge the skeletons from the volcano.
+  ObjectiveText: Kill Skeletons
+  ProgressText: Skeleton Killed
+  repeatable: 0
+  canBeTurnedInWithoutNPC: 0
+  questRequirements:
+  - requirementType: 8
+    pointSpentValue: 0
+    classRequiredID: -1
+    classRequiredREF: {fileID: 0}
+    classLevelValue: 0
+    itemRequiredID: -1
+    itemRequiredREF: {fileID: 0}
+    itemRequiredCount: 0
+    consumeItem: 0
+    skillRequiredID: -1
+    skillRequiredREF: {fileID: 0}
+    skillLevelValue: 0
+    bonusRequiredID: -1
+    bonusRequiredREF: {fileID: 0}
+    abilityRequiredID: -1
+    abilityRequiredREF: {fileID: 0}
+    craftingRecipeRequiredID: -1
+    recipeRequiredREF: {fileID: 0}
+    resourceNodeRequiredID: -1
+    resourceNodeRequiredREF: {fileID: 0}
+    raceRequiredID: -1
+    raceRequiredREF: {fileID: 0}
+    questRequiredID: 4
+    questRequiredREF: {fileID: 11400000, guid: 31227b8041f8d664d843782ad0bd9d6d, type: 2}
+    questStateRequired: 4
+    npcRequiredID: -1
+    npcRequiredREF: {fileID: 0}
+    npcKillsRequired: 0
+    weaponTemplateRequiredID: -1
+    weaponTemplateRequiredREF: {fileID: 0}
+    weaponTemplateLevelValue: 0
+    textNodeREF: {fileID: 0}
+    weaponRequired: 
+  itemsGiven: []
+  objectives:
+  - objectiveType: 0
+    taskID: 6
+    taskREF: {fileID: 11400000, guid: 4fe4d557b1d9e484b95e6ee33a5003a6, type: 2}
+    timeLimit: 0
+  - objectiveType: 0
+    taskID: 5
+    taskREF: {fileID: 11400000, guid: b0490e77d5991594bad8bf24bf54d974, type: 2}
+    timeLimit: 0
+  rewardsGiven:
+  - rewardType: 1
+    itemID: -1
+    itemREF: {fileID: 0}
+    currencyID: 0
+    currencyREF: {fileID: 11400000, guid: 3867fead1dc71464f8d362779b4029be, type: 2}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 50
+    Experience: 0
+  - rewardType: 4
+    itemID: -1
+    itemREF: {fileID: 0}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: 0
+    factionREF: {fileID: 11400000, guid: 3373acf609049604096ebefd29b9dd77, type: 2}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 75
+    Experience: 0
+  rewardsToPick:
+  - rewardType: 2
+    itemID: 54
+    itemREF: {fileID: 11400000, guid: ea8cda4c138a30642977198a340e5230, type: 2}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    treePointID: 3
+    treePointREF: {fileID: 11400000, guid: fc422454ce4d5004682dc4eef158f523, type: 2}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 10
+    Experience: 0
+  - rewardType: 1
+    itemID: 56
+    itemREF: {fileID: 11400000, guid: 3661aa89e45fabd4eafbbae6a10b748e, type: 2}
+    currencyID: 0
+    currencyREF: {fileID: 11400000, guid: 3867fead1dc71464f8d362779b4029be, type: 2}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 200
+    Experience: 0
+  - rewardType: 0
+    itemID: 58
+    itemREF: {fileID: 11400000, guid: 9f1d01e481b7a7e4b90fc922481729af, type: 2}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    count: 1
+    Experience: 0

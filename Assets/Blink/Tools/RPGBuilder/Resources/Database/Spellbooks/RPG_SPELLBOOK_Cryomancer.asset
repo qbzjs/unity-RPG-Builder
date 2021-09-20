@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c99b14b9b5d9494b96cb9a0b6d1dcb9, type: 3}
+  m_Name: RPG_SPELLBOOK_Cryomancer
+  m_EditorClassIdentifier: 
+  ID: 5
+  _name: Cryomancer
+  _fileName: RPG_SPELLBOOK_Cryomancer
+  displayName: Cryomancer
+  description: 
+  icon: {fileID: 21300000, guid: b9496c0971fb94d48ae1b90c92d02e44, type: 3}
+  nodeList:
+  - nodeType: 0
+    _name: 
+    abilityID: 26
+    abilityREF: {fileID: 11400000, guid: 9004a385329843a499668a4d30a4de75, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 27
+    abilityREF: {fileID: 11400000, guid: d15107ed90cbe32418655ff668ea546f, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 28
+    abilityREF: {fileID: 11400000, guid: 85fb7ea0b7107ff409d523ff5ef598e0, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 29
+    abilityREF: {fileID: 11400000, guid: b71a057718f5abc4db74cc267b6c025a, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  sourceType: 0

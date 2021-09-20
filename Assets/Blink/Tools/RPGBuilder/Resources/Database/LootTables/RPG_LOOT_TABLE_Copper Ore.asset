@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96b0784799e03847a37c0c0ada89838, type: 3}
+  m_Name: RPG_LOOT_TABLE_Copper Ore
+  m_EditorClassIdentifier: 
+  ID: 8
+  _name: Copper Ore
+  _fileName: RPG_LOOT_TABLE_Copper Ore
+  lootItems:
+  - itemID: 49
+    itemREF: {fileID: 11400000, guid: 0c70f918e219fb24386309372171cd39, type: 2}
+    min: 1
+    max: 3
+    dropRate: 100
+  - itemID: 42
+    itemREF: {fileID: 11400000, guid: fe0ef18e503e2a54590f7586be503e27, type: 2}
+    min: 1
+    max: 2
+    dropRate: 40

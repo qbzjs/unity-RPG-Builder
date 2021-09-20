@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
+  m_Name: RPG_NPC_Irval The Wyvern
+  m_EditorClassIdentifier: 
+  npcType: 2
+  ID: 6
+  _name: Irval The Wyvern
+  _fileName: RPG_NPC_Irval The Wyvern
+  displayName: Irval The Wyvern
+  icon: {fileID: 21300000, guid: 07cce1700135e0e4595058ee89dfca20, type: 3}
+  isDummyTarget: 0
+  factionREF: {fileID: 11400000, guid: a6ae3711047668349b9fce1df5c1dfb9, type: 2}
+  factionID: 1
+  speciesID: -1
+  merchantTableID: -1
+  merchantTableREF: {fileID: 0}
+  dialogueID: -1
+  dialogueREF: {fileID: 0}
+  questGiven: []
+  questCompleted: []
+  AggroRange: 40
+  distanceFromTarget: 4
+  distanceFromOwner: 4
+  DistanceToTargetReset: 75
+  RoamRange: 5
+  RoamDelay: 15
+  MinRespawn: 500
+  MaxRespawn: 500
+  corpseDespawnTime: 60
+  MinEXP: 50
+  MaxEXP: 50
+  EXPBonusPerLevel: 1
+  factionRewards:
+  - factionREF: {fileID: 11400000, guid: 548edb0008a39ac4b8a4eaa6ab646f64, type: 2}
+    factionID: 2
+    amount: 100
+  MinLevel: 0
+  MaxLevel: 0
+  isScalingWithPlayer: 0
+  abilities:
+  - abilityID: 35
+    abilityREF: {fileID: 11400000, guid: 67cc7b21332708545b5165a6f40ec522, type: 2}
+    condition: 0
+  - abilityID: 36
+    abilityREF: {fileID: 11400000, guid: 50ae9cc0861746343a5344c3bbd9b029, type: 2}
+    condition: 0
+  - abilityID: 37
+    abilityREF: {fileID: 11400000, guid: 86490ba87f598a54f875933e212767b9, type: 2}
+    condition: 0
+  stats:
+  - statID: 0
+    statREF: {fileID: 11400000, guid: 3ba412ea703bc2f4697ddcf06f7f13ec, type: 2}
+    minValue: 0
+    maxValue: 25000
+    baseValue: 25000
+    bonusPerLevel: 25
+    vitalityActions:
+    - type: 1
+      value: 25
+      valueType: 1
+      isPercent: 1
+      abilityREF: {fileID: 0}
+      effectREF: {fileID: 11400000, guid: 2d8d2fdb679dd134ba6830daa60ee985, type: 2}
+      effectRank: 0
+      itemREF: {fileID: 0}
+      elementID: 43
+      itemCount: 0
+  - statID: 40
+    statREF: {fileID: 11400000, guid: 0b197feb460ca2947bd24c889544bde4, type: 2}
+    minValue: 0
+    maxValue: 100
+    baseValue: 100
+    bonusPerLevel: 0
+    vitalityActions: []
+  lootTables:
+  - lootTableID: 13
+    lootTableREF: {fileID: 11400000, guid: 8595db903d55d99468e82a1775f85ea8, type: 2}
+    dropRate: 100
+  - lootTableID: 5
+    lootTableREF: {fileID: 11400000, guid: 38218c0b848d1b745a68e8e43eceee52, type: 2}
+    dropRate: 100
+  - lootTableID: 9
+    lootTableREF: {fileID: 11400000, guid: 2626dbe33b828eb4bb56f766163845f1, type: 2}
+    dropRate: 100
+  - lootTableID: 12
+    lootTableREF: {fileID: 11400000, guid: 12f38c0419fafd94793ea77a0c87028c, type: 2}
+    dropRate: 100
+  - lootTableID: 16
+    lootTableREF: {fileID: 11400000, guid: 8f0f2f6824158134c82f03eb539f1fce, type: 2}
+    dropRate: 100
+  isCombatEnabled: 1
+  isMovementEnabled: 1
+  isCollisionEnabled: 0
+  isTargetable: 1
+  isNameplateEnabled: 1
+  isPlayerInteractable: 1
+  NPCVisual: {fileID: 1811008905277611703, guid: 8c6911529bc1df347a9949554c445fc1,
+    type: 3}
+  modelPosition: {x: 0, y: 0, z: 0}
+  modelScale: {x: 1, y: 1, z: 1}
+  nameplateYOffset: 3
+  animatorController: {fileID: 22100000, guid: 872f5e55183e791448689ab528f3a1f4, type: 2}
+  animatorAvatar: {fileID: 9000000, guid: 4303bbb5d9502684086805d1bd8495a7, type: 3}
+  animatorUseRootMotion: 0
+  animatorUpdateMode: 0
+  AnimatorCullingMode: 0
+  navmeshAgentRadius: 1.25
+  navmeshAgentHeight: 2
+  navmeshAgentAngularSpeed: 2000
+  colliderType: 0
+  colliderCenter: {x: 0, y: 1.5, z: 0}
+  colliderSize: {x: 0, y: 0, z: 0}
+  colliderRadius: 3
+  colliderHeight: 3
+  aggroLinks: []

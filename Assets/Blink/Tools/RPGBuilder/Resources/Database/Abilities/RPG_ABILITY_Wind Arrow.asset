@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
+  m_Name: RPG_ABILITY_Wind Arrow
+  m_EditorClassIdentifier: 
+  ID: 17
+  _name: Wind Arrow
+  _fileName: RPG_ABILITY_Wind Arrow
+  displayName: Wind Arrow
+  icon: {fileID: 21300000, guid: 3670565fd46bfb94f9dfcc58dc5aa872, type: 3}
+  learnedByDefault: 0
+  abilityType: 0
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 2
+    activationType: 1
+    castTime: 0.3
+    castInRun: 1
+    castBarVisible: 0
+    canBeUsedStunned: 0
+    animationTriggered: 0
+    comboStarsAfterCastComplete: 0
+    cancelStealth: 1
+    effectsRequirements: []
+    useRequirements:
+    - requirementType: 1
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      weaponRequired: BOW
+      useCost: 0
+      statCostID: -1
+      statCostREF: {fileID: 0}
+      costType: 0
+      inCombat: 0
+      stealthed: 0
+    - requirementType: 2
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      weaponRequired: 
+      useCost: 2
+      statCostID: 2
+      statCostREF: {fileID: 11400000, guid: 4c6514ad02566de459909c0ef1145207, type: 2}
+      costType: 1
+      inCombat: 0
+      stealthed: 0
+    targetType: 4
+    HitSettings:
+    - alignment: 0
+      hitPlayer: 0
+      hitAlly: 0
+      hitNeutral: 1
+      hitEnemy: 1
+      hitSelf: 0
+      hitPet: 0
+      hitOwner: 0
+    isToggle: 0
+    isToggleCostOnTrigger: 0
+    toggledTriggerInterval: 0
+    MaxUnitHit: 1
+    minRange: 0
+    maxRange: 0
+    standTimeDuration: 0
+    canRotateInStandTime: 0
+    castSpeedSlowAmount: 0
+    castSpeedSlowTime: 0
+    castSpeedSlowRate: 0
+    coneDegree: 0
+    ConeHitCount: 1
+    ConeHitInterval: 0
+    AOERadius: 0
+    AOEHitCount: 1
+    AOEHitInterval: 0
+    linearWidth: 0
+    linearHeight: 0
+    linearLength: 0
+    projectileSpeed: 50
+    projectileDistance: 0
+    projectileAngleSpread: 30
+    projectileCount: 3
+    projectileDelay: 0
+    projectileDuration: 100
+    projectileComeBackTime: 0
+    projectileComeBackSpeed: 0
+    isProjectileComeBack: 0
+    projectileNearbyUnitDistanceMax: 0
+    projectileNearbyUnitMaxHit: 0
+    isProjectileNearbyUnit: 0
+    projectileDestroyedByEnvironment: 1
+    projectileAffectedByGravity: 0
+    mustLookAtTarget: 1
+    squareWidth: 0
+    squareLength: 0
+    squareHeight: 0
+    groundRadius: 0
+    groundRange: 0
+    groundHitTime: 0
+    groundHitCount: 1
+    groundHitInterval: 0
+    projectileEffect: {fileID: 2698212203249974505, guid: 1abbd04c5ffbc784c8521dd91bb7291b,
+      type: 3}
+    projectileSocketName: Projectile1
+    projectileTargetSocketName: 
+    projectileUseNodeSocket: 0
+    projectileTargetUseNodeSocket: 0
+    projectileParentedToCaster: 0
+    projectileSound: {fileID: 0}
+    projectileSoundParentedToEffect: 0
+    useCustomCollision: 1
+    projectileColliderType: 1
+    colliderCenter: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 0, y: 0, z: 0}
+    colliderRadius: 0.5
+    colliderHeight: 0
+    groundVisualEffect: {fileID: 0}
+    effectPositionOffset: {x: 0, y: 1, z: 0}
+    groundVisualEffectDuration: 5
+    hitEffectUseSocket: 0
+    hitEffect: {fileID: 2270822912811536494, guid: 11bff9509a839054bb2b15435b45776c,
+      type: 3}
+    hitEffectDuration: 3
+    hitEffectSocketName: ProjectileHit
+    hitEffectPositionOffset: {x: 0, y: 0, z: 0}
+    hitAttachedToNode: 1
+    channelTime: 0
+    groundLeapDuration: 0
+    groundLeapHeight: 0
+    groundLeapSpeed: 0
+    cooldown: 1
+    isGCD: 1
+    startCDOnActivate: 1
+    CanUseDuringGCD: 0
+    isSharingCooldown: 0
+    cooldownTag: 
+    effectsApplied:
+    - effectID: 18
+      chance: 100
+      effectREF: {fileID: 11400000, guid: a597d613e93b1da46b18705b77aa866f, type: 2}
+      effectRank: 0
+      target: 0
+      isSpread: 0
+      spreadDistanceMax: 0
+      spreadUnitMax: 0
+      delay: 0
+    casterEffectsApplied: []
+    visualEffects: []
+    visualAnimations:
+    - activationType: 0
+      parameterType: 3
+      animationParameter: RangedAttack2
+      intValue: 0
+      floatValue: 0
+      boolValue: 0
+      duration: 1
+      delay: 0
+      showWeapons: 1
+      showWeaponDuration: 0.6
+    tagsData: []
+    conditionalEffects: []
+    extraAbilityExecuted: {fileID: 0}
+    extraAbilityExecutedActivationType: 0

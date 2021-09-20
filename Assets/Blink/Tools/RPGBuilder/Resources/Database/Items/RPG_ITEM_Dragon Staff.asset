@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
+  m_Name: RPG_ITEM_Dragon Staff
+  m_EditorClassIdentifier: 
+  ID: 64
+  _name: Dragon Staff
+  _fileName: RPG_ITEM_Dragon Staff
+  displayName: Dragon Staff
+  icon: {fileID: 21300000, guid: 13de6cbcc6950ac4ca79a76941d0015f, type: 3}
+  equipmentSlot: 
+  itemType: WEAPON
+  weaponType: STAFF
+  armorType: 
+  slotType: TWO HAND
+  rarity: Legendary
+  itemModelName: 
+  weaponModel: {fileID: 5875270693028758024, guid: 3058356566addd04d8ab52928169b5e2,
+    type: 3}
+  modelMaterial: {fileID: 0}
+  armorMesh: {fileID: 0}
+  armorPieceType: 0
+  weaponPositionDatas:
+  - raceID: 0
+    raceREF: {fileID: 11400000, guid: be0b50cba05c54e4a9369b85809fd8b5, type: 2}
+    genderPositionDatas:
+    - gender: 0
+      CombatPositionInSlot: {x: 0.03, y: 0.029, z: 0.03}
+      CombatRotationInSlot: {x: 0.0000034150764, y: 180.00006, z: 180.00002}
+      CombatScaleInSlot: {x: 0.78936, y: 0.78936, z: 0.78936}
+      RestPositionInSlot: {x: 0.03, y: -0.141, z: 0.03}
+      RestRotationInSlot: {x: -0, y: 0, z: 0}
+      RestScaleInSlot: {x: 0.78936, y: 0.78936, z: 0.78936}
+      CombatPositionInSlot2: {x: 0, y: 0, z: 0}
+      CombatRotationInSlot2: {x: 0, y: 0, z: 0}
+      CombatScaleInSlot2: {x: 1, y: 1, z: 1}
+      RestPositionInSlot2: {x: 0, y: 0, z: 0}
+      RestRotationInSlot2: {x: 0, y: 0, z: 0}
+      RestScaleInSlot2: {x: 1, y: 1, z: 1}
+    - gender: 1
+      CombatPositionInSlot: {x: 0.03, y: 0.029, z: 0.03}
+      CombatRotationInSlot: {x: 0.0000034150764, y: 180.00006, z: 180.00002}
+      CombatScaleInSlot: {x: 0.78936, y: 0.78936, z: 0.78936}
+      RestPositionInSlot: {x: 0.03, y: -0.141, z: 0.03}
+      RestRotationInSlot: {x: -0, y: 0, z: 0}
+      RestScaleInSlot: {x: 0.78936, y: 0.78936, z: 0.78936}
+      CombatPositionInSlot2: {x: 0, y: 0, z: 0}
+      CombatRotationInSlot2: {x: 0, y: 0, z: 0}
+      CombatScaleInSlot2: {x: 1, y: 1, z: 1}
+      RestPositionInSlot2: {x: 0, y: 0, z: 0}
+      RestRotationInSlot2: {x: 0, y: 0, z: 0}
+      RestScaleInSlot2: {x: 1, y: 1, z: 1}
+  showWeaponPositionData: 0
+  AttackSpeed: 2
+  minDamage: 70
+  maxDamage: 88
+  autoAttackAbilityID: -1
+  autoAttackAbilityREF: {fileID: 0}
+  stats:
+  - statID: 0
+    statREF: {fileID: 11400000, guid: 3ba412ea703bc2f4697ddcf06f7f13ec, type: 2}
+    amount: 35
+    isPercent: 0
+  - statID: 28
+    statREF: {fileID: 11400000, guid: 9c12c74446ddc37458d38c7521524a66, type: 2}
+    amount: 90
+    isPercent: 0
+  - statID: 38
+    statREF: {fileID: 11400000, guid: 6ce92a60a60419f4aa0987b8c78d81f6, type: 2}
+    amount: 20
+    isPercent: 0
+  randomStats: []
+  randomStatsMax: 0
+  sellPrice: 150
+  sellCurrencyID: 0
+  sellCurrencyREF: {fileID: 0}
+  buyPrice: 0
+  buyCurrencyID: -1
+  buyCurrencyREF: {fileID: 0}
+  stackLimit: 1
+  description: 
+  dropInWorld: 0
+  itemWorldModel: {fileID: 0}
+  durationInWorld: 60
+  worldInteractableLayer: 0
+  enchantmentREF: {fileID: 0}
+  enchantmentID: -1
+  isEnchantmentConsumed: 0
+  sockets:
+  - socketType: Small Gem
+  - socketType: Small Gem
+  - socketType: Small Gem
+  gemData:
+    socketType: 
+    gemStats: []
+  useRequirements: []
+  onUseActions:
+  - actionType: 0
+    treePointGained: 0
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    classLevelGained: 0
+    classXPGained: 0
+    skillLevelGained: 0
+    skillXPGained: 0
+    skillID: -1
+    skillREF: {fileID: 0}
+    abilityID: -1
+    abilityREF: {fileID: 0}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    effectID: -1
+    effectREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    questID: -1
+    questREF: {fileID: 0}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    factionPointsGained: 0
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateXPGained: 0
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    target: 0
+    isConsumed: 0
+  actionAbilities:
+  - keyType: 1
+    key: 0
+    actionKeyName: ACTION_ABILITY_1
+    abilityREF: {fileID: 0}
+    abilityID: 45

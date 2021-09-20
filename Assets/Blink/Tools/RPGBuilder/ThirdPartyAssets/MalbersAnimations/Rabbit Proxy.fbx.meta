@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: febaf26254e2a18459022daea764124b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ass
+    100002: CG
+    100004: Head
+    100006: Jaw
+    100008: L Calf
+    100010: L Clavicle
+    100012: L Ear
+    100014: L Ear 1
+    100016: L Eye
+    100018: L Finger
+    100020: L Foot
+    100022: L Forearm
+    100024: L Hand
+    100026: L HorseLink
+    100028: L Thigh
+    100030: L UpperArm
+    100032: Neck
+    100034: Nose
+    100036: Pelvis
+    100038: R Calf
+    100040: R Clavicle
+    100042: R Ear
+    100044: R Ear 1
+    100046: R Eye
+    100048: R Finger
+    100050: R Foot
+    100052: R Forearm
+    100054: R Hand
+    100056: R HorseLink
+    100058: R Thigh
+    100060: R UpperArm
+    100062: //RootNode
+    100064: Root
+    100066: Spine
+    100068: Spine 1
+    100070: Tail
+    400000: Ass
+    400002: CG
+    400004: Head
+    400006: Jaw
+    400008: L Calf
+    400010: L Clavicle
+    400012: L Ear
+    400014: L Ear 1
+    400016: L Eye
+    400018: L Finger
+    400020: L Foot
+    400022: L Forearm
+    400024: L Hand
+    400026: L HorseLink
+    400028: L Thigh
+    400030: L UpperArm
+    400032: Neck
+    400034: Nose
+    400036: Pelvis
+    400038: R Calf
+    400040: R Clavicle
+    400042: R Ear
+    400044: R Ear 1
+    400046: R Eye
+    400048: R Finger
+    400050: R Foot
+    400052: R Forearm
+    400054: R Hand
+    400056: R HorseLink
+    400058: R Thigh
+    400060: R UpperArm
+    400062: //RootNode
+    400064: Root
+    400066: Spine
+    400068: Spine 1
+    400070: Tail
+    2100000: Body
+    2300000: Ass
+    2300002: CG
+    2300004: Head
+    2300006: Jaw
+    2300008: L Calf
+    2300010: L Clavicle
+    2300012: L Ear
+    2300014: L Ear 1
+    2300016: L Eye
+    2300018: L Finger
+    2300020: L Foot
+    2300022: L Forearm
+    2300024: L Hand
+    2300026: L HorseLink
+    2300028: L Thigh
+    2300030: L UpperArm
+    2300032: Neck
+    2300034: Nose
+    2300036: Pelvis
+    2300038: R Calf
+    2300040: R Clavicle
+    2300042: R Ear
+    2300044: R Ear 1
+    2300046: R Eye
+    2300048: R Finger
+    2300050: R Foot
+    2300052: R Forearm
+    2300054: R Hand
+    2300056: R HorseLink
+    2300058: R Thigh
+    2300060: R UpperArm
+    2300062: Spine
+    2300064: Spine 1
+    2300066: Tail
+    3300000: Ass
+    3300002: CG
+    3300004: Head
+    3300006: Jaw
+    3300008: L Calf
+    3300010: L Clavicle
+    3300012: L Ear
+    3300014: L Ear 1
+    3300016: L Eye
+    3300018: L Finger
+    3300020: L Foot
+    3300022: L Forearm
+    3300024: L Hand
+    3300026: L HorseLink
+    3300028: L Thigh
+    3300030: L UpperArm
+    3300032: Neck
+    3300034: Nose
+    3300036: Pelvis
+    3300038: R Calf
+    3300040: R Clavicle
+    3300042: R Ear
+    3300044: R Ear 1
+    3300046: R Eye
+    3300048: R Finger
+    3300050: R Foot
+    3300052: R Forearm
+    3300054: R Hand
+    3300056: R HorseLink
+    3300058: R Thigh
+    3300060: R UpperArm
+    3300062: Spine
+    3300064: Spine 1
+    3300066: Tail
+    4300000: CG
+    4300002: Pelvis
+    4300004: Spine
+    4300006: Spine
+    4300008: Neck
+    4300010: Head
+    4300012: L Ear
+    4300014: L Ear
+    4300016: R Ear
+    4300018: R Ear
+    4300020: L Eye
+    4300022: R Eye
+    4300024: Jaw
+    4300026: Nose
+    4300028: L Clavicle
+    4300030: L UpperArm
+    4300032: L Forearm
+    4300034: L Hand
+    4300036: L Finger
+    4300038: R Clavicle
+    4300040: R UpperArm
+    4300042: R Forearm
+    4300044: R Hand
+    4300046: R Finger
+    4300048: L Thigh
+    4300050: L Calf
+    4300052: L HorseLink
+    4300054: L Foot
+    4300056: R Thigh
+    4300058: R Calf
+    4300060: R HorseLink
+    4300062: R Foot
+    4300064: Ass
+    4300066: Tail
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

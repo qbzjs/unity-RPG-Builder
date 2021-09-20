@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada825255f0166f4c9c8124a0f1e2448, type: 3}
+  m_Name: RPG_ITEM_Novice Plate Armor
+  m_EditorClassIdentifier: 
+  ID: 18
+  _name: Novice Plate Armor
+  _fileName: RPG_ITEM_Novice Plate Armor
+  displayName: Novice Plate Armor
+  icon: {fileID: 21300000, guid: 24715615fc701e440831bd01de69c9a1, type: 3}
+  equipmentSlot: CHEST
+  itemType: ARMOR
+  weaponType: 
+  armorType: PLATE
+  slotType: 
+  rarity: Uncommon
+  itemModelName: 
+  weaponModel: {fileID: 0}
+  modelMaterial: {fileID: 2100000, guid: a42c518186553af44a9ef8096cb73a32, type: 2}
+  armorMesh: {fileID: 4300026, guid: 79812551b3b29264e84b1b81593f6f03, type: 3}
+  armorPieceType: 1
+  weaponPositionDatas: []
+  showWeaponPositionData: 0
+  AttackSpeed: 0
+  minDamage: 0
+  maxDamage: 0
+  autoAttackAbilityID: -1
+  autoAttackAbilityREF: {fileID: 0}
+  stats:
+  - statID: 0
+    statREF: {fileID: 11400000, guid: 3ba412ea703bc2f4697ddcf06f7f13ec, type: 2}
+    amount: 5
+    isPercent: 0
+  - statID: 20
+    statREF: {fileID: 11400000, guid: 2a10d70110a086c47b237d0ab51f1b34, type: 2}
+    amount: 3
+    isPercent: 0
+  - statID: 21
+    statREF: {fileID: 11400000, guid: d4bf90f8d7737b241b68b5a842c8d4b6, type: 2}
+    amount: 3
+    isPercent: 0
+  randomStats: []
+  randomStatsMax: 0
+  sellPrice: 1
+  sellCurrencyID: 0
+  sellCurrencyREF: {fileID: 11400000, guid: 3867fead1dc71464f8d362779b4029be, type: 2}
+  buyPrice: 0
+  buyCurrencyID: -1
+  buyCurrencyREF: {fileID: 0}
+  stackLimit: 1
+  description: 
+  dropInWorld: 0
+  itemWorldModel: {fileID: 0}
+  durationInWorld: 60
+  worldInteractableLayer: 0
+  enchantmentREF: {fileID: 0}
+  enchantmentID: -1
+  isEnchantmentConsumed: 0
+  sockets: []
+  gemData:
+    socketType: 
+    gemStats: []
+  useRequirements: []
+  onUseActions:
+  - actionType: 0
+    treePointGained: 0
+    treePointID: -1
+    treePointREF: {fileID: 0}
+    classLevelGained: 0
+    classXPGained: 0
+    skillLevelGained: 0
+    skillXPGained: 0
+    skillID: -1
+    skillREF: {fileID: 0}
+    abilityID: -1
+    abilityREF: {fileID: 0}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    effectID: -1
+    effectREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    questID: -1
+    questREF: {fileID: 0}
+    currencyID: -1
+    currencyREF: {fileID: 0}
+    factionPointsGained: 0
+    factionID: -1
+    factionREF: {fileID: 0}
+    weaponTemplateXPGained: 0
+    weaponTemplateID: -1
+    weaponTemplateREF: {fileID: 0}
+    target: 0
+    isConsumed: 0
+  actionAbilities: []

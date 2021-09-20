@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd7a971fd9c6b2478bb39102d504de8, type: 3}
+  m_Name: RPG_WEAPON_TEMPLATE_Sorcerer
+  m_EditorClassIdentifier: 
+  ID: 2
+  icon: {fileID: 21300000, guid: bc7a5996a6dd3cb47b1b24880e783747, type: 3}
+  _name: Sorcerer
+  fileName: RPG_WEAPON_TEMPLATE_Sorcerer
+  displayName: Sorcerer
+  description: 'Sorcerers hold elemental power allowing them to conjure impactful
+    spells. '
+  levelTemplateID: 0
+  levelTemplateREF: {fileID: 11400000, guid: 6ffc66a9e236d4941a4381ac6b54ee54, type: 2}
+  weaponList:
+  - weaponType: STAFF
+    weaponEXPModifier: 1
+  stats: []
+  talentTrees:
+  - talentTreeID: 2
+    talentTreeREF: {fileID: 11400000, guid: 47dca71d630771c468e41773cbb1a4dd, type: 2}
+  spellbooks: []
+  startItems: []
+  allocatedStatsEntriesGame: []

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd394b53a2a297f489330dca93a54a3f, type: 3}
+  m_Name: RPG_CRAFTING_RECIPE_Refined Cloth Gloves
+  m_EditorClassIdentifier: 
+  ID: 23
+  _name: Refined Cloth Gloves
+  _fileName: RPG_CRAFTING_RECIPE_Refined Cloth Gloves
+  displayName: Refined Cloth Gloves
+  icon: {fileID: 21300000, guid: 0252c356d39d19749ac62de85515fb83, type: 3}
+  learnedByDefault: 1
+  craftingSkillID: 3
+  craftingSkillREF: {fileID: 0}
+  craftingStationID: 2
+  craftingStationREF: {fileID: 0}
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 0
+    Experience: 5
+    craftTime: 1
+    allCraftedItems:
+    - chance: 100
+      count: 1
+      craftedItemID: 23
+      craftedItemREF: {fileID: 11400000, guid: 444cd684781e05146b20c06cc7288a6a, type: 2}
+    allComponents:
+    - count: 3
+      componentItemID: 51
+      componentItemREF: {fileID: 11400000, guid: 08e1f32446471c14285abf7d6cba0750,
+        type: 2}
+    - count: 1
+      componentItemID: 46
+      componentItemREF: {fileID: 11400000, guid: 0107233def052c24e841531165e088fc,
+        type: 2}

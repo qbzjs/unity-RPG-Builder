@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33f5b1d0fba54043a551831b1218f4a, type: 3}
+  m_Name: CombatSettings
+  m_EditorClassIdentifier: 
+  StatFunctions:
+  - NONE
+  - PHYSICAL_DAMAGE
+  - MAGICAL_DAMAGE
+  - PHYSICAL_RESISTANCE
+  - MAGICAL_RESISTANCE
+  - Fire Damage
+  - Cold Damage
+  - Shadow Damage
+  - Slicing Damage
+  UIStatsCategories:
+  - None
+  - General
+  - Offense
+  - Defense
+  - Support
+  FactionStances:
+  - Hated
+  - Neutral
+  - Allied
+  - Honored
+  StatFunctionsList:
+  - NONE
+  - PHYSICAL_DAMAGE
+  - MAGICAL_DAMAGE
+  - PHYSICAL_RESISTANCE
+  - MAGICAL_RESISTANCE
+  - Fire Damage
+  - Cold Damage
+  - Slicing Damage
+  - Toxic Damage
+  - Piercing Damage
+  UIStatsCategoriesList:
+  - None
+  - General
+  - Offense
+  - Defense
+  - Support
+  FactionStancesList:
+  - Hated
+  - Neutral
+  - Allied
+  - Honored
+  AbilityCooldownTagList:
+  - Potions
+  EffectTagList:
+  - NONE
+  - Burn
+  - Poison
+  - Slow
+  nodeSocketNames:
+  - Projectile1
+  - Projectile2
+  - ProjectileHit
+  CriticalDamageBonus: 250
+  GCDDuration: 0.5
+  talentTreesNodePerTierCount: 5
+  outOfCombatDuration: 10
+  useClasses: 0
+  targetPlayerOnClick: 0
+  useAutomaticCombatState: 1
+  pointREF: {fileID: 0}
+  pointID: 3
+  spendAllStatPointsToCreateChar: 1
+  canDescreaseGameStatPoints: 1
+  healthStatREF: {fileID: 0}
+  healthStatID: 0
+  sprintStatDrainID: 3
+  sprintStatDrainAmount: 2
+  sprintStatDrainInterval: 1

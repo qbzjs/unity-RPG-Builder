@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
+  m_Name: RPG_ABILITY_Fireball
+  m_EditorClassIdentifier: 
+  ID: 21
+  _name: Fireball
+  _fileName: RPG_ABILITY_Fireball
+  displayName: Fireball
+  icon: {fileID: 21300000, guid: d23c70ce4c06a2641bc79cd36654bd40, type: 3}
+  learnedByDefault: 1
+  abilityType: 0
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 0
+    activationType: 1
+    castTime: 0.8
+    castInRun: 1
+    castBarVisible: 1
+    canBeUsedStunned: 0
+    animationTriggered: 0
+    comboStarsAfterCastComplete: 0
+    cancelStealth: 1
+    effectsRequirements: []
+    useRequirements:
+    - requirementType: 2
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      weaponRequired: 
+      useCost: 1
+      statCostID: 2
+      statCostREF: {fileID: 11400000, guid: 4c6514ad02566de459909c0ef1145207, type: 2}
+      costType: 1
+      inCombat: 0
+      stealthed: 0
+    targetType: 4
+    HitSettings:
+    - alignment: 0
+      hitPlayer: 0
+      hitAlly: 0
+      hitNeutral: 1
+      hitEnemy: 1
+      hitSelf: 0
+      hitPet: 0
+      hitOwner: 0
+    isToggle: 0
+    isToggleCostOnTrigger: 0
+    toggledTriggerInterval: 0
+    MaxUnitHit: 1
+    minRange: 0
+    maxRange: 0
+    standTimeDuration: 0
+    canRotateInStandTime: 0
+    castSpeedSlowAmount: 0.25
+    castSpeedSlowTime: 1
+    castSpeedSlowRate: 0.025
+    coneDegree: 0
+    ConeHitCount: 1
+    ConeHitInterval: 0
+    AOERadius: 0
+    AOEHitCount: 1
+    AOEHitInterval: 0
+    linearWidth: 0
+    linearHeight: 0
+    linearLength: 0
+    projectileSpeed: 50
+    projectileDistance: 0
+    projectileAngleSpread: 0
+    projectileCount: 1
+    projectileDelay: 0
+    projectileDuration: 100
+    projectileComeBackTime: 0
+    projectileComeBackSpeed: 0
+    isProjectileComeBack: 0
+    projectileNearbyUnitDistanceMax: 0
+    projectileNearbyUnitMaxHit: 0
+    isProjectileNearbyUnit: 0
+    projectileDestroyedByEnvironment: 1
+    projectileAffectedByGravity: 0
+    mustLookAtTarget: 1
+    squareWidth: 0
+    squareLength: 0
+    squareHeight: 0
+    groundRadius: 0
+    groundRange: 0
+    groundHitTime: 0
+    groundHitCount: 1
+    groundHitInterval: 0
+    projectileEffect: {fileID: 3773895536607866115, guid: 2aa25da0b188eff4bb670ac8598862d4,
+      type: 3}
+    projectileSocketName: Projectile1
+    projectileTargetSocketName: 
+    projectileUseNodeSocket: 0
+    projectileTargetUseNodeSocket: 0
+    projectileParentedToCaster: 0
+    projectileSound: {fileID: 0}
+    projectileSoundParentedToEffect: 0
+    useCustomCollision: 0
+    projectileColliderType: 1
+    colliderCenter: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 0, y: 0, z: 0}
+    colliderRadius: 0.75
+    colliderHeight: 0
+    groundVisualEffect: {fileID: 0}
+    effectPositionOffset: {x: 0, y: 1, z: 0}
+    groundVisualEffectDuration: 5
+    hitEffectUseSocket: 0
+    hitEffect: {fileID: 3592326399059066619, guid: 989e01cbb1f6fb942987d84baf583e8c,
+      type: 3}
+    hitEffectDuration: 3
+    hitEffectSocketName: ProjectileHit
+    hitEffectPositionOffset: {x: 0, y: 0.5, z: 0}
+    hitAttachedToNode: 1
+    channelTime: 0
+    groundLeapDuration: 0
+    groundLeapHeight: 0
+    groundLeapSpeed: 0
+    cooldown: 1.1
+    isGCD: 1
+    startCDOnActivate: 1
+    CanUseDuringGCD: 0
+    isSharingCooldown: 0
+    cooldownTag: 
+    effectsApplied:
+    - effectID: 22
+      chance: 100
+      effectREF: {fileID: 11400000, guid: 19b747d0f39e0e841b690ca91d2a0f75, type: 2}
+      effectRank: 0
+      target: 0
+      isSpread: 0
+      spreadDistanceMax: 0
+      spreadUnitMax: 0
+      delay: 0
+    - effectID: 23
+      chance: 50
+      effectREF: {fileID: 11400000, guid: 66a54a0be140f3c4cb4c6efed69e8148, type: 2}
+      effectRank: 0
+      target: 0
+      isSpread: 0
+      spreadDistanceMax: 0
+      spreadUnitMax: 0
+      delay: 0
+    casterEffectsApplied: []
+    visualEffects:
+    - activationType: 0
+      EffectGO: {fileID: 8471278187970414767, guid: 90bdc1eae59d8b1419b289ec97e5b9a5,
+        type: 3}
+      SocketName: Projectile1
+      UseNodeSocket: 1
+      ParentedToCaster: 1
+      Sound: {fileID: 0}
+      SoundParentedToEffect: 0
+      positionOffset: {x: 0, y: 0, z: 0}
+      effectScale: {x: 0.5, y: 0.5, z: 0.5}
+      duration: 5
+      delay: 0
+      isDestroyedOnDeath: 1
+      isDestroyedOnStun: 1
+      isDestroyedOnStealth: 0
+      isDestroyedOnStealthEnd: 0
+    - activationType: 0
+      EffectGO: {fileID: 8471278187970414767, guid: 90bdc1eae59d8b1419b289ec97e5b9a5,
+        type: 3}
+      SocketName: Projectile2
+      UseNodeSocket: 1
+      ParentedToCaster: 1
+      Sound: {fileID: 0}
+      SoundParentedToEffect: 0
+      positionOffset: {x: 0, y: 0, z: 0}
+      effectScale: {x: 0.5, y: 0.5, z: 0.5}
+      duration: 5
+      delay: 0
+      isDestroyedOnDeath: 1
+      isDestroyedOnStun: 1
+      isDestroyedOnStealth: 0
+      isDestroyedOnStealthEnd: 0
+    visualAnimations:
+    - activationType: 0
+      parameterType: 3
+      animationParameter: Casting
+      intValue: 0
+      floatValue: 0
+      boolValue: 0
+      duration: 1
+      delay: 0
+      showWeapons: 1
+      showWeaponDuration: 0.5
+    tagsData: []
+    conditionalEffects: []
+    extraAbilityExecuted: {fileID: 0}
+    extraAbilityExecutedActivationType: 0

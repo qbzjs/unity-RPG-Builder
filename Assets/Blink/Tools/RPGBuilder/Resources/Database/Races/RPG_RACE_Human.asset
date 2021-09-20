@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba6b7e1e95e2d44ba6d52416e8e033e, type: 3}
+  m_Name: RPG_RACE_Human
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Human
+  _fileName: RPG_RACE_Human
+  displayName: Human
+  description: 
+  startingSceneID: 0
+  startingSceneREF: {fileID: 0}
+  startingPositionID: 0
+  startingPositionREF: {fileID: 0}
+  factionREF: {fileID: 11400000, guid: 3373acf609049604096ebefd29b9dd77, type: 2}
+  factionID: 0
+  speciesID: -1
+  malePrefab: {fileID: 5663955173285181797, guid: e000c45a4b6f7f24292800c7da18ab89,
+    type: 3}
+  maleIcon: {fileID: 21300000, guid: 1a8f6fd0e567f5e4eb90ed11a0abd56c, type: 3}
+  femalePrefab: {fileID: 5663955173285181797, guid: e000c45a4b6f7f24292800c7da18ab89,
+    type: 3}
+  femaleIcon: {fileID: 21300000, guid: 1a8f6fd0e567f5e4eb90ed11a0abd56c, type: 3}
+  dynamicAnimator: 1
+  restAnimatorController: {fileID: 22100000, guid: bce07712ca593f34f9c226bb6b2bcba4,
+    type: 2}
+  combatAnimatorController: {fileID: 22100000, guid: a0973d636033feb4ea38bf9faff9c5f6,
+    type: 2}
+  availableClasses: []
+  weaponTemplates:
+  - weaponTemplateID: 0
+    weaponTemplateREF: {fileID: 11400000, guid: e36ee3951d73e1648b61cb9ef4c3cb01,
+      type: 2}
+  - weaponTemplateID: 2
+    weaponTemplateREF: {fileID: 11400000, guid: f54c7f76ad6223548a628f947557cec3,
+      type: 2}
+  - weaponTemplateID: 1
+    weaponTemplateREF: {fileID: 11400000, guid: 7accf06b502d08d4793be3ec3e5817b0,
+      type: 2}
+  stats: []
+  startItems: []
+  actionAbilities:
+  - keyType: 1
+    key: 0
+    actionKeyName: DODGE_ROLL
+    abilityREF: {fileID: 0}
+    abilityID: 20
+  - keyType: 1
+    key: 0
+    actionKeyName: ACTIVE_BLOCKING
+    abilityREF: {fileID: 0}
+    abilityID: 8
+  allocationStatPoints: 10
+  allocatedStatsEntries:
+  - statREF: {fileID: 11400000, guid: 3ba412ea703bc2f4697ddcf06f7f13ec, type: 2}
+    statID: 0
+    maxValue: -1
+    cost: 1
+    valueAdded: 10
+  - statREF: {fileID: 11400000, guid: f9c5113a3b312764c9127b41a82d9bb3, type: 2}
+    statID: 27
+    maxValue: -1
+    cost: 1
+    valueAdded: 1
+  - statREF: {fileID: 11400000, guid: 9c12c74446ddc37458d38c7521524a66, type: 2}
+    statID: 28
+    maxValue: -1
+    cost: 1
+    valueAdded: 1
+  - statREF: {fileID: 11400000, guid: fb3d34fa89728fe4ca88a02bcc9e57ce, type: 2}
+    statID: 29
+    maxValue: -1
+    cost: 10
+    valueAdded: 1
+  - statREF: {fileID: 11400000, guid: 4c6514ad02566de459909c0ef1145207, type: 2}
+    statID: 2
+    maxValue: -1
+    cost: 1
+    valueAdded: 1
+  - statREF: {fileID: 11400000, guid: c8e945ad2f0582d46abb468a7b77f5d3, type: 2}
+    statID: 3
+    maxValue: -1
+    cost: 5
+    valueAdded: 5

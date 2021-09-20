@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2d56e903fec084c9ce28bbeae9aef4, type: 3}
+  m_Name: RPG_TASK_KillWolves
+  m_EditorClassIdentifier: 
+  ID: 3
+  _name: KillWolves
+  displayName: Kill Wolves
+  _fileName: RPG_TASK_KillWolves
+  description: Wolf Slayed
+  taskType: 4
+  sceneName: 
+  abilityToLearnID: -1
+  abilityToLearnREF: {fileID: 0}
+  npcToKillID: 4
+  npcToKillREF: {fileID: 11400000, guid: edea6d54abc4b68409bb429409f27a4b, type: 2}
+  itemToGetID: -1
+  itemToGetREF: {fileID: 0}
+  keepItems: 0
+  classRequiredID: -1
+  classRequiredREF: {fileID: 0}
+  skillRequiredID: -1
+  skillRequiredREF: {fileID: 0}
+  itemToUseID: -1
+  itemToUseREF: {fileID: 0}
+  npcToTalkToID: -1
+  npcToTalkToREF: {fileID: 0}
+  weaponTemplateRequiredID: -1
+  weaponTemplateRequireREF: {fileID: 0}
+  taskValue: 10

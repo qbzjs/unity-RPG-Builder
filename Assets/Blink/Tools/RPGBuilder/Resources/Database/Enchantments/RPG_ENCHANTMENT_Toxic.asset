@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5114e765557974c9bfa46e2089f8d9, type: 3}
+  m_Name: RPG_ENCHANTMENT_Toxic
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Toxic
+  _fileName: RPG_ENCHANTMENT_Toxic
+  displayName: Toxic
+  applyRequirements: []
+  enchantmentTiers:
+  - currencyCosts: []
+    itemCosts: []
+    successRate: 100
+    enchantTime: 5
+    enchantingParticle: {fileID: 0}
+    skillREF: {fileID: 11400000, guid: d80861cde0693944d9dcac65aedb191c, type: 2}
+    skillID: 1
+    skillXPAmount: 5
+    stats:
+    - statID: 37
+      statREF: {fileID: 11400000, guid: a113b0f9c08152b4fa1b880ae733d2f9, type: 2}
+      amount: 10
+      isPercent: 0

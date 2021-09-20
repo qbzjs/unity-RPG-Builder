@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57399dce936f2be46ac77a4b74f31144, type: 3}
+  m_Name: RPG_EFFECT_Fireball
+  m_EditorClassIdentifier: 
+  ID: 22
+  _name: Fireball
+  _fileName: RPG_EFFECT_Fireball
+  displayName: Fireball
+  icon: {fileID: 21300000, guid: d23c70ce4c06a2641bc79cd36654bd40, type: 3}
+  effectType: 0
+  effectTag: NONE
+  isState: 0
+  isBuffOnSelf: 0
+  stackLimit: 1
+  allowMultiple: 0
+  allowMixedCaster: 0
+  pulses: 1
+  duration: 0
+  endless: 0
+  ranks:
+  - ShowedInEditor: 1
+    mainDamageType: 2
+    secondaryDamageType: Fire Damage
+    Damage: 15
+    alteredStatREF: {fileID: 11400000, guid: 3ba412ea703bc2f4697ddcf06f7f13ec, type: 2}
+    alteredStatID: 0
+    FlatCalculation: 0
+    CannotCrit: 0
+    removeStealth: 1
+    skillModifier: 0
+    weaponDamageModifier: 100
+    useWeapon1Damage: 1
+    useWeapon2Damage: 1
+    skillModifierID: -1
+    skillModifierREF: {fileID: 0}
+    lifesteal: 0
+    maxHealthModifier: 0
+    missingHealthModifier: 0
+    UltimateGain: 0
+    delay: 0
+    projectilesReflectedCount: 0
+    requiredEffectREF: {fileID: 0}
+    requiredEffectID: -1
+    requiredEffectDamageModifier: 0
+    damageStatREF: {fileID: 0}
+    damageStatID: -1
+    damageStatModifier: 0
+    hitValueType: 0
+    teleportType: 0
+    gameSceneID: -1
+    gameSceneREF: {fileID: 0}
+    teleportPOS: {x: 0, y: 0, z: 0}
+    teleportDirectionalType: 0
+    teleportDirectionalDistance: 0
+    teleportDirectionalBlockLayers:
+      serializedVersion: 2
+      m_Bits: 0
+    lootTableID: -1
+    petType: 0
+    petNPCDataID: -1
+    petDuration: 0
+    petSPawnCount: 0
+    petScaleWithCharacter: 0
+    knockbackDistance: 0
+    knockbackSpeed: 0
+    motionDistance: 5
+    motionSpeed: 0.5
+    motionDirection: {x: 0, y: 0, z: 0}
+    motionIgnoreUseCondition: 0
+    isImmuneDuringMotion: 0
+    blockAnyDamage: 1
+    blockPhysicalDamage: 0
+    blockMagicalDamage: 0
+    isBlockChargeTime: 0
+    isBlockLimitedDuration: 0
+    isBlockPowerDecay: 0
+    isBlockKnockback: 0
+    blockStatDecay: 0
+    blockChargeTime: 0.5
+    blockDuration: 1
+    blockPowerModifier: 100
+    blockPowerDecay: 0.1
+    blockAngle: 90
+    blockStatDecayInterval: 1
+    blockPowerFlat: 0
+    blockHitCount: 1
+    blockMaxDamage: 0
+    blockStatDecayAmount: 1
+    blockDurationType: 0
+    blockEndType: 0
+    blockStatID: -1
+    blockedDamageTypes: []
+    dispelType: 0
+    dispelEffectType: 0
+    dispelEffectTag: 
+    dispelEffectID: -1
+    shapeshiftingModel: {fileID: 0}
+    shapeshiftingmodelPosition: {x: 0, y: 0, z: 0}
+    shapeshiftingmodelScale: {x: 1, y: 1, z: 1}
+    shapeshiftingAnimatorController: {fileID: 0}
+    shapeshiftingAnimatorAvatar: {fileID: 0}
+    shapeshiftingAnimatorUseRootMotion: 0
+    shapeshiftingAnimatorUpdateMode: 0
+    shapeshiftingAnimatorCullingMode: 0
+    shapeshiftingOverrideMainActionBar: 0
+    shapeshiftingActiveAbilities: 
+    showStealthActionBar: 1
+    nestedEffects: []
+    visualEffects:
+    - activationType: 0
+      EffectGO: {fileID: 3592326399059066619, guid: 989e01cbb1f6fb942987d84baf583e8c,
+        type: 3}
+      SocketName: 
+      UseNodeSocket: 0
+      ParentedToCaster: 1
+      Sound: {fileID: 0}
+      SoundParentedToEffect: 0
+      positionOffset: {x: 0, y: 0.5, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      duration: 5
+      delay: 0
+      isDestroyedOnDeath: 1
+      isDestroyedOnStun: 1
+      isDestroyedOnStealth: 0
+      isDestroyedOnStealthEnd: 0
+    visualAnimations: []
+    statEffectsData: []
+    GameActionsList: []
+    onBlockActions: []

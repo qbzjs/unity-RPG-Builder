@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd394b53a2a297f489330dca93a54a3f, type: 3}
+  m_Name: RPG_CRAFTING_RECIPE_Novice Leather Helmet
+  m_EditorClassIdentifier: 
+  ID: 15
+  _name: Novice Leather Helmet
+  _fileName: RPG_CRAFTING_RECIPE_Novice Leather Helmet
+  displayName: Novice Leather Helmet
+  icon: {fileID: 21300000, guid: fe62e18765065e5418f4e7d4f6aa0357, type: 3}
+  learnedByDefault: 1
+  craftingSkillID: 3
+  craftingSkillREF: {fileID: 0}
+  craftingStationID: 2
+  craftingStationREF: {fileID: 0}
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 0
+    Experience: 2
+    craftTime: 1
+    allCraftedItems:
+    - chance: 100
+      count: 1
+      craftedItemID: 12
+      craftedItemREF: {fileID: 11400000, guid: 099c7eb2571bbac47beb43e6d25adb9a, type: 2}
+    allComponents:
+    - count: 3
+      componentItemID: 50
+      componentItemREF: {fileID: 11400000, guid: 3123e1f9a7632b3498fc8d58c9c72337,
+        type: 2}

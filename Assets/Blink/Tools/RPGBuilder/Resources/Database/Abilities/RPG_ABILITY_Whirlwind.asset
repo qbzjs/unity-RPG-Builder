@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943d49eb769cd944fade3a1cd7491609, type: 3}
+  m_Name: RPG_ABILITY_Whirlwind
+  m_EditorClassIdentifier: 
+  ID: 2
+  _name: Whirlwind
+  _fileName: RPG_ABILITY_Whirlwind
+  displayName: Whirlwind
+  icon: {fileID: 21300000, guid: 43c790a9f7df2a94eae5ed3790092e78, type: 3}
+  learnedByDefault: 0
+  abilityType: 0
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 2
+    activationType: 2
+    castTime: 0.3
+    castInRun: 1
+    castBarVisible: 0
+    canBeUsedStunned: 0
+    animationTriggered: 0
+    comboStarsAfterCastComplete: 0
+    cancelStealth: 1
+    effectsRequirements: []
+    useRequirements:
+    - requirementType: 1
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      weaponRequired: GREATAXE
+      useCost: 0
+      statCostID: -1
+      statCostREF: {fileID: 0}
+      costType: 0
+      inCombat: 0
+      stealthed: 0
+    targetType: 2
+    HitSettings:
+    - alignment: 0
+      hitPlayer: 0
+      hitAlly: 0
+      hitNeutral: 1
+      hitEnemy: 1
+      hitSelf: 0
+      hitPet: 0
+      hitOwner: 0
+    isToggle: 0
+    isToggleCostOnTrigger: 0
+    toggledTriggerInterval: 0
+    MaxUnitHit: 50
+    minRange: 2.5
+    maxRange: 0
+    standTimeDuration: 0
+    canRotateInStandTime: 0
+    castSpeedSlowAmount: 0
+    castSpeedSlowTime: 0.3
+    castSpeedSlowRate: 0.1
+    coneDegree: 60
+    ConeHitCount: 1
+    ConeHitInterval: 0
+    AOERadius: 2
+    AOEHitCount: 10
+    AOEHitInterval: 0.3
+    linearWidth: 0
+    linearHeight: 0
+    linearLength: 0
+    projectileSpeed: 0
+    projectileDistance: 0
+    projectileAngleSpread: 0
+    projectileCount: 1
+    projectileDelay: 0
+    projectileDuration: 5
+    projectileComeBackTime: 0
+    projectileComeBackSpeed: 0
+    isProjectileComeBack: 0
+    projectileNearbyUnitDistanceMax: 0
+    projectileNearbyUnitMaxHit: 0
+    isProjectileNearbyUnit: 0
+    projectileDestroyedByEnvironment: 1
+    projectileAffectedByGravity: 0
+    mustLookAtTarget: 1
+    squareWidth: 0
+    squareLength: 0
+    squareHeight: 0
+    groundRadius: 0
+    groundRange: 0
+    groundHitTime: 0
+    groundHitCount: 1
+    groundHitInterval: 0
+    projectileEffect: {fileID: 0}
+    projectileSocketName: 
+    projectileTargetSocketName: 
+    projectileUseNodeSocket: 0
+    projectileTargetUseNodeSocket: 0
+    projectileParentedToCaster: 0
+    projectileSound: {fileID: 0}
+    projectileSoundParentedToEffect: 0
+    useCustomCollision: 0
+    projectileColliderType: 0
+    colliderCenter: {x: 0, y: 0, z: 0}
+    colliderSize: {x: 0, y: 0, z: 0}
+    colliderRadius: 0
+    colliderHeight: 0
+    groundVisualEffect: {fileID: 0}
+    effectPositionOffset: {x: 0, y: 0, z: 0}
+    groundVisualEffectDuration: 5
+    hitEffectUseSocket: 0
+    hitEffect: {fileID: 0}
+    hitEffectDuration: 0
+    hitEffectSocketName: 
+    hitEffectPositionOffset: {x: 0, y: 0, z: 0}
+    hitAttachedToNode: 0
+    channelTime: 3
+    groundLeapDuration: 0
+    groundLeapHeight: 0
+    groundLeapSpeed: 0
+    cooldown: 5
+    isGCD: 1
+    startCDOnActivate: 1
+    CanUseDuringGCD: 0
+    isSharingCooldown: 0
+    cooldownTag: 
+    effectsApplied:
+    - effectID: 2
+      chance: 100
+      effectREF: {fileID: 11400000, guid: 9c3a8b1b2bc39b144b3bb9a547629530, type: 2}
+      effectRank: 0
+      target: 0
+      isSpread: 0
+      spreadDistanceMax: 0
+      spreadUnitMax: 0
+      delay: 0
+    - effectID: 5
+      chance: 100
+      effectREF: {fileID: 11400000, guid: 5e656b585c6f03a4496b89c2f276f994, type: 2}
+      effectRank: 0
+      target: 0
+      isSpread: 0
+      spreadDistanceMax: 0
+      spreadUnitMax: 0
+      delay: 0
+    casterEffectsApplied: []
+    visualEffects:
+    - activationType: 0
+      EffectGO: {fileID: 5306170252596951309, guid: 113bb9c78f0486e47825660a832b10c6,
+        type: 3}
+      SocketName: 
+      UseNodeSocket: 0
+      ParentedToCaster: 1
+      Sound: {fileID: 0}
+      SoundParentedToEffect: 0
+      positionOffset: {x: 0, y: 0.5, z: 0}
+      effectScale: {x: 1, y: 1, z: 1}
+      duration: 3.15
+      delay: 0
+      isDestroyedOnDeath: 1
+      isDestroyedOnStun: 1
+      isDestroyedOnStealth: 0
+      isDestroyedOnStealthEnd: 0
+    visualAnimations:
+    - activationType: 0
+      parameterType: 0
+      animationParameter: Spinning
+      intValue: 0
+      floatValue: 0
+      boolValue: 1
+      duration: 2.9
+      delay: 0
+      showWeapons: 1
+      showWeaponDuration: 3
+    tagsData:
+    - tag: 0
+      effectID: -1
+    - tag: 1
+      effectID: -1
+    conditionalEffects: []
+    extraAbilityExecuted: {fileID: 0}
+    extraAbilityExecutedActivationType: 0

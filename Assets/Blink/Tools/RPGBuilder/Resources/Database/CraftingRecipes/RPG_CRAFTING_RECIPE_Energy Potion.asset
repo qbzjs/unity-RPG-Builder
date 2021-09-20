@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd394b53a2a297f489330dca93a54a3f, type: 3}
+  m_Name: RPG_CRAFTING_RECIPE_Energy Potion
+  m_EditorClassIdentifier: 
+  ID: 1
+  _name: Energy Potion
+  _fileName: RPG_CRAFTING_RECIPE_Energy Potion
+  displayName: Energy Potion
+  icon: {fileID: 21300000, guid: 7d3e01d3dbfcb4a41b1d47121c4b3c04, type: 3}
+  learnedByDefault: 1
+  craftingSkillID: 1
+  craftingSkillREF: {fileID: 11400000, guid: d80861cde0693944d9dcac65aedb191c, type: 2}
+  craftingStationID: 0
+  craftingStationREF: {fileID: 11400000, guid: 08fef4324840dad4e802b7c883642fc9, type: 2}
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 0
+    Experience: 1
+    craftTime: 1
+    allCraftedItems:
+    - chance: 100
+      count: 1
+      craftedItemID: 44
+      craftedItemREF: {fileID: 11400000, guid: c58a118e9ad543444a0f593bc3ef81bc, type: 2}
+    allComponents:
+    - count: 5
+      componentItemID: 41
+      componentItemREF: {fileID: 11400000, guid: 8891fc41d50e13841a1951afbc4f1427,
+        type: 2}

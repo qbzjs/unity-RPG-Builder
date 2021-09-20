@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c086f2887225c45ae2cb4bb470fc24, type: 3}
+  m_Name: RPG_FACTION_Human
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Human
+  _fileName: RPG_FACTION_Human
+  displayName: Human
+  description: 
+  icon: {fileID: 21300000, guid: 669be5e9f982a374bb8d518c31461d67, type: 3}
+  factionStances:
+  - stance: Hated
+    pointsRequired: 100
+    playerAlignment: 2
+  - stance: Neutral
+    pointsRequired: 100
+    playerAlignment: 1
+  - stance: Allied
+    pointsRequired: 100
+    playerAlignment: 0
+  factionInteractions:
+  - factionREF: {fileID: 0}
+    factionID: 0
+    defaultStance: Allied
+    startingPoints: 0
+  - factionREF: {fileID: 0}
+    factionID: 1
+    defaultStance: Hated
+    startingPoints: 0
+  - factionREF: {fileID: 0}
+    factionID: 2
+    defaultStance: Neutral
+    startingPoints: 0
+  - factionREF: {fileID: 0}
+    factionID: 3
+    defaultStance: Hated
+    startingPoints: 0

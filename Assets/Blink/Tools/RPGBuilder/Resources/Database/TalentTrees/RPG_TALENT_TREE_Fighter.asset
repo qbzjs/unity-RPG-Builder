@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a901e526cf4ee148b34268e943e9d7d, type: 3}
+  m_Name: RPG_TALENT_TREE_Fighter
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Fighter
+  displayName: Talents
+  _fileName: RPG_TALENT_TREE_Fighter
+  icon: {fileID: 21300000, guid: 8ddcb7061e671dc4a823b55a22aa54c8, type: 3}
+  TiersAmount: 10
+  treePointAcceptedID: 0
+  treePointAcceptedREF: {fileID: 0}
+  nodeList:
+  - nodeType: 0
+    _name: 
+    abilityID: 0
+    abilityREF: {fileID: 11400000, guid: d8f5c54f13d080c4c9c754fdeaae4fd6, type: 2}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    Tier: 1
+    Row: 4
+    requirements: []
+  - nodeType: 0
+    _name: 
+    abilityID: 1
+    abilityREF: {fileID: 11400000, guid: 0510aa100078d7d49bbb6e0de0974495, type: 2}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    Tier: 3
+    Row: 4
+    requirements:
+    - requirementType: 4
+      pointSpentValue: 0
+      classRequiredID: -1
+      classRequiredREF: {fileID: 0}
+      classLevelValue: 0
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      skillRequiredID: -1
+      skillRequiredREF: {fileID: 0}
+      skillLevelValue: 0
+      bonusRequiredID: -1
+      bonusRequiredREF: {fileID: 0}
+      abilityRequiredID: 0
+      abilityRequiredREF: {fileID: 11400000, guid: d8f5c54f13d080c4c9c754fdeaae4fd6,
+        type: 2}
+      craftingRecipeRequiredID: -1
+      recipeRequiredREF: {fileID: 0}
+      resourceNodeRequiredID: -1
+      resourceNodeRequiredREF: {fileID: 0}
+      raceRequiredID: -1
+      raceRequiredREF: {fileID: 0}
+      questRequiredID: -1
+      questRequiredREF: {fileID: 0}
+      questStateRequired: 0
+      npcRequiredID: -1
+      npcRequiredREF: {fileID: 0}
+      npcKillsRequired: 0
+      weaponTemplateRequiredID: -1
+      weaponTemplateRequiredREF: {fileID: 0}
+      weaponTemplateLevelValue: 0
+      textNodeREF: {fileID: 0}
+      weaponRequired: 
+  - nodeType: 0
+    _name: 
+    abilityID: 3
+    abilityREF: {fileID: 11400000, guid: 26c7bc9403369a846943832afc1596f5, type: 2}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    Tier: 2
+    Row: 3
+    requirements: []
+  - nodeType: 0
+    _name: 
+    abilityID: 4
+    abilityREF: {fileID: 11400000, guid: bce247288f39ed44182b214dcb231079, type: 2}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    Tier: 6
+    Row: 3
+    requirements:
+    - requirementType: 4
+      pointSpentValue: 0
+      classRequiredID: -1
+      classRequiredREF: {fileID: 0}
+      classLevelValue: 0
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      skillRequiredID: -1
+      skillRequiredREF: {fileID: 0}
+      skillLevelValue: 0
+      bonusRequiredID: -1
+      bonusRequiredREF: {fileID: 0}
+      abilityRequiredID: 3
+      abilityRequiredREF: {fileID: 11400000, guid: 26c7bc9403369a846943832afc1596f5,
+        type: 2}
+      craftingRecipeRequiredID: -1
+      recipeRequiredREF: {fileID: 0}
+      resourceNodeRequiredID: -1
+      resourceNodeRequiredREF: {fileID: 0}
+      raceRequiredID: -1
+      raceRequiredREF: {fileID: 0}
+      questRequiredID: -1
+      questRequiredREF: {fileID: 0}
+      questStateRequired: 0
+      npcRequiredID: -1
+      npcRequiredREF: {fileID: 0}
+      npcKillsRequired: 0
+      weaponTemplateRequiredID: -1
+      weaponTemplateRequiredREF: {fileID: 0}
+      weaponTemplateLevelValue: 0
+      textNodeREF: {fileID: 0}
+      weaponRequired: 
+  - nodeType: 0
+    _name: 
+    abilityID: 2
+    abilityREF: {fileID: 11400000, guid: d0e0627c88b61fa4295b3145eecaa6fa, type: 2}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    Tier: 8
+    Row: 4
+    requirements:
+    - requirementType: 4
+      pointSpentValue: 0
+      classRequiredID: -1
+      classRequiredREF: {fileID: 0}
+      classLevelValue: 0
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      skillRequiredID: -1
+      skillRequiredREF: {fileID: 0}
+      skillLevelValue: 0
+      bonusRequiredID: -1
+      bonusRequiredREF: {fileID: 0}
+      abilityRequiredID: 1
+      abilityRequiredREF: {fileID: 11400000, guid: 0510aa100078d7d49bbb6e0de0974495,
+        type: 2}
+      craftingRecipeRequiredID: -1
+      recipeRequiredREF: {fileID: 0}
+      resourceNodeRequiredID: -1
+      resourceNodeRequiredREF: {fileID: 0}
+      raceRequiredID: -1
+      raceRequiredREF: {fileID: 0}
+      questRequiredID: -1
+      questRequiredREF: {fileID: 0}
+      questStateRequired: 0
+      npcRequiredID: -1
+      npcRequiredREF: {fileID: 0}
+      npcKillsRequired: 0
+      weaponTemplateRequiredID: -1
+      weaponTemplateRequiredREF: {fileID: 0}
+      weaponTemplateLevelValue: 0
+      textNodeREF: {fileID: 0}
+      weaponRequired: 
+  - nodeType: 0
+    _name: 
+    abilityID: 6
+    abilityREF: {fileID: 11400000, guid: 697fe6d8510991a4c989bd9e0245b944, type: 2}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    Tier: 3
+    Row: 1
+    requirements: []
+  - nodeType: 0
+    _name: 
+    abilityID: 7
+    abilityREF: {fileID: 11400000, guid: b42cfa2b542278b44a701b3d64a62fb9, type: 2}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    Tier: 5
+    Row: 1
+    requirements:
+    - requirementType: 4
+      pointSpentValue: 0
+      classRequiredID: -1
+      classRequiredREF: {fileID: 0}
+      classLevelValue: 0
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      skillRequiredID: -1
+      skillRequiredREF: {fileID: 0}
+      skillLevelValue: 0
+      bonusRequiredID: -1
+      bonusRequiredREF: {fileID: 0}
+      abilityRequiredID: 6
+      abilityRequiredREF: {fileID: 11400000, guid: 697fe6d8510991a4c989bd9e0245b944,
+        type: 2}
+      craftingRecipeRequiredID: -1
+      recipeRequiredREF: {fileID: 0}
+      resourceNodeRequiredID: -1
+      resourceNodeRequiredREF: {fileID: 0}
+      raceRequiredID: -1
+      raceRequiredREF: {fileID: 0}
+      questRequiredID: -1
+      questRequiredREF: {fileID: 0}
+      questStateRequired: 0
+      npcRequiredID: -1
+      npcRequiredREF: {fileID: 0}
+      npcKillsRequired: 0
+      weaponTemplateRequiredID: -1
+      weaponTemplateRequiredREF: {fileID: 0}
+      weaponTemplateLevelValue: 0
+      textNodeREF: {fileID: 0}
+      weaponRequired: 
+  - nodeType: 0
+    _name: 
+    abilityID: 5
+    abilityREF: {fileID: 11400000, guid: 01803602e9a322a4389ccc76f671f9f6, type: 2}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    Tier: 9
+    Row: 2
+    requirements:
+    - requirementType: 4
+      pointSpentValue: 0
+      classRequiredID: -1
+      classRequiredREF: {fileID: 0}
+      classLevelValue: 0
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      skillRequiredID: -1
+      skillRequiredREF: {fileID: 0}
+      skillLevelValue: 0
+      bonusRequiredID: -1
+      bonusRequiredREF: {fileID: 0}
+      abilityRequiredID: 4
+      abilityRequiredREF: {fileID: 11400000, guid: bce247288f39ed44182b214dcb231079,
+        type: 2}
+      craftingRecipeRequiredID: -1
+      recipeRequiredREF: {fileID: 0}
+      resourceNodeRequiredID: -1
+      resourceNodeRequiredREF: {fileID: 0}
+      raceRequiredID: -1
+      raceRequiredREF: {fileID: 0}
+      questRequiredID: -1
+      questRequiredREF: {fileID: 0}
+      questStateRequired: 0
+      npcRequiredID: -1
+      npcRequiredREF: {fileID: 0}
+      npcKillsRequired: 0
+      weaponTemplateRequiredID: -1
+      weaponTemplateRequiredREF: {fileID: 0}
+      weaponTemplateLevelValue: 0
+      textNodeREF: {fileID: 0}
+      weaponRequired: 
+    - requirementType: 4
+      pointSpentValue: 0
+      classRequiredID: -1
+      classRequiredREF: {fileID: 0}
+      classLevelValue: 0
+      itemRequiredID: -1
+      itemRequiredREF: {fileID: 0}
+      itemRequiredCount: 0
+      consumeItem: 0
+      skillRequiredID: -1
+      skillRequiredREF: {fileID: 0}
+      skillLevelValue: 0
+      bonusRequiredID: -1
+      bonusRequiredREF: {fileID: 0}
+      abilityRequiredID: 7
+      abilityRequiredREF: {fileID: 11400000, guid: b42cfa2b542278b44a701b3d64a62fb9,
+        type: 2}
+      craftingRecipeRequiredID: -1
+      recipeRequiredREF: {fileID: 0}
+      resourceNodeRequiredID: -1
+      resourceNodeRequiredREF: {fileID: 0}
+      raceRequiredID: -1
+      raceRequiredREF: {fileID: 0}
+      questRequiredID: -1
+      questRequiredREF: {fileID: 0}
+      questStateRequired: 0
+      npcRequiredID: -1
+      npcRequiredREF: {fileID: 0}
+      npcKillsRequired: 0
+      weaponTemplateRequiredID: -1
+      weaponTemplateRequiredREF: {fileID: 0}
+      weaponTemplateLevelValue: 0
+      textNodeREF: {fileID: 0}
+      weaponRequired: 
+  - nodeType: 3
+    _name: 
+    abilityID: -1
+    abilityREF: {fileID: 0}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: 0
+    bonusREF: {fileID: 11400000, guid: 26492d6be6740074b809223e21e8ae1d, type: 2}
+    Tier: 2
+    Row: 5
+    requirements: []
+  - nodeType: 3
+    _name: 
+    abilityID: -1
+    abilityREF: {fileID: 0}
+    recipeID: -1
+    recipeREF: {fileID: 0}
+    resourceNodeID: -1
+    resourceNodeREF: {fileID: 0}
+    bonusID: 1
+    bonusREF: {fileID: 11400000, guid: 2f2e53db8896ff54eb6735faf9d0bd83, type: 2}
+    Tier: 5
+    Row: 5
+    requirements: []

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f605edb45fd95e540b0cd73971b0258a, type: 3}
+  m_Name: RPG_LEVEL_TEMPLATE_CharacterLevels
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: CharacterLevels
+  _fileName: RPG_LEVEL_TEMPLATE_CharacterLevels
+  levels: 10
+  baseXPValue: 5
+  increaseAmount: 75
+  allLevels:
+  - levelName: 1
+    level: 1
+    XPRequired: 5
+  - levelName: 2
+    level: 2
+    XPRequired: 8
+  - levelName: 3
+    level: 3
+    XPRequired: 15
+  - levelName: 4
+    level: 4
+    XPRequired: 26
+  - levelName: 5
+    level: 5
+    XPRequired: 46
+  - levelName: 6
+    level: 6
+    XPRequired: 82
+  - levelName: 7
+    level: 7
+    XPRequired: 143
+  - levelName: 8
+    level: 8
+    XPRequired: 251
+  - levelName: 9
+    level: 9
+    XPRequired: 439
+  - levelName: 10
+    level: 10
+    XPRequired: 769

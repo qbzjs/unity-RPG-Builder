@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd394b53a2a297f489330dca93a54a3f, type: 3}
+  m_Name: RPG_CRAFTING_RECIPE_Refined Leather Armor
+  m_EditorClassIdentifier: 
+  ID: 27
+  _name: Refined Leather Armor
+  _fileName: RPG_CRAFTING_RECIPE_Refined Leather Armor
+  displayName: Refined Leather Armor
+  icon: {fileID: 21300000, guid: 0f7f3442a938dfa4b9f86c787b6ace3f, type: 3}
+  learnedByDefault: 1
+  craftingSkillID: 3
+  craftingSkillREF: {fileID: 0}
+  craftingStationID: 2
+  craftingStationREF: {fileID: 0}
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 0
+    Experience: 5
+    craftTime: 1
+    allCraftedItems:
+    - chance: 100
+      count: 1
+      craftedItemID: 33
+      craftedItemREF: {fileID: 11400000, guid: f39e8a4f7897d61478e03da22ea1162e, type: 2}
+    allComponents:
+    - count: 3
+      componentItemID: 52
+      componentItemREF: {fileID: 11400000, guid: 562c7fe79ef0dd04d92ba480953db8bf,
+        type: 2}
+    - count: 1
+      componentItemID: 50
+      componentItemREF: {fileID: 11400000, guid: 3123e1f9a7632b3498fc8d58c9c72337,
+        type: 2}

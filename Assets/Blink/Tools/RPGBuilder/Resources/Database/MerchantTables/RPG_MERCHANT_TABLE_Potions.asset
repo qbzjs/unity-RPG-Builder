@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9748d4235cbb1b644903a925da7146d4, type: 3}
+  m_Name: RPG_MERCHANT_TABLE_Potions
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Potions
+  _fileName: RPG_MERCHANT_TABLE_Potions
+  displayName: Potions
+  onSaleItems:
+  - itemID: 43
+    itemREF: {fileID: 11400000, guid: 7877ef24428c8764d8b367d642559055, type: 2}
+    currencyID: 0
+    currencyREF: {fileID: 11400000, guid: 3867fead1dc71464f8d362779b4029be, type: 2}
+    cost: 15
+  - itemID: 44
+    itemREF: {fileID: 11400000, guid: c58a118e9ad543444a0f593bc3ef81bc, type: 2}
+    currencyID: 0
+    currencyREF: {fileID: 11400000, guid: 3867fead1dc71464f8d362779b4029be, type: 2}
+    cost: 15
+  - itemID: 45
+    itemREF: {fileID: 11400000, guid: 17de2468f5c992d45bb2879ad2f6e4dc, type: 2}
+    currencyID: 0
+    currencyREF: {fileID: 11400000, guid: 3867fead1dc71464f8d362779b4029be, type: 2}
+    cost: 15

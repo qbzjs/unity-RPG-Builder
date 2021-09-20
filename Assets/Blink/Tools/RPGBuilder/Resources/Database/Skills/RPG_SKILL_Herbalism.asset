@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40c42ebeb56c5044bc164610325a105, type: 3}
+  m_Name: RPG_SKILL_Herbalism
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Herbalism
+  _fileName: RPG_SKILL_Herbalism
+  displayName: Herbalism
+  description: 
+  icon: {fileID: 21300000, guid: 2d7245e963684aa4c8c5b2cf0d12efc1, type: 3}
+  automaticlyAdded: 1
+  MaxLevel: 0
+  levelTemplateID: 0
+  levelTemplateREF: {fileID: 0}
+  talentTrees: []
+  stats: []
+  startItems: []
+  actionAbilities: []
+  allocatedStatsEntriesGame: []

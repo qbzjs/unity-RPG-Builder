@@ -1,0 +1,30 @@
+Asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+The ThirdPartyAssets folder contains various assets that are provided directly by other asset store publishers who agreed on a partnership with Blink.
+
+They all follow the same rules, see below:
+
+These assets:
+- Are provided by their respective developers to be included directly inside RPG Builder.
+- Can be used and modified by RPG Builder users, for any project developed with RPG Builder.
+- Can in no way be re-distributed.
+
+List of Partners:
+
+[Cafofo]
+[GabrielAguiarProductions]
+[MalbersAnimations]
+[PolytopeStudio]
+[PONETI]
+[RDR]
+[TitanForge]
+[xNode]
+[BOXOPHOBIC]
+[DanielShervheim]
+[dbRizov]
+[Polyart Studio]
+[Staggart]
+[Infinity PBR]
+
+
+The fonts under the UI > Fonts folder have their respective license included in their folder.

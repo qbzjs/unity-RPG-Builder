@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d60ae3901e6644b9d039bb9fdefeeb, type: 3}
+  m_Name: GeneralSettings
+  m_EditorClassIdentifier: 
+  automaticSave: 1
+  automaticSaveDelay: 5
+  automaticSaveOnQuit: 1
+  clickToLoadScene: 0
+  enableDevPanel: 1
+  mainMenuLoadingImage: {fileID: 21300000, guid: 9715d3dd6b238724398a35d4aae32dba,
+    type: 3}
+  mainMenuSceneName: MainMenu
+  mainMenuLoadingName: Main Menu
+  mainMenuLoadingDescription: 
+  useOldController: 0
+  dialogueKeywords:
+  - '[player_level]'
+  - '[player_name]'
+  dialogueKeywordsList:
+  - '[player_level]'
+  - '[player_name]'
+  useGameModifiers: 1
+  negativePointsRequired: 2
+  checkMinNegativeModifier: 0
+  checkMaxPositiveModifier: 0
+  minimumRequiredNegativeGameModifiers: 0
+  maximumRequiredPositiveGameModifiers: 0
+  baseGameModifierPointsInMenu: 1
+  baseGameModifierPointsInWorld: 0
+  ActionKeyCategoryList:
+  - MOVEMENT
+  - COMBAT
+  - UI
+  - CAMERA
+  - PETS
+  actionKeys:
+  - actionName: ACTION_BAR_SLOT_1
+    actionDisplayName: Action Bar Slot 1
+    defaultKey: 49
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_2
+    actionDisplayName: Action Bar Slot 2
+    defaultKey: 50
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_3
+    actionDisplayName: Action Bar Slot 3
+    defaultKey: 51
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_4
+    actionDisplayName: Action Bar Slot 4
+    defaultKey: 52
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_5
+    actionDisplayName: Action Bar Slot 5
+    defaultKey: 53
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_6
+    actionDisplayName: Action Bar Slot 6
+    defaultKey: 54
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_7
+    actionDisplayName: Action Bar Slot 7
+    defaultKey: 55
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_8
+    actionDisplayName: Action Bar Slot 8
+    defaultKey: 56
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_9
+    actionDisplayName: Action Bar Slot 9
+    defaultKey: 57
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTION_BAR_SLOT_10
+    actionDisplayName: Action Bar Slot 10
+    defaultKey: 48
+    isUnique: 1
+    category: COMBAT
+  - actionName: MoveForward
+    actionDisplayName: Move Forward
+    defaultKey: 119
+    isUnique: 1
+    category: MOVEMENT
+  - actionName: MoveBackward
+    actionDisplayName: Move Backward
+    defaultKey: 115
+    isUnique: 1
+    category: MOVEMENT
+  - actionName: MoveRight
+    actionDisplayName: Move Right
+    defaultKey: 97
+    isUnique: 1
+    category: MOVEMENT
+  - actionName: MoveLeft
+    actionDisplayName: Move Left
+    defaultKey: 100
+    isUnique: 1
+    category: MOVEMENT
+  - actionName: Jump
+    actionDisplayName: Jump
+    defaultKey: 32
+    isUnique: 1
+    category: MOVEMENT
+  - actionName: TOGGLE_CURSOR
+    actionDisplayName: Toogle Cursor Visibility
+    defaultKey: 325
+    isUnique: 1
+    category: CAMERA
+  - actionName: UI_PANEL_CHARACTER
+    actionDisplayName: Character Panel
+    defaultKey: 99
+    isUnique: 1
+    category: UI
+  - actionName: UI_PANEL_INVENTORY
+    actionDisplayName: Inventory Panel
+    defaultKey: 105
+    isUnique: 1
+    category: UI
+  - actionName: UI_PANEL_OPTIONS
+    actionDisplayName: Options Panel
+    defaultKey: 27
+    isUnique: 1
+    category: UI
+  - actionName: COMBO1
+    actionDisplayName: Combo 1
+    defaultKey: 114
+    isUnique: 1
+    category: COMBAT
+  - actionName: COMBO2
+    actionDisplayName: Combo 2
+    defaultKey: 116
+    isUnique: 1
+    category: COMBAT
+  - actionName: ACTIVE_BLOCKING
+    actionDisplayName: Block
+    defaultKey: 324
+    isUnique: 1
+    category: COMBAT
+  - actionName: SPRINT
+    actionDisplayName: Sprint
+    defaultKey: 304
+    isUnique: 1
+    category: MOVEMENT
+  - actionName: INTERACT
+    actionDisplayName: Interact
+    defaultKey: 101
+    isUnique: 1
+    category: UI
+  - actionName: SHAPESHIFT_1
+    actionDisplayName: Shapeshift 1
+    defaultKey: 0
+    isUnique: 1
+    category: COMBAT
+  - actionName: SHAPESHIFT_2
+    actionDisplayName: Shapeshift 2
+    defaultKey: 0
+    isUnique: 1
+    category: COMBAT
+  - actionName: SHAPESHIFT_3
+    actionDisplayName: Shapeshift 3
+    defaultKey: 0
+    isUnique: 1
+    category: COMBAT
+  - actionName: TOGGLE_CAMERA_AIM_MODE
+    actionDisplayName: Aiming Camera Toggle
+    defaultKey: 120
+    isUnique: 1
+    category: CAMERA
+  - actionName: TOGGLE_COMBAT_STATE
+    actionDisplayName: Toggle Combat
+    defaultKey: 118
+    isUnique: 1
+    category: COMBAT
+  - actionName: PETS_FOLLOW
+    actionDisplayName: Pets Follow
+    defaultKey: 0
+    isUnique: 1
+    category: PETS
+  - actionName: PETS_AGGRESSIVE
+    actionDisplayName: Pets Aggressive
+    defaultKey: 0
+    isUnique: 1
+    category: PETS
+  - actionName: PETS_DEFEND
+    actionDisplayName: Pets Defend
+    defaultKey: 0
+    isUnique: 1
+    category: PETS
+  - actionName: PETS_STAY
+    actionDisplayName: Pets Stay
+    defaultKey: 0
+    isUnique: 1
+    category: PETS
+  - actionName: PETS_RESET
+    actionDisplayName: Pets Reset
+    defaultKey: 0
+    isUnique: 1
+    category: PETS
+  - actionName: PETS_ATTACK
+    actionDisplayName: Pets Attack
+    defaultKey: 0
+    isUnique: 1
+    category: PETS
+  - actionName: DODGE_ROLL
+    actionDisplayName: Dodge Roll
+    defaultKey: 122
+    isUnique: 1
+    category: MOVEMENT
+  - actionName: ACTION_ABILITY_1
+    actionDisplayName: Action Ability 1
+    defaultKey: 323
+    isUnique: 1
+    category: COMBAT
+  worldInteractableLayer:
+    serializedVersion: 2
+    m_Bits: 11

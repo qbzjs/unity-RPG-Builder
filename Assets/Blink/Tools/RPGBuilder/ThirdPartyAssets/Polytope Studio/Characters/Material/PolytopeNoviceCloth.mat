@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PolytopeNoviceCloth
+  m_Shader: {fileID: 4800000, guid: 66cf399cd52203c4685e11681d535f09, type: 3}
+  m_ShaderKeywords: BOOLEAN_DB96F4EA_ON _CAPE_KEY1 _FLATCOLORS_ON _GLOSSYREFLECTIONS_OFF
+    _KEYWORD0_ON _METALICOFF_ON _METALICON_ON _SMOOTHNESSOFF_ON _SMOOTHNESSON_ON
+    _SPECULARHIGHLIGHTS_OFF _TOGGLESWITCH0_ON _TOGGLESWITCH1_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _COATOFARMSMASK:
+        m_Texture: {fileID: 2800000, guid: d294e9544b9eca64188ea9d2482ea8a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: b76fe68d69ca53f43a4e6f66d135dd90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 9a688ecd3c6cbee4cb2a528bf72399d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 2800000, guid: 004b7cabc9421734bb88a754e99fd641, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 2800000, guid: 9c0e067347abba2489817b3ce813c911, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture4:
+        m_Texture: {fileID: 2800000, guid: ae91646efc13ec44f8ccc5b5db2d6a8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture5:
+        m_Texture: {fileID: 2800000, guid: e4f1621d61032d045964d463b3806afe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture6:
+        m_Texture: {fileID: 2800000, guid: 47efbf030a9bb7f428ba51b46a2fdd03, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture7:
+        m_Texture: {fileID: 2800000, guid: 7d388dc79e41c6f498271666b30c0630, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EYESSMOOTHNESS: 0.7
+    - _GEMS1SMOOTHNESS: 1
+    - _GEMS2SMOOTHNESS: 0
+    - _GEMS3SMOOTHNESS: 0
+    - _HAIRSMOOTHNESS: 0.1
+    - _LEATHER1SMOOTHNESS: 0
+    - _LEATHER2SMOOTHNESS: 0.3
+    - _LEATHER3SMOOTHNESS: 0.66
+    - _LIPSSMOOTHNESS: 0.4
+    - _METAL1METALLIC: 0.65
+    - _METAL1SMOOTHNESS: 0.7
+    - _METAL2METALLIC: 0.77
+    - _METAL2SMOOTHNESS: 0.87
+    - _METAL3METALLIC: 1
+    - _METAL3SMOOTHNESS: 1
+    - _MetalicOn: 1
+    - _OCCLUSION: 0.5
+    - _SCARSSMOOTHNESS: 0.3
+    - _SCLERASMOOTHNESS: 0.5
+    - _SKINSMOOTHNESS: 0.3
+    - _SmoothnessOn: 1
+    - __dirty: 1
+    m_Colors:
+    - _CLOTH1COLOR: {r: 1, g: 1, b: 1, a: 0}
+    - _CLOTH2COLOR: {r: 1, g: 1, b: 1, a: 0}
+    - _CLOTH3COLOR: {r: 0.19335175, g: 0.25833675, b: 0.745283, a: 0}
+    - _COATOFARMSCOLOR: {r: 0.005947775, g: 0.00022249961, b: 0.047169805, a: 0}
+    - _EYESCOLOR: {r: 0.0734529, g: 0.1320755, b: 0.05046281, a: 1}
+    - _FEATHERS1COLOR: {r: 0.17822178, g: 0.18917024, b: 0.4245283, a: 0}
+    - _FEATHERS2COLOR: {r: 0.007843137, g: 0.72104055, b: 1, a: 1}
+    - _FEATHERS3COLOR: {r: 0, g: 0.1793142, b: 0.7264151, a: 0}
+    - _GEMS1COLOR: {r: 0.3773585, g: 0, b: 0.06650025, a: 0}
+    - _GEMS2COLOR: {r: 0.2023368, g: 0, b: 0.4339623, a: 0}
+    - _GEMS3COLOR: {r: 0, g: 0.1132075, b: 0.01206957, a: 0}
+    - _HAIRCOLOR: {r: 0.5943396, g: 0.3518379, b: 0.1093361, a: 0}
+    - _LEATHER1COLOR: {r: 0.07863118, g: 0.10470701, b: 0.2924528, a: 0}
+    - _LEATHER2COLOR: {r: 0.19335175, g: 0.25833675, b: 0.745283, a: 0}
+    - _LEATHER3COLOR: {r: 0.07863118, g: 0.10470701, b: 0.2924528, a: 0}
+    - _LIPSCOLOR: {r: 0.8301887, g: 0.3185886, b: 0.2780349, a: 0}
+    - _METAL1COLOR: {r: 2, g: 0.682353, b: 0.1960784, a: 0}
+    - _METAL2COLOR: {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 0}
+    - _METAL3COLOR: {r: 0.20170356, g: 0.19958168, b: 0.21698111, a: 0}
+    - _SCARSCOLOR: {r: 0.8490566, g: 0.5037117, b: 0.3884835, a: 0}
+    - _SCLERACOLOR: {r: 0.9056604, g: 0.8159487, b: 0.8159487, a: 0}
+    - _SKINCOLOR: {r: 2.02193, g: 1.0081, b: 0.6199315, a: 0}

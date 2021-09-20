@@ -1,0 +1,618 @@
+fileFormatVersion: 2
+guid: 4303bbb5d9502684086805d1bd8495a7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CG
+    100002: Head
+    100004: Jaw
+    100006: L Calf
+    100008: L Clavicle
+    100010: L Elbow
+    100012: L Elbow02
+    100014: L Elbow03
+    100016: L Eye
+    100018: L EyeLid Bottom
+    100020: L EyeLid Up
+    100022: L Finger0
+    100024: L Finger01
+    100026: L Finger02
+    100028: L Finger1
+    100030: L Finger11
+    100032: L Finger12
+    100034: L Finger2
+    100036: L Finger21
+    100038: L Finger22
+    100040: L Finger3
+    100042: L Finger31
+    100044: L Finger32
+    100046: L Finger4
+    100048: L Finger41
+    100050: L Finger42
+    100052: L Foot
+    100054: L Forearm
+    100056: L Hand
+    100058: L HorseLink
+    100060: L Nostril
+    100062: L Thigh
+    100064: L Toe0
+    100066: L Toe01
+    100068: L Toe02
+    100070: L Toe1
+    100072: L Toe11
+    100074: L Toe12
+    100076: L Toe2
+    100078: L Toe21
+    100080: L Toe22
+    100082: L UpperArm
+    100084: Neck
+    100086: Neck1
+    100088: Neck2
+    100090: Neck3
+    100092: Neck4
+    100094: NeckFat
+    100096: Pelvis
+    100098: R Calf
+    100100: R Clavicle
+    100102: R Elbow
+    100104: R Elbow02
+    100106: R Elbow03
+    100108: R Eye
+    100110: R EyeLid Bottom
+    100112: R EyeLid Up
+    100114: R Finger0
+    100116: R Finger01
+    100118: R Finger02
+    100120: R Finger1
+    100122: R Finger11
+    100124: R Finger12
+    100126: R Finger2
+    100128: R Finger21
+    100130: R Finger22
+    100132: R Finger3
+    100134: R Finger31
+    100136: R Finger32
+    100138: R Finger4
+    100140: R Finger41
+    100142: R Finger42
+    100144: R Foot
+    100146: R Forearm
+    100148: R Hand
+    100150: R HorseLink
+    100152: R Norstril
+    100154: R Thigh
+    100156: R Toe0
+    100158: R Toe01
+    100160: R Toe02
+    100162: R Toe1
+    100164: R Toe11
+    100166: R Toe12
+    100168: R Toe2
+    100170: R Toe21
+    100172: R Toe22
+    100174: R UpperArm
+    100176: Root
+    100178: Spine
+    100180: Spine1
+    100182: Spine2
+    100184: Tail01
+    100186: Tail02
+    100188: Tail03
+    100190: Tail04
+    100192: Tail05
+    100194: Tail06
+    100196: Tail07
+    100198: Tail08
+    100200: Tail09
+    100202: Tail10
+    100204: Tongue
+    100206: Tongue02
+    100208: Tongue03
+    100210: //RootNode
+    400000: CG
+    400002: Head
+    400004: Jaw
+    400006: L Calf
+    400008: L Clavicle
+    400010: L Elbow
+    400012: L Elbow02
+    400014: L Elbow03
+    400016: L Eye
+    400018: L EyeLid Bottom
+    400020: L EyeLid Up
+    400022: L Finger0
+    400024: L Finger01
+    400026: L Finger02
+    400028: L Finger1
+    400030: L Finger11
+    400032: L Finger12
+    400034: L Finger2
+    400036: L Finger21
+    400038: L Finger22
+    400040: L Finger3
+    400042: L Finger31
+    400044: L Finger32
+    400046: L Finger4
+    400048: L Finger41
+    400050: L Finger42
+    400052: L Foot
+    400054: L Forearm
+    400056: L Hand
+    400058: L HorseLink
+    400060: L Nostril
+    400062: L Thigh
+    400064: L Toe0
+    400066: L Toe01
+    400068: L Toe02
+    400070: L Toe1
+    400072: L Toe11
+    400074: L Toe12
+    400076: L Toe2
+    400078: L Toe21
+    400080: L Toe22
+    400082: L UpperArm
+    400084: Neck
+    400086: Neck1
+    400088: Neck2
+    400090: Neck3
+    400092: Neck4
+    400094: NeckFat
+    400096: Pelvis
+    400098: R Calf
+    400100: R Clavicle
+    400102: R Elbow
+    400104: R Elbow02
+    400106: R Elbow03
+    400108: R Eye
+    400110: R EyeLid Bottom
+    400112: R EyeLid Up
+    400114: R Finger0
+    400116: R Finger01
+    400118: R Finger02
+    400120: R Finger1
+    400122: R Finger11
+    400124: R Finger12
+    400126: R Finger2
+    400128: R Finger21
+    400130: R Finger22
+    400132: R Finger3
+    400134: R Finger31
+    400136: R Finger32
+    400138: R Finger4
+    400140: R Finger41
+    400142: R Finger42
+    400144: R Foot
+    400146: R Forearm
+    400148: R Hand
+    400150: R HorseLink
+    400152: R Norstril
+    400154: R Thigh
+    400156: R Toe0
+    400158: R Toe01
+    400160: R Toe02
+    400162: R Toe1
+    400164: R Toe11
+    400166: R Toe12
+    400168: R Toe2
+    400170: R Toe21
+    400172: R Toe22
+    400174: R UpperArm
+    400176: Root
+    400178: Spine
+    400180: Spine1
+    400182: Spine2
+    400184: Tail01
+    400186: Tail02
+    400188: Tail03
+    400190: Tail04
+    400192: Tail05
+    400194: Tail06
+    400196: Tail07
+    400198: Tail08
+    400200: Tail09
+    400202: Tail10
+    400204: Tongue
+    400206: Tongue02
+    400208: Tongue03
+    400210: //RootNode
+    2100000: Body
+    2300000: CG
+    2300002: Head
+    2300004: Jaw
+    2300006: L Calf
+    2300008: L Clavicle
+    2300010: L Elbow
+    2300012: L Elbow02
+    2300014: L Elbow03
+    2300016: L Eye
+    2300018: L EyeLid Bottom
+    2300020: L EyeLid Up
+    2300022: L Finger0
+    2300024: L Finger01
+    2300026: L Finger02
+    2300028: L Finger1
+    2300030: L Finger11
+    2300032: L Finger12
+    2300034: L Finger2
+    2300036: L Finger21
+    2300038: L Finger22
+    2300040: L Finger3
+    2300042: L Finger31
+    2300044: L Finger32
+    2300046: L Finger4
+    2300048: L Finger41
+    2300050: L Finger42
+    2300052: L Foot
+    2300054: L Forearm
+    2300056: L Hand
+    2300058: L HorseLink
+    2300060: L Nostril
+    2300062: L Thigh
+    2300064: L Toe0
+    2300066: L Toe01
+    2300068: L Toe02
+    2300070: L Toe1
+    2300072: L Toe11
+    2300074: L Toe12
+    2300076: L Toe2
+    2300078: L Toe21
+    2300080: L Toe22
+    2300082: L UpperArm
+    2300084: Neck
+    2300086: Neck1
+    2300088: Neck2
+    2300090: Neck3
+    2300092: Neck4
+    2300094: NeckFat
+    2300096: Pelvis
+    2300098: R Calf
+    2300100: R Clavicle
+    2300102: R Elbow
+    2300104: R Elbow02
+    2300106: R Elbow03
+    2300108: R Eye
+    2300110: R EyeLid Bottom
+    2300112: R EyeLid Up
+    2300114: R Finger0
+    2300116: R Finger01
+    2300118: R Finger02
+    2300120: R Finger1
+    2300122: R Finger11
+    2300124: R Finger12
+    2300126: R Finger2
+    2300128: R Finger21
+    2300130: R Finger22
+    2300132: R Finger3
+    2300134: R Finger31
+    2300136: R Finger32
+    2300138: R Finger4
+    2300140: R Finger41
+    2300142: R Finger42
+    2300144: R Foot
+    2300146: R Forearm
+    2300148: R Hand
+    2300150: R HorseLink
+    2300152: R Norstril
+    2300154: R Thigh
+    2300156: R Toe0
+    2300158: R Toe01
+    2300160: R Toe02
+    2300162: R Toe1
+    2300164: R Toe11
+    2300166: R Toe12
+    2300168: R Toe2
+    2300170: R Toe21
+    2300172: R Toe22
+    2300174: R UpperArm
+    2300176: Spine
+    2300178: Spine1
+    2300180: Spine2
+    2300182: Tail01
+    2300184: Tail02
+    2300186: Tail03
+    2300188: Tail04
+    2300190: Tail05
+    2300192: Tail06
+    2300194: Tail07
+    2300196: Tail08
+    2300198: Tail09
+    2300200: Tail10
+    2300202: Tongue
+    2300204: Tongue02
+    2300206: Tongue03
+    3300000: CG
+    3300002: Head
+    3300004: Jaw
+    3300006: L Calf
+    3300008: L Clavicle
+    3300010: L Elbow
+    3300012: L Elbow02
+    3300014: L Elbow03
+    3300016: L Eye
+    3300018: L EyeLid Bottom
+    3300020: L EyeLid Up
+    3300022: L Finger0
+    3300024: L Finger01
+    3300026: L Finger02
+    3300028: L Finger1
+    3300030: L Finger11
+    3300032: L Finger12
+    3300034: L Finger2
+    3300036: L Finger21
+    3300038: L Finger22
+    3300040: L Finger3
+    3300042: L Finger31
+    3300044: L Finger32
+    3300046: L Finger4
+    3300048: L Finger41
+    3300050: L Finger42
+    3300052: L Foot
+    3300054: L Forearm
+    3300056: L Hand
+    3300058: L HorseLink
+    3300060: L Nostril
+    3300062: L Thigh
+    3300064: L Toe0
+    3300066: L Toe01
+    3300068: L Toe02
+    3300070: L Toe1
+    3300072: L Toe11
+    3300074: L Toe12
+    3300076: L Toe2
+    3300078: L Toe21
+    3300080: L Toe22
+    3300082: L UpperArm
+    3300084: Neck
+    3300086: Neck1
+    3300088: Neck2
+    3300090: Neck3
+    3300092: Neck4
+    3300094: NeckFat
+    3300096: Pelvis
+    3300098: R Calf
+    3300100: R Clavicle
+    3300102: R Elbow
+    3300104: R Elbow02
+    3300106: R Elbow03
+    3300108: R Eye
+    3300110: R EyeLid Bottom
+    3300112: R EyeLid Up
+    3300114: R Finger0
+    3300116: R Finger01
+    3300118: R Finger02
+    3300120: R Finger1
+    3300122: R Finger11
+    3300124: R Finger12
+    3300126: R Finger2
+    3300128: R Finger21
+    3300130: R Finger22
+    3300132: R Finger3
+    3300134: R Finger31
+    3300136: R Finger32
+    3300138: R Finger4
+    3300140: R Finger41
+    3300142: R Finger42
+    3300144: R Foot
+    3300146: R Forearm
+    3300148: R Hand
+    3300150: R HorseLink
+    3300152: R Norstril
+    3300154: R Thigh
+    3300156: R Toe0
+    3300158: R Toe01
+    3300160: R Toe02
+    3300162: R Toe1
+    3300164: R Toe11
+    3300166: R Toe12
+    3300168: R Toe2
+    3300170: R Toe21
+    3300172: R Toe22
+    3300174: R UpperArm
+    3300176: Spine
+    3300178: Spine1
+    3300180: Spine2
+    3300182: Tail01
+    3300184: Tail02
+    3300186: Tail03
+    3300188: Tail04
+    3300190: Tail05
+    3300192: Tail06
+    3300194: Tail07
+    3300196: Tail08
+    3300198: Tail09
+    3300200: Tail10
+    3300202: Tongue
+    3300204: Tongue02
+    3300206: Tongue03
+    4300000: CG
+    4300002: Pelvis
+    4300004: L Thigh
+    4300006: L Calf
+    4300008: L HorseLink
+    4300010: L Foot
+    4300012: L Toe0
+    4300014: L Toe01
+    4300016: L Toe02
+    4300018: L Toe1
+    4300020: L Toe11
+    4300022: L Toe12
+    4300024: L Toe2
+    4300026: L Toe21
+    4300028: L Toe22
+    4300030: R Thigh
+    4300032: R Calf
+    4300034: R HorseLink
+    4300036: R Foot
+    4300038: R Toe0
+    4300040: R Toe01
+    4300042: R Toe02
+    4300044: R Toe1
+    4300046: R Toe11
+    4300048: R Toe12
+    4300050: R Toe2
+    4300052: R Toe21
+    4300054: R Toe22
+    4300056: Spine
+    4300058: Spine1
+    4300060: Spine2
+    4300062: L Clavicle
+    4300064: L UpperArm
+    4300066: L Forearm
+    4300068: L Elbow
+    4300070: L Elbow02
+    4300072: L Elbow03
+    4300074: L Hand
+    4300076: L Finger0
+    4300078: L Finger01
+    4300080: L Finger02
+    4300082: L Finger1
+    4300084: L Finger11
+    4300086: L Finger12
+    4300088: L Finger2
+    4300090: L Finger21
+    4300092: L Finger22
+    4300094: L Finger3
+    4300096: L Finger31
+    4300098: L Finger32
+    4300100: L Finger4
+    4300102: L Finger41
+    4300104: L Finger42
+    4300106: Neck
+    4300108: Neck1
+    4300110: Neck2
+    4300112: Neck3
+    4300114: Neck4
+    4300116: Head
+    4300118: Jaw
+    4300120: Tongue
+    4300122: Tongue02
+    4300124: Tongue03
+    4300126: L Eye
+    4300128: L EyeLid Bottom
+    4300130: L EyeLid Up
+    4300132: L Nostril
+    4300134: R Eye
+    4300136: R EyeLid Bottom
+    4300138: R EyeLid Up
+    4300140: R Norstril
+    4300142: NeckFat
+    4300144: R Clavicle
+    4300146: R UpperArm
+    4300148: R Forearm
+    4300150: R Elbow
+    4300152: R Elbow02
+    4300154: R Elbow03
+    4300156: R Hand
+    4300158: R Finger0
+    4300160: R Finger01
+    4300162: R Finger02
+    4300164: R Finger1
+    4300166: R Finger11
+    4300168: R Finger12
+    4300170: R Finger2
+    4300172: R Finger21
+    4300174: R Finger22
+    4300176: R Finger3
+    4300178: R Finger31
+    4300180: R Finger32
+    4300182: R Finger4
+    4300184: R Finger41
+    4300186: R Finger42
+    4300188: Tail01
+    4300190: Tail02
+    4300192: Tail03
+    4300194: Tail04
+    4300196: Tail05
+    4300198: Tail06
+    4300200: Tail07
+    4300202: Tail08
+    4300204: Tail09
+    4300206: Tail10
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

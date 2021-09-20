@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd394b53a2a297f489330dca93a54a3f, type: 3}
+  m_Name: RPG_CRAFTING_RECIPE_Cooked Meat
+  m_EditorClassIdentifier: 
+  ID: 3
+  _name: Cooked Meat
+  _fileName: RPG_CRAFTING_RECIPE_Cooked Meat
+  displayName: Cooked Meat
+  icon: {fileID: 21300000, guid: 40d8fd949c2fea741a9e96141a7ca338, type: 3}
+  learnedByDefault: 1
+  craftingSkillID: 2
+  craftingSkillREF: {fileID: 11400000, guid: d80861cde0693944d9dcac65aedb191c, type: 2}
+  craftingStationID: 1
+  craftingStationREF: {fileID: 11400000, guid: 08fef4324840dad4e802b7c883642fc9, type: 2}
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 0
+    Experience: 1
+    craftTime: 1
+    allCraftedItems:
+    - chance: 100
+      count: 1
+      craftedItemID: 48
+      craftedItemREF: {fileID: 11400000, guid: 736cfd884aa8a6c40adcbeb4b3c1f84c, type: 2}
+    allComponents:
+    - count: 3
+      componentItemID: 47
+      componentItemREF: {fileID: 11400000, guid: 8a3e3e736f73c9741a6fcff9ff9b8125,
+        type: 2}

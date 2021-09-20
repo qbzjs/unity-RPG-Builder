@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: c727f1a716bd2ed42aa15f1f347755ba
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 'Antlers '
+    100002: CG
+    100004: Eye L
+    100006: Eye R
+    100008: Head
+    100010: Jaw
+    100012: L Calf
+    100014: L Clavicle
+    100016: L Ear
+    100018: L Finger0
+    100020: L Foot
+    100022: L Forearm
+    100024: L Hand
+    100026: L HorseLink
+    100028: L Thigh
+    100030: L Toe0
+    100032: L UpperArm
+    100034: Neck
+    100036: Neck1
+    100038: Pelvis
+    100040: //RootNode
+    100042: R Calf
+    100044: R Clavicle
+    100046: R Ear
+    100048: R Finger0
+    100050: R Foot
+    100052: R Forearm
+    100054: R Hand
+    100056: R HorseLink
+    100058: R Thigh
+    100060: R Toe0
+    100062: R UpperArm
+    100064: Root
+    100066: Spine
+    100068: Spine1
+    100070: Spine2
+    100072: Tail
+    400000: 'Antlers '
+    400002: CG
+    400004: Eye L
+    400006: Eye R
+    400008: Head
+    400010: Jaw
+    400012: L Calf
+    400014: L Clavicle
+    400016: L Ear
+    400018: L Finger0
+    400020: L Foot
+    400022: L Forearm
+    400024: L Hand
+    400026: L HorseLink
+    400028: L Thigh
+    400030: L Toe0
+    400032: L UpperArm
+    400034: Neck
+    400036: Neck1
+    400038: Pelvis
+    400040: //RootNode
+    400042: R Calf
+    400044: R Clavicle
+    400046: R Ear
+    400048: R Finger0
+    400050: R Foot
+    400052: R Forearm
+    400054: R Hand
+    400056: R HorseLink
+    400058: R Thigh
+    400060: R Toe0
+    400062: R UpperArm
+    400064: Root
+    400066: Spine
+    400068: Spine1
+    400070: Spine2
+    400072: Tail
+    2100000: No Name
+    2100002: 15 - Defasdasdault
+    2300000: 'Antlers '
+    2300002: CG
+    2300004: Eye L
+    2300006: Eye R
+    2300008: Head
+    2300010: Jaw
+    2300012: L Calf
+    2300014: L Clavicle
+    2300016: L Ear
+    2300018: L Finger0
+    2300020: L Foot
+    2300022: L Forearm
+    2300024: L Hand
+    2300026: L HorseLink
+    2300028: L Thigh
+    2300030: L Toe0
+    2300032: L UpperArm
+    2300034: Neck
+    2300036: Neck1
+    2300038: Pelvis
+    2300040: R Calf
+    2300042: R Clavicle
+    2300044: R Ear
+    2300046: R Finger0
+    2300048: R Foot
+    2300050: R Forearm
+    2300052: R Hand
+    2300054: R HorseLink
+    2300056: R Thigh
+    2300058: R Toe0
+    2300060: R UpperArm
+    2300062: Root
+    2300064: Spine
+    2300066: Spine1
+    2300068: Spine2
+    2300070: Tail
+    3300000: 'Antlers '
+    3300002: CG
+    3300004: Eye L
+    3300006: Eye R
+    3300008: Head
+    3300010: Jaw
+    3300012: L Calf
+    3300014: L Clavicle
+    3300016: L Ear
+    3300018: L Finger0
+    3300020: L Foot
+    3300022: L Forearm
+    3300024: L Hand
+    3300026: L HorseLink
+    3300028: L Thigh
+    3300030: L Toe0
+    3300032: L UpperArm
+    3300034: Neck
+    3300036: Neck1
+    3300038: Pelvis
+    3300040: R Calf
+    3300042: R Clavicle
+    3300044: R Ear
+    3300046: R Finger0
+    3300048: R Foot
+    3300050: R Forearm
+    3300052: R Hand
+    3300054: R HorseLink
+    3300056: R Thigh
+    3300058: R Toe0
+    3300060: R UpperArm
+    3300062: Root
+    3300064: Spine
+    3300066: Spine1
+    3300068: Spine2
+    3300070: Tail
+    4300000: Root
+    4300002: CG
+    4300004: Pelvis
+    4300006: Spine
+    4300008: Spine1
+    4300010: Spine2
+    4300012: Neck
+    4300014: Neck1
+    4300016: Head
+    4300018: L Ear
+    4300020: R Ear
+    4300022: Jaw
+    4300024: Eye L
+    4300026: Eye R
+    4300028: 'Antlers '
+    4300030: L Clavicle
+    4300032: L UpperArm
+    4300034: L Forearm
+    4300036: L Hand
+    4300038: L Finger0
+    4300040: R Clavicle
+    4300042: R UpperArm
+    4300044: R Forearm
+    4300046: R Hand
+    4300048: R Finger0
+    4300050: L Thigh
+    4300052: L Calf
+    4300054: L HorseLink
+    4300056: L Foot
+    4300058: L Toe0
+    4300060: R Thigh
+    4300062: R Calf
+    4300064: R HorseLink
+    4300066: R Foot
+    4300068: R Toe0
+    4300070: Tail
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

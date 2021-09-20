@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a057efdae520044d8eb378f9acecc8d, type: 3}
+  m_Name: RPG_CLASS_Warrior
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Warrior
+  _fileName: RPG_CLASS_Warrior
+  displayName: Warrior
+  description: Using brute force and defensive abilities to defeat his enemies. The
+    Warrior is able to block attacks from enemies.
+  icon: {fileID: 21300000, guid: 772bbd3437e06ff47a40a633413d5c13, type: 3}
+  autoAttackAbilityID: -1
+  autoAttackAbilityREF: {fileID: 0}
+  stats: []
+  levelTemplateID: 0
+  levelTemplateREF: {fileID: 0}
+  talentTrees: []
+  spellbooks: []
+  startItems:
+  - itemID: 0
+    itemREF: {fileID: 11400000, guid: 2bd13577d04d71f4992422a4afc4fb07, type: 2}
+    count: 1
+    equipped: 1
+  actionAbilities: []
+  allocationStatPoints: 0
+  allocatedStatsEntries: []
+  allocatedStatsEntriesGame: []

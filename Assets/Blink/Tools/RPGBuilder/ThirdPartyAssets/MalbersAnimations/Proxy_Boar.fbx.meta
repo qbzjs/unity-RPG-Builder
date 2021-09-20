@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 590d9ac57eea8d14d9cae82d75109376
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CG
+    100002: Eye L
+    100004: Eye R
+    100006: 'Fangs '
+    100008: Head
+    100010: Jaw
+    100012: L Calf
+    100014: L Clavicle
+    100016: L Ear
+    100018: L Finger0
+    100020: L Foot
+    100022: L Forearm
+    100024: L Hand
+    100026: L HorseLink
+    100028: L Thigh
+    100030: L Toe
+    100032: L Toe0
+    100034: L UpperArm
+    100036: Neck
+    100038: Pelvis
+    100040: //RootNode
+    100042: R Calf
+    100044: R Clavicle
+    100046: R Ear
+    100048: R Finger0
+    100050: R Foot
+    100052: R Forearm
+    100054: R Hand
+    100056: R HorseLink
+    100058: R Thigh
+    100060: R Toe
+    100062: R Toe0
+    100064: R UpperArm
+    100066: Root
+    100068: Spine
+    100070: Spine1
+    100072: Spine2
+    100074: Tail01
+    100076: Tail02
+    100078: Tail03
+    400000: CG
+    400002: Eye L
+    400004: Eye R
+    400006: 'Fangs '
+    400008: Head
+    400010: Jaw
+    400012: L Calf
+    400014: L Clavicle
+    400016: L Ear
+    400018: L Finger0
+    400020: L Foot
+    400022: L Forearm
+    400024: L Hand
+    400026: L HorseLink
+    400028: L Thigh
+    400030: L Toe
+    400032: L Toe0
+    400034: L UpperArm
+    400036: Neck
+    400038: Pelvis
+    400040: //RootNode
+    400042: R Calf
+    400044: R Clavicle
+    400046: R Ear
+    400048: R Finger0
+    400050: R Foot
+    400052: R Forearm
+    400054: R Hand
+    400056: R HorseLink
+    400058: R Thigh
+    400060: R Toe
+    400062: R Toe0
+    400064: R UpperArm
+    400066: Root
+    400068: Spine
+    400070: Spine1
+    400072: Spine2
+    400074: Tail01
+    400076: Tail02
+    400078: Tail03
+    2100000: No Name
+    2100002: 'Material #879'
+    2300000: CG
+    2300002: Eye L
+    2300004: Eye R
+    2300006: 'Fangs '
+    2300008: Head
+    2300010: Jaw
+    2300012: L Calf
+    2300014: L Clavicle
+    2300016: L Ear
+    2300018: L Finger0
+    2300020: L Foot
+    2300022: L Forearm
+    2300024: L Hand
+    2300026: L HorseLink
+    2300028: L Thigh
+    2300030: L Toe
+    2300032: L Toe0
+    2300034: L UpperArm
+    2300036: Neck
+    2300038: Pelvis
+    2300040: R Calf
+    2300042: R Clavicle
+    2300044: R Ear
+    2300046: R Finger0
+    2300048: R Foot
+    2300050: R Forearm
+    2300052: R Hand
+    2300054: R HorseLink
+    2300056: R Thigh
+    2300058: R Toe
+    2300060: R Toe0
+    2300062: R UpperArm
+    2300064: Spine
+    2300066: Spine1
+    2300068: Spine2
+    2300070: Tail01
+    2300072: Tail02
+    2300074: Tail03
+    3300000: CG
+    3300002: Eye L
+    3300004: Eye R
+    3300006: 'Fangs '
+    3300008: Head
+    3300010: Jaw
+    3300012: L Calf
+    3300014: L Clavicle
+    3300016: L Ear
+    3300018: L Finger0
+    3300020: L Foot
+    3300022: L Forearm
+    3300024: L Hand
+    3300026: L HorseLink
+    3300028: L Thigh
+    3300030: L Toe
+    3300032: L Toe0
+    3300034: L UpperArm
+    3300036: Neck
+    3300038: Pelvis
+    3300040: R Calf
+    3300042: R Clavicle
+    3300044: R Ear
+    3300046: R Finger0
+    3300048: R Foot
+    3300050: R Forearm
+    3300052: R Hand
+    3300054: R HorseLink
+    3300056: R Thigh
+    3300058: R Toe
+    3300060: R Toe0
+    3300062: R UpperArm
+    3300064: Spine
+    3300066: Spine1
+    3300068: Spine2
+    3300070: Tail01
+    3300072: Tail02
+    3300074: Tail03
+    4300000: CG
+    4300002: Pelvis
+    4300004: Spine
+    4300006: Spine1
+    4300008: Spine2
+    4300010: Neck
+    4300012: Head
+    4300014: L Ear
+    4300016: R Ear
+    4300018: Jaw
+    4300020: Eye L
+    4300022: Eye R
+    4300024: 'Fangs '
+    4300026: L Clavicle
+    4300028: L UpperArm
+    4300030: L Forearm
+    4300032: L Hand
+    4300034: L Finger0
+    4300036: R Clavicle
+    4300038: R UpperArm
+    4300040: R Forearm
+    4300042: R Hand
+    4300044: R Finger0
+    4300046: L Thigh
+    4300048: L Calf
+    4300050: L HorseLink
+    4300052: L Foot
+    4300054: L Toe
+    4300056: L Toe0
+    4300058: R Thigh
+    4300060: R Calf
+    4300062: R HorseLink
+    4300064: R Foot
+    4300066: R Toe
+    4300068: R Toe0
+    4300070: Tail01
+    4300072: Tail02
+    4300074: Tail03
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

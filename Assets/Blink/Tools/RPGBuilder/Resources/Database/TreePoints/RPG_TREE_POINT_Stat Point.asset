@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611f062e7b0d0c94699a3f17232f0985, type: 3}
+  m_Name: RPG_TREE_POINT_Stat Point
+  m_EditorClassIdentifier: 
+  ID: 3
+  icon: {fileID: 21300000, guid: 2d7245e963684aa4c8c5b2cf0d12efc1, type: 3}
+  _name: Stat Point
+  _fileName: RPG_TREE_POINT_Stat Point
+  _displayName: Stat Point
+  description: 
+  startAmount: 1
+  maxPoints: 0
+  gainPointRequirements:
+  - gainType: 2
+    amountGained: 10
+    classRequiredID: -1
+    classRequiredREF: {fileID: 0}
+    skillRequiredID: -1
+    skillRequiredREF: {fileID: 0}
+    itemRequiredID: -1
+    itemRequiredREF: {fileID: 0}
+    itemRequiredCount: 0
+    npcRequiredID: 6
+    npcRequiredREF: {fileID: 11400000, guid: 8fe76eab07c434e44a51009f13ad1e0b, type: 2}
+    weaponTemplateRequiredID: -1
+    weaponTemplateREF: {fileID: 0}
+  - gainType: 4
+    amountGained: 1
+    classRequiredID: -1
+    classRequiredREF: {fileID: 0}
+    skillRequiredID: -1
+    skillRequiredREF: {fileID: 0}
+    itemRequiredID: -1
+    itemRequiredREF: {fileID: 0}
+    itemRequiredCount: 0
+    npcRequiredID: -1
+    npcRequiredREF: {fileID: 0}
+    weaponTemplateRequiredID: 0
+    weaponTemplateREF: {fileID: 11400000, guid: e36ee3951d73e1648b61cb9ef4c3cb01,
+      type: 2}
+  - gainType: 0
+    amountGained: 1
+    classRequiredID: 1
+    classRequiredREF: {fileID: 11400000, guid: a2b0bc487ee6ace4d8b2ba25f4b38743, type: 2}
+    skillRequiredID: -1
+    skillRequiredREF: {fileID: 0}
+    itemRequiredID: -1
+    itemRequiredREF: {fileID: 0}
+    itemRequiredCount: 0
+    npcRequiredID: -1
+    npcRequiredREF: {fileID: 0}
+    weaponTemplateRequiredID: -1
+    weaponTemplateREF: {fileID: 0}
+  - gainType: 0
+    amountGained: 1
+    classRequiredID: 2
+    classRequiredREF: {fileID: 11400000, guid: fe8d7a0d25e4eea49b5eb01b48bdd713, type: 2}
+    skillRequiredID: -1
+    skillRequiredREF: {fileID: 0}
+    itemRequiredID: -1
+    itemRequiredREF: {fileID: 0}
+    itemRequiredCount: 0
+    npcRequiredID: -1
+    npcRequiredREF: {fileID: 0}
+    weaponTemplateRequiredID: -1
+    weaponTemplateREF: {fileID: 0}

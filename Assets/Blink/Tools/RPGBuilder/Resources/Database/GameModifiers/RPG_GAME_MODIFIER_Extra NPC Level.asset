@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14756639e2b607b4db74a73ca0882e1a, type: 3}
+  m_Name: RPG_GAME_MODIFIER_Extra NPC Level
+  m_EditorClassIdentifier: 
+  ID: 0
+  icon: {fileID: 21300000, guid: b96996f69b46ada4398c3ed156fceb93, type: 3}
+  _name: Extra NPC Level
+  _fileName: RPG_GAME_MODIFIER_Extra NPC Level
+  displayName: Highler Level NPC
+  description: NPC have their level increased by 3
+  unlockType: 0
+  gameModifierType: 1
+  cost: 0
+  gain: 10
+  gameModifiersList:
+  - showModifier: 1
+    categoryType: 0
+    combatModuleType: 2
+    generalModuleType: 0
+    worldModuleType: 0
+    settingsModuleType: 0
+    modifierTypeName: Combat+NPC+Level
+    showEntryList: 0
+    amountModifier:
+      entryID: -1
+      entryName: 
+      alterAmount: 3
+      isPercent: 0
+      dataModifierType: 0
+    amountModifierList: []
+    entryIDs: 
+    boolValue: 0
+    isGlobal: 1
+    intValue: 0
+    floatValue: 0
+    gameObjectValue: {fileID: 0}
+    abilityModifierType: 0
+    treePointModifierType: 0
+    factionModifierType: 0
+    spellbookModifierType: 0
+    statModifierType: 0
+    statModifierData: []
+    npcModifierType: 2
+    weaponTemplateModifierType: 0
+    itemModifierType: 0
+    skillModifierType: 0
+    levelTemplateModifierType: 0
+    raceModifierType: 0
+    raceOverridenMalePrefab: {fileID: 0}
+    raceOverridenFemalePrefab: {fileID: 0}
+    classModifierType: 0
+    merchantTableModifierType: 0
+    currencyModifierType: 0
+    recipeModifierType: 0
+    bonusModifierType: 0
+    gearSetModifierType: 0
+    enchantmentModifierType: 0
+    questModifierType: 0
+    resourceNodeModifierType: 0
+    generalSettingModifierType: 0
+    combatSettingModifierType: 0
+    worldSettingModifierType: 0

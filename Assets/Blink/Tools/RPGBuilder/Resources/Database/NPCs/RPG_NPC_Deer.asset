@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eaea086ce51ea9419be768c6237eedb, type: 3}
+  m_Name: RPG_NPC_Deer
+  m_EditorClassIdentifier: 
+  npcType: 0
+  ID: 1
+  _name: Deer
+  _fileName: RPG_NPC_Deer
+  displayName: Deer
+  icon: {fileID: 21300000, guid: 76ad8e810ddfd1a4d83e6129e6affd43, type: 3}
+  isDummyTarget: 0
+  factionREF: {fileID: 11400000, guid: 548edb0008a39ac4b8a4eaa6ab646f64, type: 2}
+  factionID: 2
+  speciesID: -1
+  merchantTableID: -1
+  merchantTableREF: {fileID: 0}
+  dialogueID: -1
+  dialogueREF: {fileID: 0}
+  questGiven: []
+  questCompleted: []
+  AggroRange: 15
+  distanceFromTarget: 2.75
+  distanceFromOwner: 3
+  DistanceToTargetReset: 20
+  RoamRange: 25
+  RoamDelay: 15
+  MinRespawn: 5
+  MaxRespawn: 15
+  corpseDespawnTime: 15
+  MinEXP: 1
+  MaxEXP: 1
+  EXPBonusPerLevel: 1
+  factionRewards: []
+  MinLevel: 1
+  MaxLevel: 4
+  isScalingWithPlayer: 0
+  abilities:
+  - abilityID: 34
+    abilityREF: {fileID: 11400000, guid: 80133573417449c44aecc0a5668437b8, type: 2}
+    condition: 0
+  stats:
+  - statID: 1
+    statREF: {fileID: 11400000, guid: a4a45b123a3d02c47ab962f484a810c9, type: 2}
+    minValue: 0
+    maxValue: 0
+    baseValue: 7
+    bonusPerLevel: 0
+    vitalityActions: []
+  - statID: 27
+    statREF: {fileID: 11400000, guid: f9c5113a3b312764c9127b41a82d9bb3, type: 2}
+    minValue: 0
+    maxValue: 0
+    baseValue: 2
+    bonusPerLevel: 1
+    vitalityActions: []
+  lootTables:
+  - lootTableID: 7
+    lootTableREF: {fileID: 11400000, guid: 4148af8d314798e428fee3dbe159039a, type: 2}
+    dropRate: 100
+  - lootTableID: 13
+    lootTableREF: {fileID: 11400000, guid: 8595db903d55d99468e82a1775f85ea8, type: 2}
+    dropRate: 100
+  - lootTableID: 14
+    lootTableREF: {fileID: 11400000, guid: 73a861ae1e9593c4a9adfa6e8dab4bb0, type: 2}
+    dropRate: 50
+  isCombatEnabled: 1
+  isMovementEnabled: 1
+  isCollisionEnabled: 0
+  isTargetable: 1
+  isNameplateEnabled: 1
+  isPlayerInteractable: 1
+  NPCVisual: {fileID: 6933547920965923985, guid: f2529eb8a3d9f1f4ca03db75db55a397,
+    type: 3}
+  modelPosition: {x: 0, y: 0, z: -0.6}
+  modelScale: {x: 1, y: 1, z: 1}
+  nameplateYOffset: 1.5
+  animatorController: {fileID: 22100000, guid: d313e5ce5c692434083cea418ba3ceed, type: 2}
+  animatorAvatar: {fileID: 9000000, guid: c727f1a716bd2ed42aa15f1f347755ba, type: 3}
+  animatorUseRootMotion: 0
+  animatorUpdateMode: 0
+  AnimatorCullingMode: 0
+  navmeshAgentRadius: 0.75
+  navmeshAgentHeight: 2
+  navmeshAgentAngularSpeed: 1000
+  colliderType: 0
+  colliderCenter: {x: 0, y: 1, z: 0}
+  colliderSize: {x: 0, y: 0, z: 0}
+  colliderRadius: 1
+  colliderHeight: 1
+  aggroLinks: []

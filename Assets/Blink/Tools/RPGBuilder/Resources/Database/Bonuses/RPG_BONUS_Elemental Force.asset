@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a17bf936c871748a96a731627de63e, type: 3}
+  m_Name: RPG_BONUS_Elemental Force
+  m_EditorClassIdentifier: 
+  ID: 4
+  _name: Elemental Force
+  displayName: Elemental Force
+  _fileName: RPG_BONUS_Elemental Force
+  icon: {fileID: 21300000, guid: 256db79a0ba9c03498aeb44971393caf, type: 3}
+  learnedByDefault: 0
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 1
+    activeRequirements: []
+    statEffectsData:
+    - statID: 38
+      statREF: {fileID: 0}
+      statEffectModification: 10
+      isPercent: 0
+  - ShowedInEditor: 1
+    unlockCost: 1
+    activeRequirements: []
+    statEffectsData:
+    - statID: 38
+      statREF: {fileID: 0}
+      statEffectModification: 20
+      isPercent: 0
+  - ShowedInEditor: 1
+    unlockCost: 1
+    activeRequirements: []
+    statEffectsData:
+    - statID: 38
+      statREF: {fileID: 0}
+      statEffectModification: 30
+      isPercent: 0

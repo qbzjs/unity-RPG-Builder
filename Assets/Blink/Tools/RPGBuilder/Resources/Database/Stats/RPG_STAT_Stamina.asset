@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8397832a421b4aa4bb023b431fc81370, type: 3}
+  m_Name: RPG_STAT_Stamina
+  m_EditorClassIdentifier: 
+  ID: 3
+  _name: Stamina
+  _fileName: RPG_STAT_Stamina
+  displayName: Stamina
+  description: Used when sprinting or blocking.
+  minCheck: 1
+  minValue: 0
+  maxCheck: 1
+  maxValue: 25
+  baseValue: 25
+  isShiftingInSprint: 0
+  isShiftingInBlock: 0
+  isShiftingOutsideCombat: 1
+  isShiftingInCombat: 1
+  shiftAmountOutsideCombat: 3
+  shiftIntervalOutsideCombat: 2
+  shiftAmountInCombat: 1
+  shiftIntervalInCombat: 3
+  StartsAtMax: 1
+  isPercentStat: 0
+  vitalityActions:
+  - type: 3
+    value: 0
+    valueType: 1
+    isPercent: 0
+    abilityREF: {fileID: 0}
+    effectREF: {fileID: 0}
+    effectRank: 0
+    itemREF: {fileID: 0}
+    elementID: -1
+    itemCount: 0
+  - type: 4
+    value: 0
+    valueType: 1
+    isPercent: 0
+    abilityREF: {fileID: 0}
+    effectREF: {fileID: 0}
+    effectRank: 0
+    itemREF: {fileID: 0}
+    elementID: -1
+    itemCount: 0
+  onHitEffectsData: []
+  isVitalityStat: 1
+  statBonuses: []
+  StatUICategory: General

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c99b14b9b5d9494b96cb9a0b6d1dcb9, type: 3}
+  m_Name: RPG_SPELLBOOK_Berserker
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Berserker
+  _fileName: RPG_SPELLBOOK_Berserker
+  displayName: Berserker
+  description: 
+  icon: {fileID: 21300000, guid: 772bbd3437e06ff47a40a633413d5c13, type: 3}
+  nodeList:
+  - nodeType: 0
+    _name: 
+    abilityID: 0
+    abilityREF: {fileID: 11400000, guid: d8f5c54f13d080c4c9c754fdeaae4fd6, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 1
+    abilityREF: {fileID: 11400000, guid: 0510aa100078d7d49bbb6e0de0974495, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 3
+    abilityREF: {fileID: 11400000, guid: 26c7bc9403369a846943832afc1596f5, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 2
+    abilityREF: {fileID: 11400000, guid: d0e0627c88b61fa4295b3145eecaa6fa, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 4
+    abilityREF: {fileID: 11400000, guid: bce247288f39ed44182b214dcb231079, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  sourceType: 0

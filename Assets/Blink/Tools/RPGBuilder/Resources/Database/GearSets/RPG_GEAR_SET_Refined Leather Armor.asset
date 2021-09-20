@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5af064b541929e41a5718fb0c95c78b, type: 3}
+  m_Name: RPG_GEAR_SET_Refined Leather Armor
+  m_EditorClassIdentifier: 
+  ID: 1
+  _name: Refined Leather Armor
+  _fileName: RPG_GEAR_SET_Refined Leather Armor
+  displayName: Refined Leather Armor
+  itemsInSet:
+  - itemREF: {fileID: 11400000, guid: f39e8a4f7897d61478e03da22ea1162e, type: 2}
+    itemID: 33
+  - itemREF: {fileID: 11400000, guid: bbe97fc1377138049a16d352f4356353, type: 2}
+    itemID: 28
+  - itemREF: {fileID: 11400000, guid: 770a836ac255e0144b1b2f61ebe1ca1d, type: 2}
+    itemID: 29
+  - itemREF: {fileID: 11400000, guid: 6416efc66c3ddf54ca1c70049f33b40c, type: 2}
+    itemID: 30
+  - itemREF: {fileID: 11400000, guid: 375d3027710f51049aa8203942ec58f9, type: 2}
+    itemID: 31
+  - itemREF: {fileID: 11400000, guid: b404565ac980ec04691590adaf283b64, type: 2}
+    itemID: 32
+  gearSetTiers:
+  - equippedAmount: 3
+    gearSetTierStats:
+    - statID: 19
+      statREF: {fileID: 11400000, guid: 7f5486009b3079f49a76da8676cfac4e, type: 2}
+      amount: 10
+      isPercent: 0
+    - statID: 1
+      statREF: {fileID: 11400000, guid: a4a45b123a3d02c47ab962f484a810c9, type: 2}
+      amount: 20
+      isPercent: 1
+  - equippedAmount: 6
+    gearSetTierStats:
+    - statID: 0
+      statREF: {fileID: 11400000, guid: 3ba412ea703bc2f4697ddcf06f7f13ec, type: 2}
+      amount: 100
+      isPercent: 0
+    - statID: 36
+      statREF: {fileID: 11400000, guid: 76d5654c148c1f342b49cd2d5bb7303e, type: 2}
+      amount: 20
+      isPercent: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96b0784799e03847a37c0c0ada89838, type: 3}
+  m_Name: RPG_LOOT_TABLE_Red Flower
+  m_EditorClassIdentifier: 
+  ID: 11
+  _name: Red Flower
+  _fileName: RPG_LOOT_TABLE_Red Flower
+  lootItems:
+  - itemID: 51
+    itemREF: {fileID: 11400000, guid: 08e1f32446471c14285abf7d6cba0750, type: 2}
+    min: 1
+    max: 3
+    dropRate: 100

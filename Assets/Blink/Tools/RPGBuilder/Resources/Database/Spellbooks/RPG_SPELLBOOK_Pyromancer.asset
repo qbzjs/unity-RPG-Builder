@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c99b14b9b5d9494b96cb9a0b6d1dcb9, type: 3}
+  m_Name: RPG_SPELLBOOK_Pyromancer
+  m_EditorClassIdentifier: 
+  ID: 4
+  _name: Pyromancer
+  _fileName: RPG_SPELLBOOK_Pyromancer
+  displayName: Pyromancer
+  description: 
+  icon: {fileID: 21300000, guid: bc7a5996a6dd3cb47b1b24880e783747, type: 3}
+  nodeList:
+  - nodeType: 0
+    _name: 
+    abilityID: 21
+    abilityREF: {fileID: 11400000, guid: ec73f2182706b064ca8a491ca005b003, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 22
+    abilityREF: {fileID: 11400000, guid: 77c21ff3272ac6c4da141aa851dfd6d8, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 23
+    abilityREF: {fileID: 11400000, guid: 20e0c4e2191ffe147a9bfdc8744f72ce, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 24
+    abilityREF: {fileID: 11400000, guid: 0284fe067ffc85d4ba736644efe0e33a, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  - nodeType: 0
+    _name: 
+    abilityID: 25
+    abilityREF: {fileID: 11400000, guid: e3716022d4c28274b833ceb5c87ea86b, type: 2}
+    bonusID: -1
+    bonusREF: {fileID: 0}
+    unlockLevel: 1
+  sourceType: 0

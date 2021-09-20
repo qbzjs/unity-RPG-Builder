@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd394b53a2a297f489330dca93a54a3f, type: 3}
+  m_Name: RPG_CRAFTING_RECIPE_Refined Cloth Robe
+  m_EditorClassIdentifier: 
+  ID: 21
+  _name: Refined Cloth Robe
+  _fileName: RPG_CRAFTING_RECIPE_Refined Cloth Robe
+  displayName: Refined Cloth Robe
+  icon: {fileID: 21300000, guid: 28b2b66ad9147604aaf708537533b8e3, type: 3}
+  learnedByDefault: 1
+  craftingSkillID: 3
+  craftingSkillREF: {fileID: 0}
+  craftingStationID: 2
+  craftingStationREF: {fileID: 0}
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 0
+    Experience: 5
+    craftTime: 1
+    allCraftedItems:
+    - chance: 100
+      count: 1
+      craftedItemID: 26
+      craftedItemREF: {fileID: 11400000, guid: 4920fb61e7087284a8cd94500823215d, type: 2}
+    allComponents:
+    - count: 3
+      componentItemID: 51
+      componentItemREF: {fileID: 11400000, guid: 08e1f32446471c14285abf7d6cba0750,
+        type: 2}
+    - count: 1
+      componentItemID: 46
+      componentItemREF: {fileID: 11400000, guid: 0107233def052c24e841531165e088fc,
+        type: 2}

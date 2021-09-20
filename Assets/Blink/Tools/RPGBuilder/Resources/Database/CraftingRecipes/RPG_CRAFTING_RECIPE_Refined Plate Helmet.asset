@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd394b53a2a297f489330dca93a54a3f, type: 3}
+  m_Name: RPG_CRAFTING_RECIPE_Refined Plate Helmet
+  m_EditorClassIdentifier: 
+  ID: 32
+  _name: Refined Plate Helmet
+  _fileName: RPG_CRAFTING_RECIPE_Refined Plate Helmet
+  displayName: Refined Plate Helmet
+  icon: {fileID: 21300000, guid: d6eadc745dbd1654d93b035cdf0b9f64, type: 3}
+  learnedByDefault: 1
+  craftingSkillID: 3
+  craftingSkillREF: {fileID: 0}
+  craftingStationID: 2
+  craftingStationREF: {fileID: 0}
+  ranks:
+  - ShowedInEditor: 1
+    unlockCost: 0
+    Experience: 5
+    craftTime: 1
+    allCraftedItems:
+    - chance: 100
+      count: 1
+      craftedItemID: 38
+      craftedItemREF: {fileID: 11400000, guid: 94254266418ac094c8b8d117b18832d5, type: 2}
+    allComponents:
+    - count: 3
+      componentItemID: 53
+      componentItemREF: {fileID: 11400000, guid: 0ba2a3753f58c3c428b77b0d8f54b167,
+        type: 2}
+    - count: 1
+      componentItemID: 49
+      componentItemREF: {fileID: 11400000, guid: 0c70f918e219fb24386309372171cd39,
+        type: 2}

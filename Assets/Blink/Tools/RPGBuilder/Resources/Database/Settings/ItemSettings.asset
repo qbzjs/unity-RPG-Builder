@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d8b60d025738644887e1afc4faa6c4, type: 3}
+  m_Name: ItemSettings
+  m_EditorClassIdentifier: 
+  itemRarity:
+  - Common
+  - Uncommon
+  - Rare
+  - Epic
+  - Legendary
+  itemRarityList:
+  - Common
+  - Uncommon
+  - Rare
+  - Epic
+  - Legendary
+  itemRarityImages:
+  - {fileID: 21300000, guid: 6de56c01b3ddd084b8b182ee3832900f, type: 3}
+  - {fileID: 21300000, guid: 68b6a5f6ae49d1040b1eb8f325b8b4a6, type: 3}
+  - {fileID: 21300000, guid: 2cbd56961e2b32f4caf842b9c5c2eca9, type: 3}
+  - {fileID: 21300000, guid: babf04bccbaf3994fa10257005203e75, type: 3}
+  - {fileID: 21300000, guid: 7a73f856d6bc7da4082bec67a965e9a4, type: 3}
+  itemRarityImagesList:
+  - {fileID: 21300000, guid: 6de56c01b3ddd084b8b182ee3832900f, type: 3}
+  - {fileID: 21300000, guid: 68b6a5f6ae49d1040b1eb8f325b8b4a6, type: 3}
+  - {fileID: 21300000, guid: 2cbd56961e2b32f4caf842b9c5c2eca9, type: 3}
+  - {fileID: 21300000, guid: babf04bccbaf3994fa10257005203e75, type: 3}
+  - {fileID: 21300000, guid: 7a73f856d6bc7da4082bec67a965e9a4, type: 3}
+  itemRarityColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.37348703, g: 0.7264151, b: 0.41788045, a: 1}
+  - {r: 0.3280082, g: 0.42257142, b: 0.8584906, a: 1}
+  - {r: 0.5768835, g: 0.033018887, b: 1, a: 1}
+  - {r: 1, g: 0.58218247, b: 0, a: 1}
+  itemRarityColorsList:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.37348703, g: 0.7264151, b: 0.41788045, a: 1}
+  - {r: 0.3280082, g: 0.42257142, b: 0.8584906, a: 1}
+  - {r: 0.5768835, g: 0.033018887, b: 1, a: 1}
+  - {r: 1, g: 0.58218247, b: 0, a: 1}
+  itemType:
+  - WEAPON
+  - ARMOR
+  - CONSUMABLE
+  - RESOURCE
+  - RECIPE
+  - BUILDING
+  - MATERIAL
+  - CURRENCY
+  - ENCHANTMENT
+  - GEM
+  itemTypeList:
+  - WEAPON
+  - ARMOR
+  - CONSUMABLE
+  - RESOURCE
+  - RECIPE
+  - BUILDING
+  - MATERIAL
+  - CURRENCY
+  - ENCHANTMENT
+  - GEM
+  weaponType:
+  - AXE
+  - MACE
+  - SHIELD
+  - STAFF
+  - SCEPTER
+  - WAR AXE
+  - HATCHET
+  weaponTypeList:
+  - GREATAXE
+  - AXE
+  - BOW
+  - STAFF
+  - PICKAXE
+  armorType:
+  - CLOTH
+  - LEATHER
+  - PLATE
+  armorTypeList:
+  - CLOTH
+  - LEATHER
+  - PLATE
+  armorSlots:
+  - HELMET
+  - CHEST
+  - PANTS
+  - CAPE
+  - GLOVES
+  - BOOTS
+  armorSlotsList:
+  - HELMET
+  - CHEST
+  - PANTS
+  - CAPE
+  - GLOVES
+  - BOOTS
+  weaponSlots:
+  - WEAPON1
+  - WEAPON2
+  weaponSlotsList:
+  - WEAPON1
+  - WEAPON2
+  slotType:
+  - TWO HAND
+  - MAIN HAND
+  - OFF HAND
+  - ANY HAND
+  slotTypeList:
+  - TWO HAND
+  - MAIN HAND
+  - OFF HAND
+  - ANY HAND
+  socketType:
+  - Small Gem
+  - Big Gem
+  socketTypeList:
+  - Small Gem
+  - Big Gem
+  weaponAnimatorOverrides:
+  - weaponType1: GREATAXE
+    weaponType2: 
+    requireWeapon2: 0
+    restAnimatorOverride: {fileID: 22100000, guid: ffda50abc6a59bb45a9b6c186735b037,
+      type: 2}
+    combatAnimatorOverride: {fileID: 22100000, guid: 3ecf82703685d1946a067354fefbb78e,
+      type: 2}
+  - weaponType1: BOW
+    weaponType2: 
+    requireWeapon2: 0
+    restAnimatorOverride: {fileID: 22100000, guid: 7650154486971e74f80fae3b8fc187f3,
+      type: 2}
+    combatAnimatorOverride: {fileID: 22100000, guid: f05fe0ae972c98b4aa51dede406a3db5,
+      type: 2}
+  - weaponType1: STAFF
+    weaponType2: 
+    requireWeapon2: 0
+    restAnimatorOverride: {fileID: 22100000, guid: bf76be9b2309bb542ba1cb047d35c787,
+      type: 2}
+    combatAnimatorOverride: {fileID: 22100000, guid: 578e692c18df9e94c84d8084d93a917c,
+      type: 2}
+  InventorySlots: 50

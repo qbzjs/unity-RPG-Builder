@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5af064b541929e41a5718fb0c95c78b, type: 3}
+  m_Name: RPG_GEAR_SET_Refined Plate Armor
+  m_EditorClassIdentifier: 
+  ID: 0
+  _name: Refined Plate Armor
+  _fileName: RPG_GEAR_SET_Refined Plate Armor
+  displayName: Refined Plate Armor
+  itemsInSet:
+  - itemREF: {fileID: 11400000, guid: 772b814a14aa24443805b1bf2ff2b02e, type: 2}
+    itemID: 34
+  - itemREF: {fileID: 11400000, guid: 0d7de34b7f256a14aaa03bed839925f3, type: 2}
+    itemID: 35
+  - itemREF: {fileID: 11400000, guid: 90e4478bb1fedad44a726410c7f793e3, type: 2}
+    itemID: 36
+  - itemREF: {fileID: 11400000, guid: c700f92c133941c4f9fe47d9a6d6cfda, type: 2}
+    itemID: 37
+  - itemREF: {fileID: 11400000, guid: 94254266418ac094c8b8d117b18832d5, type: 2}
+    itemID: 38
+  - itemREF: {fileID: 11400000, guid: 527e5a4504c728c40af1cda16b1eaea7, type: 2}
+    itemID: 39
+  gearSetTiers:
+  - equippedAmount: 3
+    gearSetTierStats:
+    - statID: 39
+      statREF: {fileID: 11400000, guid: 31eddb42fa1763a4f8aaa936e839da82, type: 2}
+      amount: 20
+      isPercent: 0
+    - statID: 20
+      statREF: {fileID: 11400000, guid: 2a10d70110a086c47b237d0ab51f1b34, type: 2}
+      amount: 10
+      isPercent: 0
+    - statID: 21
+      statREF: {fileID: 11400000, guid: d4bf90f8d7737b241b68b5a842c8d4b6, type: 2}
+      amount: 10
+      isPercent: 0
+  - equippedAmount: 6
+    gearSetTierStats:
+    - statID: 0
+      statREF: {fileID: 11400000, guid: 3ba412ea703bc2f4697ddcf06f7f13ec, type: 2}
+      amount: 300
+      isPercent: 0
+    - statID: 3
+      statREF: {fileID: 11400000, guid: c8e945ad2f0582d46abb468a7b77f5d3, type: 2}
+      amount: 25
+      isPercent: 0

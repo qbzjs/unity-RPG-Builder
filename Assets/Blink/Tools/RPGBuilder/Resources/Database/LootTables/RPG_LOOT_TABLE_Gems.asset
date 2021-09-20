@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96b0784799e03847a37c0c0ada89838, type: 3}
+  m_Name: RPG_LOOT_TABLE_Gems
+  m_EditorClassIdentifier: 
+  ID: 9
+  _name: Gems
+  _fileName: RPG_LOOT_TABLE_Gems
+  lootItems:
+  - itemID: 56
+    itemREF: {fileID: 11400000, guid: 3661aa89e45fabd4eafbbae6a10b748e, type: 2}
+    min: 1
+    max: 1
+    dropRate: 10
+  - itemID: 54
+    itemREF: {fileID: 11400000, guid: ea8cda4c138a30642977198a340e5230, type: 2}
+    min: 1
+    max: 1
+    dropRate: 10
+  - itemID: 57
+    itemREF: {fileID: 11400000, guid: 13fb7e797d31e37408d8b4bc99ffc002, type: 2}
+    min: 1
+    max: 1
+    dropRate: 10
+  - itemID: 58
+    itemREF: {fileID: 11400000, guid: 9f1d01e481b7a7e4b90fc922481729af, type: 2}
+    min: 1
+    max: 1
+    dropRate: 10
+  - itemID: 55
+    itemREF: {fileID: 11400000, guid: a4d712502da17da41a8796f013fac99c, type: 2}
+    min: 1
+    max: 1
+    dropRate: 10

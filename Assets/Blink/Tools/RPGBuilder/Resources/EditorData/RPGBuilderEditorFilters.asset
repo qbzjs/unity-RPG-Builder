@@ -1,0 +1,7408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63fcb8506ae281c4989323f63695cba8, type: 3}
+  m_Name: RPGBuilderEditorFilters
+  m_EditorClassIdentifier: 
+  modules:
+  - moduleName: RPGEffect
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGEffect
+      categoryDisplayName: Effect
+      parentType: RPGEffect
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectType
+        fieldNames:
+        - Effect Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectTag
+        fieldNames:
+        - Effect Tag
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isState
+        fieldNames:
+        - Is State
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isBuffOnSelf
+        fieldNames:
+        - Is Buff
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: stackLimit
+        fieldNames:
+        - Stack Limit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: allowMultiple
+        fieldNames:
+        - Allow Multiple
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: allowMixedCaster
+        fieldNames:
+        - Mixed Casters
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: pulses
+        fieldNames:
+        - Pulses
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: duration
+        fieldNames:
+        - Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: endless
+        fieldNames:
+        - Endless
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: ranks
+        fieldNames:
+        - ranks
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGEffect+RPGEffectRankData
+      categoryDisplayName: Ranks
+      parentType: RPGEffect
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: ShowedInEditor
+        fieldNames:
+        - ShowedInEditor
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: mainDamageType
+        fieldNames:
+        - Main Damage Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: secondaryDamageType
+        fieldNames:
+        - Secondary Damage Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: Damage
+        fieldNames:
+        - Damage/Healing
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: alteredStatREF
+        fieldNames:
+        - alteredStatREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: alteredStatID
+        fieldNames:
+        - Altered Stat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: FlatCalculation
+        fieldNames:
+        - Flat Calculation
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: CannotCrit
+        fieldNames:
+        - CannotCrit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: removeStealth
+        fieldNames:
+        - Remove Stealth
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: skillModifier
+        fieldNames:
+        - Skill Modifier Amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: weaponDamageModifier
+        fieldNames:
+        - Weapon Damage Modifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: useWeapon1Damage
+        fieldNames:
+        - Use Weapon 1 Damage
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: useWeapon2Damage
+        fieldNames:
+        - Use Weapon 2 Damage
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: skillModifierID
+        fieldNames:
+        - Skill Modifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: skillModifierREF
+        fieldNames:
+        - skillModifierREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lifesteal
+        fieldNames:
+        - Lifesteal
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maxHealthModifier
+        fieldNames:
+        - Max Health Modifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: missingHealthModifier
+        fieldNames:
+        - Missing Health Modifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: UltimateGain
+        fieldNames:
+        - 
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: delay
+        fieldNames:
+        - Delay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectilesReflectedCount
+        fieldNames:
+        - projectilesReflectedCount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: requiredEffectREF
+        fieldNames:
+        - requiredEffectREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: requiredEffectID
+        fieldNames:
+        - Required Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: requiredEffectDamageModifier
+        fieldNames:
+        - Required Effect Damage Modifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: damageStatREF
+        fieldNames:
+        - damageStatREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: damageStatID
+        fieldNames:
+        - Damage Stat ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: damageStatModifier
+        fieldNames:
+        - Damage Stat Modifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitValueType
+        fieldNames:
+        - Hit Value Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: teleportType
+        fieldNames:
+        - Teleport Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: gameSceneID
+        fieldNames:
+        - Game Scene
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: gameSceneREF
+        fieldNames:
+        - gameSceneREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: teleportPOS
+        fieldNames:
+        - Teleport Position
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: teleportDirectionalType
+        fieldNames:
+        - Teleport Dirational Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: teleportDirectionalDistance
+        fieldNames:
+        - Teleport Distance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: teleportDirectionalBlockLayers
+        fieldNames:
+        - Teleport Block Layers
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: lootTableID
+        fieldNames:
+        - Loot Table
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: petType
+        fieldNames:
+        - Pet Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: petNPCDataID
+        fieldNames:
+        - Pet NPC
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: petDuration
+        fieldNames:
+        - Pet Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: petSPawnCount
+        fieldNames:
+        - Pet Count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: petScaleWithCharacter
+        fieldNames:
+        - Pet Scaling
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: knockbackDistance
+        fieldNames:
+        - Knockback Distance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: knockbackSpeed
+        fieldNames:
+        - Knockback Speed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: motionDistance
+        fieldNames:
+        - Motion Distance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: motionSpeed
+        fieldNames:
+        - Motion Speed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: motionDirection
+        fieldNames:
+        - Motion Direction
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: motionIgnoreUseCondition
+        fieldNames:
+        - Motion Ignore Use Condition
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isImmuneDuringMotion
+        fieldNames:
+        - Is Immune During Motion
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockAnyDamage
+        fieldNames:
+        - Block Any Damage
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockPhysicalDamage
+        fieldNames:
+        - Block Physical
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockMagicalDamage
+        fieldNames:
+        - Block Magical
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isBlockChargeTime
+        fieldNames:
+        - Is Block Charge Time
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isBlockLimitedDuration
+        fieldNames:
+        - Is Block Limited Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isBlockPowerDecay
+        fieldNames:
+        - Is Block Power Decay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isBlockKnockback
+        fieldNames:
+        - Is Block Knockback
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockStatDecay
+        fieldNames:
+        - Block Stat Decay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockChargeTime
+        fieldNames:
+        - Block Charge time
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockDuration
+        fieldNames:
+        - Block Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockPowerModifier
+        fieldNames:
+        - Block Power Modifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockPowerDecay
+        fieldNames:
+        - Block Power Decay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockAngle
+        fieldNames:
+        - Block Angle
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockStatDecayInterval
+        fieldNames:
+        - Block Decay Interval
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockPowerFlat
+        fieldNames:
+        - Block Power Flat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockHitCount
+        fieldNames:
+        - Block Hit Count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockMaxDamage
+        fieldNames:
+        - Block Max Damage
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockStatDecayAmount
+        fieldNames:
+        - Block Decay Amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockDurationType
+        fieldNames:
+        - Block Duration type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockEndType
+        fieldNames:
+        - Block End Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockStatID
+        fieldNames:
+        - Block Stat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: blockedDamageTypes
+        fieldNames:
+        - Block Damage Types
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dispelType
+        fieldNames:
+        - Dispel Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dispelEffectType
+        fieldNames:
+        - Dispell Effect Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dispelEffectTag
+        fieldNames:
+        - Dispel Effect Tag
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dispelEffectID
+        fieldNames:
+        - Dispell Effect ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingModel
+        fieldNames:
+        - Shapeshifting Model
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingmodelPosition
+        fieldNames:
+        - Shapehifting Model Position
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingmodelScale
+        fieldNames:
+        - Shapehifting Model Scale
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingAnimatorController
+        fieldNames:
+        - Shapehifting Animator
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingAnimatorAvatar
+        fieldNames:
+        - Shapehifting Avatar
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingAnimatorUseRootMotion
+        fieldNames:
+        - Shapehifting Root Motion
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingAnimatorUpdateMode
+        fieldNames:
+        - Shapehifting Update Mode
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingAnimatorCullingMode
+        fieldNames:
+        - Shapehifting Culling Mode
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingOverrideMainActionBar
+        fieldNames:
+        - Shapehifting Override Action Bar
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: shapeshiftingActiveAbilities
+        fieldNames:
+        - Shapehifting Abilities
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: showStealthActionBar
+        fieldNames:
+        - Show Stealth Action Bar
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: nestedEffects
+        fieldNames:
+        - nestedEffects
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: visualEffects
+        fieldNames:
+        - visualEffects
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: visualAnimations
+        fieldNames:
+        - visualAnimations
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statEffectsData
+        fieldNames:
+        - statEffectsData
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: GameActionsList
+        fieldNames:
+        - Game Actions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: onBlockActions
+        fieldNames:
+        - onBlockActions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGEffect+STAT_EFFECTS_DATA
+      categoryDisplayName: Stats
+      parentType: RPGEffect
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - Stat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statEffectModification
+        fieldNames:
+        - Stat Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isPercent
+        fieldNames:
+        - Is Percent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGEffect+ON_BLOCK_ACTION
+      categoryDisplayName: On Block Actions
+      parentType: RPGEffect
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: blockActionType
+        fieldNames:
+        - Action Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: entryID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: target
+        fieldNames:
+        - Target
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectRank
+        fieldNames:
+        - Effect Rank
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: abMustBeKnown
+        fieldNames:
+        - Ab Must Be Known
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: chance
+        fieldNames:
+        - Chance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: delay
+        fieldNames:
+        - Delay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+  - moduleName: RPGAbility
+    moduleDisplayName: Ability
+    categories:
+    - categoryName: RPGAbility
+      categoryDisplayName: Ability
+      parentType: RPGAbility
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: learnedByDefault
+        fieldNames:
+        - Known
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: abilityType
+        fieldNames:
+        - Ability Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: ranks
+        fieldNames:
+        - ranks
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGAbility+RPGAbilityRankData
+      categoryDisplayName: Ranks
+      parentType: RPGAbility
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: ShowedInEditor
+        fieldNames:
+        - ShowedInEditor
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: unlockCost
+        fieldNames:
+        - Unlock Cost
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: activationType
+        fieldNames:
+        - Activation Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: castTime
+        fieldNames:
+        - Cast Time
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: castInRun
+        fieldNames:
+        - Move and cast?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: castBarVisible
+        fieldNames:
+        - Cast bar visible?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: canBeUsedStunned
+        fieldNames:
+        - Stunned and use?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: animationTriggered
+        fieldNames:
+        - Animation Triggered?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: comboStarsAfterCastComplete
+        fieldNames:
+        - Combo Start After Cast Complete
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: cancelStealth
+        fieldNames:
+        - Cancel Stealth?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectsRequirements
+        fieldNames:
+        - effectsRequirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: useRequirements
+        fieldNames:
+        - useRequirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: targetType
+        fieldNames:
+        - Ability Mechanic
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: HitSettings
+        fieldNames:
+        - HitSettings
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isToggle
+        fieldNames:
+        - Toggle?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isToggleCostOnTrigger
+        fieldNames:
+        - Toggle Cost On Trigger?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: toggledTriggerInterval
+        fieldNames:
+        - Toggle Trigger Interval
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: MaxUnitHit
+        fieldNames:
+        - Max Hits
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: minRange
+        fieldNames:
+        - Min Range
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maxRange
+        fieldNames:
+        - Max Range
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: standTimeDuration
+        fieldNames:
+        - Stand Time
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: canRotateInStandTime
+        fieldNames:
+        - Mob rotate in stand time?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: castSpeedSlowAmount
+        fieldNames:
+        - Slow Amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: castSpeedSlowTime
+        fieldNames:
+        - Slow Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: castSpeedSlowRate
+        fieldNames:
+        - Slow Rate
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: coneDegree
+        fieldNames:
+        - Cone Angle
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: ConeHitCount
+        fieldNames:
+        - Cone Hits
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: ConeHitInterval
+        fieldNames:
+        - Cone Hit Interval
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: AOERadius
+        fieldNames:
+        - AoE Radius
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: AOEHitCount
+        fieldNames:
+        - AoE Hits
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: AOEHitInterval
+        fieldNames:
+        - AoE Hit Interval
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: linearWidth
+        fieldNames:
+        - Linear Width
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: linearHeight
+        fieldNames:
+        - Linear Height
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: linearLength
+        fieldNames:
+        - Linear Length
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileSpeed
+        fieldNames:
+        - Proj Speed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileDistance
+        fieldNames:
+        - Proj Distance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileAngleSpread
+        fieldNames:
+        - Proj Angle Spread
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileCount
+        fieldNames:
+        - Proj Count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileDelay
+        fieldNames:
+        - Proj Delay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileDuration
+        fieldNames:
+        - Proj Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileComeBackTime
+        fieldNames:
+        - Proj Come Back Time
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileComeBackSpeed
+        fieldNames:
+        - Proj Come Back Speed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isProjectileComeBack
+        fieldNames:
+        - Proj Come Back
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileNearbyUnitDistanceMax
+        fieldNames:
+        - Proj Chain Distance Max
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileNearbyUnitMaxHit
+        fieldNames:
+        - Proj Chain Hit Max
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isProjectileNearbyUnit
+        fieldNames:
+        - Proj Chain Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileDestroyedByEnvironment
+        fieldNames:
+        - Proj Destroyed by environment
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileAffectedByGravity
+        fieldNames:
+        - Proj Gravity
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: mustLookAtTarget
+        fieldNames:
+        - Must face target
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: squareWidth
+        fieldNames:
+        - squareWidth
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: squareLength
+        fieldNames:
+        - squareLength
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: squareHeight
+        fieldNames:
+        - squareHeight
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: groundRadius
+        fieldNames:
+        - Ground Radius
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: groundRange
+        fieldNames:
+        - Ground Range
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: groundHitTime
+        fieldNames:
+        - Ground Delay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: groundHitCount
+        fieldNames:
+        - Ground Count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: groundHitInterval
+        fieldNames:
+        - Ground Hits Intervsl
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileEffect
+        fieldNames:
+        - Proj Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileSocketName
+        fieldNames:
+        - Proj Socket Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileTargetSocketName
+        fieldNames:
+        - Proj Target Socket Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileUseNodeSocket
+        fieldNames:
+        - Proj Use Socket
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileTargetUseNodeSocket
+        fieldNames:
+        - Proj Target Use Socket
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileParentedToCaster
+        fieldNames:
+        - Proj Parented To Caster
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileSound
+        fieldNames:
+        - Proj Sound
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileSoundParentedToEffect
+        fieldNames:
+        - Proj Sound Parented To Caster
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: useCustomCollision
+        fieldNames:
+        - Proj Use Blink Collision
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: projectileColliderType
+        fieldNames:
+        - Proj Collider Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: colliderCenter
+        fieldNames:
+        - Proj Collider Center
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: colliderSize
+        fieldNames:
+        - Proj Collider Size
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: colliderRadius
+        fieldNames:
+        - Proj Collider Radius
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: colliderHeight
+        fieldNames:
+        - Proj Collider Height
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: groundVisualEffect
+        fieldNames:
+        - Ground Visual Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectPositionOffset
+        fieldNames:
+        - Ground Effect Offset
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: groundVisualEffectDuration
+        fieldNames:
+        - Ground Visual Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitEffectUseSocket
+        fieldNames:
+        - hitEffectUseSocket
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: hitEffect
+        fieldNames:
+        - hitEffect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: hitEffectDuration
+        fieldNames:
+        - hitEffectDuration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: hitEffectSocketName
+        fieldNames:
+        - hitEffectSocketName
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: hitEffectPositionOffset
+        fieldNames:
+        - hitEffectPositionOffset
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: hitAttachedToNode
+        fieldNames:
+        - hitAttachedToNode
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: channelTime
+        fieldNames:
+        - Channel Time
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: groundLeapDuration
+        fieldNames:
+        - Ground Leap Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: groundLeapHeight
+        fieldNames:
+        - Ground Leap Height
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: groundLeapSpeed
+        fieldNames:
+        - Ground Leap Speed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: cooldown
+        fieldNames:
+        - Cooldown
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isGCD
+        fieldNames:
+        - Is GCD?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: startCDOnActivate
+        fieldNames:
+        - CD Start on activate
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: CanUseDuringGCD
+        fieldNames:
+        - Can Use During GCD
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isSharingCooldown
+        fieldNames:
+        - Is Sharing Cooldown
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: cooldownTag
+        fieldNames:
+        - cooldownTag
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectsApplied
+        fieldNames:
+        - effectsApplied
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: casterEffectsApplied
+        fieldNames:
+        - casterEffectsApplied
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: visualEffects
+        fieldNames:
+        - visualEffects
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: visualAnimations
+        fieldNames:
+        - visualAnimations
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: tagsData
+        fieldNames:
+        - tagsData
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: conditionalEffects
+        fieldNames:
+        - conditionalEffects
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: extraAbilityExecuted
+        fieldNames:
+        - Leap Ability
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: extraAbilityExecutedActivationType
+        fieldNames:
+        - Leap Ability Activation Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGAbility+USE_REQUIREMENT_EFFECTS
+      categoryDisplayName: Effects Required
+      parentType: RPGAbility
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: effectRequiredREF
+        fieldNames:
+        - effectRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectRequiredID
+        fieldNames:
+        - Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: consumeEffect
+        fieldNames:
+        - Consume Effect?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: target
+        fieldNames:
+        - Unit Checked
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGAbility+HIT_SETTINGS
+      categoryDisplayName: Hit Settings
+      parentType: RPGAbility
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: alignment
+        fieldNames:
+        - Alignment
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitPlayer
+        fieldNames:
+        - Can Hit Player?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitAlly
+        fieldNames:
+        - Can Hit Ally?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitNeutral
+        fieldNames:
+        - Can Hit Neutral?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitEnemy
+        fieldNames:
+        - Can Hit Enemy?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitSelf
+        fieldNames:
+        - Can Hit Self?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitPet
+        fieldNames:
+        - Can Hit Pet?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: hitOwner
+        fieldNames:
+        - Can Hit Owner?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGAbility+AbilityEffectsApplied
+      categoryDisplayName: Effects Applied
+      parentType: RPGAbility
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: effectID
+        fieldNames:
+        - Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: chance
+        fieldNames:
+        - Chance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectREF
+        fieldNames:
+        - effectREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectRank
+        fieldNames:
+        - Effect Rank
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: target
+        fieldNames:
+        - Unit Hit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isSpread
+        fieldNames:
+        - Spread to nearby units?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: spreadDistanceMax
+        fieldNames:
+        - Max Spread Distance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: spreadUnitMax
+        fieldNames:
+        - Max Unit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: delay
+        fieldNames:
+        - Delay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGAbility+AbilityEffectsApplied
+      categoryDisplayName: Effects Applied
+      parentType: RPGAbility
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: effectID
+        fieldNames:
+        - Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: chance
+        fieldNames:
+        - Chance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectREF
+        fieldNames:
+        - effectREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectRank
+        fieldNames:
+        - Effect Rank
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: target
+        fieldNames:
+        - Unit Hit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isSpread
+        fieldNames:
+        - Spread to nearby units?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: spreadDistanceMax
+        fieldNames:
+        - Max Spread Distance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: spreadUnitMax
+        fieldNames:
+        - Max Unit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: delay
+        fieldNames:
+        - Delay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGAbility+AbilityTagsData
+      categoryDisplayName: Tags
+      parentType: RPGAbility
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: tag
+        fieldNames:
+        - Tag
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectID
+        fieldNames:
+        - Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGAbility+ConditionalEffectsData
+      categoryDisplayName: Conditional Effects
+      parentType: RPGAbility
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: targetType
+        fieldNames:
+        - Applied On
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: valueType
+        fieldNames:
+        - Value Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: value
+        fieldNames:
+        - Stat Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isPercent
+        fieldNames:
+        - Is Percent?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statID
+        fieldNames:
+        - Stat Required
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectREF
+        fieldNames:
+        - effectREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectID
+        fieldNames:
+        - Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectRank
+        fieldNames:
+        - Effect Rank
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: requiredTargetType
+        fieldNames:
+        - Required On
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: effectRequiredREF
+        fieldNames:
+        - effectRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectRequiredID
+        fieldNames:
+        - Effect Required
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isSpread
+        fieldNames:
+        - Spread to nearby Units?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: spreadDistanceMax
+        fieldNames:
+        - Max Spread Distance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: spreadUnitMax
+        fieldNames:
+        - Max Unit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: consumeRequiredEffect
+        fieldNames:
+        - Consume Effect?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: delay
+        fieldNames:
+        - Delay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+  - moduleName: RPGNpc
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGNpc
+      categoryDisplayName: NPC
+      parentType: RPGNpc
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: npcType
+        fieldNames:
+        - Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isDummyTarget
+        fieldNames:
+        - Is Dummy
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: factionREF
+        fieldNames:
+        - factionREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionID
+        fieldNames:
+        - Faction
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: speciesID
+        fieldNames:
+        - Species
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: merchantTableID
+        fieldNames:
+        - Merchant Table
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: merchantTableREF
+        fieldNames:
+        - merchantTableREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: dialogueID
+        fieldNames:
+        - Dialogue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dialogueREF
+        fieldNames:
+        - dialogueREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: questGiven
+        fieldNames:
+        - questGiven
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: questCompleted
+        fieldNames:
+        - questCompleted
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: AggroRange
+        fieldNames:
+        - AggroRange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: distanceFromTarget
+        fieldNames:
+        - distanceFromTarget
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: distanceFromOwner
+        fieldNames:
+        - distanceFromOwner
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: DistanceToTargetReset
+        fieldNames:
+        - DistanceToTargetReset
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: RoamRange
+        fieldNames:
+        - RoamRange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: RoamDelay
+        fieldNames:
+        - RoamDelay
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: MinRespawn
+        fieldNames:
+        - MinRespawn
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: MaxRespawn
+        fieldNames:
+        - MaxRespawn
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: corpseDespawnTime
+        fieldNames:
+        - corpseDespawnTime
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: MinEXP
+        fieldNames:
+        - MinEXP
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: MaxEXP
+        fieldNames:
+        - MaxEXP
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: EXPBonusPerLevel
+        fieldNames:
+        - EXPBonusPerLevel
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionRewards
+        fieldNames:
+        - factionRewards
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: MinLevel
+        fieldNames:
+        - Min Level
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: MaxLevel
+        fieldNames:
+        - Max Level
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isScalingWithPlayer
+        fieldNames:
+        - isScalingWithPlayer
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilities
+        fieldNames:
+        - abilities
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: stats
+        fieldNames:
+        - stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lootTables
+        fieldNames:
+        - lootTables
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isCombatEnabled
+        fieldNames:
+        - isCombatEnabled
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isMovementEnabled
+        fieldNames:
+        - isMovementEnabled
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isCollisionEnabled
+        fieldNames:
+        - isCollisionEnabled
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isTargetable
+        fieldNames:
+        - isTargetable
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isNameplateEnabled
+        fieldNames:
+        - isNameplateEnabled
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: NPCVisual
+        fieldNames:
+        - NPCVisual
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: modelPosition
+        fieldNames:
+        - modelPosition
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: modelScale
+        fieldNames:
+        - modelScale
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: nameplateYOffset
+        fieldNames:
+        - nameplateYOffset
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: animatorController
+        fieldNames:
+        - animatorController
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: animatorAvatar
+        fieldNames:
+        - animatorAvatar
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: animatorUseRootMotion
+        fieldNames:
+        - animatorUseRootMotion
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: animatorUpdateMode
+        fieldNames:
+        - animatorUpdateMode
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: AnimatorCullingMode
+        fieldNames:
+        - AnimatorCullingMode
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: navmeshAgentRadius
+        fieldNames:
+        - navmeshAgentRadius
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: navmeshAgentHeight
+        fieldNames:
+        - navmeshAgentHeight
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: navmeshAgentAngularSpeed
+        fieldNames:
+        - navmeshAgentAngularSpeed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: colliderType
+        fieldNames:
+        - colliderType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: colliderCenter
+        fieldNames:
+        - colliderCenter
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: colliderSize
+        fieldNames:
+        - colliderSize
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: colliderRadius
+        fieldNames:
+        - colliderRadius
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: colliderHeight
+        fieldNames:
+        - colliderHeight
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: aggroLinks
+        fieldNames:
+        - aggroLinks
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGNpc+NPC_QUEST_DATA
+      categoryDisplayName: Quest Given
+      parentType: RPGNpc
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: questID
+        fieldNames:
+        - questID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: questREF
+        fieldNames:
+        - questREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGNpc+NPC_QUEST_DATA
+      categoryDisplayName: Quest Completed
+      parentType: RPGNpc
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: questID
+        fieldNames:
+        - questID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: questREF
+        fieldNames:
+        - questREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGNpc+NPC_ABILITY_DATA
+      categoryDisplayName: Abilities
+      parentType: RPGNpc
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: abilityID
+        fieldNames:
+        - abilityID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityREF
+        fieldNames:
+        - abilityREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: condition
+        fieldNames:
+        - condition
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGNpc+NPC_STATS_DATA
+      categoryDisplayName: Stats
+      parentType: RPGNpc
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: minValue
+        fieldNames:
+        - minValue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: maxValue
+        fieldNames:
+        - maxValue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: baseValue
+        fieldNames:
+        - baseValue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusPerLevel
+        fieldNames:
+        - bonusPerLevel
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: vitalityActions
+        fieldNames:
+        - vitalityActions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGNpc+LOOT_TABLES
+      categoryDisplayName: Loot Tables
+      parentType: RPGNpc
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: lootTableID
+        fieldNames:
+        - lootTableID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lootTableREF
+        fieldNames:
+        - lootTableREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: dropRate
+        fieldNames:
+        - dropRate
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGNpc+NPC_AGGRO_LINK
+      categoryDisplayName: Aggro Links
+      parentType: RPGNpc
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: npcID
+        fieldNames:
+        - npcID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: maxDistance
+        fieldNames:
+        - maxDistance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGStat
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGStat
+      categoryDisplayName: Stat
+      parentType: RPGStat
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: minCheck
+        fieldNames:
+        - Min Check
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: minValue
+        fieldNames:
+        - Min Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maxCheck
+        fieldNames:
+        - Max Check
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maxValue
+        fieldNames:
+        - Max Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: baseValue
+        fieldNames:
+        - Base Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isShiftingInSprint
+        fieldNames:
+        - isShiftingInSprint
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isShiftingInBlock
+        fieldNames:
+        - isShiftingInBlock
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isShiftingOutsideCombat
+        fieldNames:
+        - isShiftingOutsideCombat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isShiftingInCombat
+        fieldNames:
+        - isShiftingInCombat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: shiftAmountOutsideCombat
+        fieldNames:
+        - shiftAmountOutsideCombat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: shiftIntervalOutsideCombat
+        fieldNames:
+        - shiftIntervalOutsideCombat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: shiftAmountInCombat
+        fieldNames:
+        - shiftAmountInCombat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: shiftIntervalInCombat
+        fieldNames:
+        - shiftIntervalInCombat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: StartsAtMax
+        fieldNames:
+        - Starts At Max
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isPercentStat
+        fieldNames:
+        - Is Percent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: vitalityActions
+        fieldNames:
+        - vitalityActions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: onHitEffectsData
+        fieldNames:
+        - onHitEffectsData
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isVitalityStat
+        fieldNames:
+        - Is Vitality
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: statBonuses
+        fieldNames:
+        - statBonuses
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: StatUICategory
+        fieldNames:
+        - UI Category
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGStat+VitalityActions
+      categoryDisplayName: Vitality Actions
+      parentType: RPGStat
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: type
+        fieldNames:
+        - type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: value
+        fieldNames:
+        - value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: valueType
+        fieldNames:
+        - valueType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isPercent
+        fieldNames:
+        - isPercent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityREF
+        fieldNames:
+        - abilityREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectREF
+        fieldNames:
+        - effectREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectRank
+        fieldNames:
+        - effectRank
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemREF
+        fieldNames:
+        - itemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: elementID
+        fieldNames:
+        - elementID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemCount
+        fieldNames:
+        - itemCount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGStat+OnHitEffectsData
+      categoryDisplayName: On Hit Effects
+      parentType: RPGStat
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: effectREF
+        fieldNames:
+        - effectREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectID
+        fieldNames:
+        - effectID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectRank
+        fieldNames:
+        - effectRank
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: targetType
+        fieldNames:
+        - targetType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: tagType
+        fieldNames:
+        - tagType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: chance
+        fieldNames:
+        - chance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGStat+StatBonusData
+      categoryDisplayName: Stat Bonuses
+      parentType: RPGStat
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: statType
+        fieldNames:
+        - statType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: modifyValue
+        fieldNames:
+        - modifyValue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: StatFunction
+        fieldNames:
+        - StatFunction
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: OppositeStat
+        fieldNames:
+        - OppositeStat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGTreePoint
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGTreePoint
+      categoryDisplayName: Points
+      parentType: RPGTreePoint
+      showInEditor: 0
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: startAmount
+        fieldNames:
+        - Start Amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maxPoints
+        fieldNames:
+        - Max Points
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: gainPointRequirements
+        fieldNames:
+        - gainPointRequirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGTreePoint+GainRequirements
+      categoryDisplayName: Gain Requirements
+      parentType: RPGTreePoint
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: gainType
+        fieldNames:
+        - Gain Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: amountGained
+        fieldNames:
+        - Amount Gained
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: classRequiredID
+        fieldNames:
+        - classRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: classRequiredREF
+        fieldNames:
+        - classRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillRequiredID
+        fieldNames:
+        - skillRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillRequiredREF
+        fieldNames:
+        - skillRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemRequiredID
+        fieldNames:
+        - itemRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemRequiredREF
+        fieldNames:
+        - itemRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemRequiredCount
+        fieldNames:
+        - itemRequiredCount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: npcRequiredID
+        fieldNames:
+        - npcRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: npcRequiredREF
+        fieldNames:
+        - npcRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateRequiredID
+        fieldNames:
+        - weaponTemplateRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateREF
+        fieldNames:
+        - weaponTemplateREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGSpellbook
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGSpellbook
+      categoryDisplayName: Spellbook
+      parentType: RPGSpellbook
+      showInEditor: 0
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: nodeList
+        fieldNames:
+        - nodeList
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: sourceType
+        fieldNames:
+        - Source Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGSpellbook+Node_DATA
+      categoryDisplayName: 
+      parentType: RPGSpellbook
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: nodeType
+        fieldNames:
+        - nodeType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: _name
+        fieldNames:
+        - _name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityID
+        fieldNames:
+        - abilityID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityREF
+        fieldNames:
+        - abilityREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusID
+        fieldNames:
+        - bonusID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusREF
+        fieldNames:
+        - bonusREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: unlockLevel
+        fieldNames:
+        - unlockLevel
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGFaction
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGFaction
+      categoryDisplayName: Faction
+      parentType: RPGFaction
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: factionStances
+        fieldNames:
+        - factionStances
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionInteractions
+        fieldNames:
+        - factionInteractions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGFaction+Faction_Stance_DATA
+      categoryDisplayName: 
+      parentType: RPGFaction
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: stance
+        fieldNames:
+        - stance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: pointsRequired
+        fieldNames:
+        - pointsRequired
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: playerAlignment
+        fieldNames:
+        - playerAlignment
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGFaction+Faction_Interaction_DATA
+      categoryDisplayName: 
+      parentType: RPGFaction
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: factionREF
+        fieldNames:
+        - factionREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionID
+        fieldNames:
+        - factionID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: defaultStance
+        fieldNames:
+        - defaultStance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startingPoints
+        fieldNames:
+        - startingPoints
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGWeaponTemplate
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGWeaponTemplate
+      categoryDisplayName: Weapon Template
+      parentType: RPGWeaponTemplate
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: levelTemplateID
+        fieldNames:
+        - Level Template
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: levelTemplateREF
+        fieldNames:
+        - levelTemplateREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponList
+        fieldNames:
+        - weaponList
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: stats
+        fieldNames:
+        - stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: talentTrees
+        fieldNames:
+        - talentTrees
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: spellbooks
+        fieldNames:
+        - spellbooks
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startItems
+        fieldNames:
+        - startItems
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: allocatedStatsEntriesGame
+        fieldNames:
+        - allocatedStatsEntriesGame
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGWeaponTemplate+WeaponDATA
+      categoryDisplayName: 
+      parentType: RPGWeaponTemplate
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: weaponType
+        fieldNames:
+        - weaponType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponEXPModifier
+        fieldNames:
+        - weaponEXPModifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGWeaponTemplate+CLASS_STATS_DATA
+      categoryDisplayName: 
+      parentType: RPGWeaponTemplate
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: _name
+        fieldNames:
+        - _name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: amount
+        fieldNames:
+        - amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isPercent
+        fieldNames:
+        - isPercent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusPerLevel
+        fieldNames:
+        - bonusPerLevel
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGWeaponTemplate+TalentTreesDATA
+      categoryDisplayName: 
+      parentType: RPGWeaponTemplate
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: talentTreeID
+        fieldNames:
+        - talentTreeID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: talentTreeREF
+        fieldNames:
+        - talentTreeREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGWeaponTemplate+SpellbookDATA
+      categoryDisplayName: 
+      parentType: RPGWeaponTemplate
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: spellbookID
+        fieldNames:
+        - spellbookID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: spellbookREF
+        fieldNames:
+        - spellbookREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGSpecies
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGSpecies
+      categoryDisplayName: Species
+      parentType: RPGSpecies
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: stats
+        fieldNames:
+        - stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: traits
+        fieldNames:
+        - traits
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGSpecies+SPECIES_STAT_DATA
+      categoryDisplayName: 
+      parentType: RPGSpecies
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: value
+        fieldNames:
+        - value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: vitalityActions
+        fieldNames:
+        - vitalityActions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGSpecies+SPECIES_TRAIT
+      categoryDisplayName: 
+      parentType: RPGSpecies
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statFunction
+        fieldNames:
+        - statFunction
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: modifier
+        fieldNames:
+        - modifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGCombo
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGCombo
+      categoryDisplayName: Combo
+      parentType: RPGCombo
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: initialAbilityID
+        fieldNames:
+        - Initial Ability
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: StartCancelOtherCombos
+        fieldNames:
+        - Start Cancel Other Combos
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: combos
+        fieldNames:
+        - combos
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGCombo+ComboEntry
+      categoryDisplayName: 
+      parentType: RPGCombo
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: abilityID
+        fieldNames:
+        - abilityID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abMustBeKnown
+        fieldNames:
+        - abMustBeKnown
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: mustHit
+        fieldNames:
+        - mustHit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: expireTime
+        fieldNames:
+        - expireTime
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: readyTime
+        fieldNames:
+        - readyTime
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: keyType
+        fieldNames:
+        - keyType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: overrideKey
+        fieldNames:
+        - overrideKey
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: actionKeyName
+        fieldNames:
+        - actionKeyName
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: requirements
+        fieldNames:
+        - requirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGItem
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGItem
+      categoryDisplayName: Item
+      parentType: RPGItem
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: equipmentSlot
+        fieldNames:
+        - Equipment Slot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: itemType
+        fieldNames:
+        - Item type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: weaponType
+        fieldNames:
+        - Weapon Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: armorType
+        fieldNames:
+        - Armor Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: slotType
+        fieldNames:
+        - Slot type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: rarity
+        fieldNames:
+        - Rarity
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: itemModelName
+        fieldNames:
+        - Model Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: weaponModel
+        fieldNames:
+        - Weapon Model
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: modelMaterial
+        fieldNames:
+        - Model Material
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: armorMesh
+        fieldNames:
+        - Armor Mesh
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: armorPieceType
+        fieldNames:
+        - Armor Piece Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: weaponPositionDatas
+        fieldNames:
+        - weaponPositionDatas
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: showWeaponPositionData
+        fieldNames:
+        - showWeaponPositionData
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: AttackSpeed
+        fieldNames:
+        - Attack Speed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: minDamage
+        fieldNames:
+        - Min Damage
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maxDamage
+        fieldNames:
+        - Max Damage
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: autoAttackAbilityID
+        fieldNames:
+        - Auto Attack
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: autoAttackAbilityREF
+        fieldNames:
+        - autoAttackAbilityREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: stats
+        fieldNames:
+        - stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: randomStats
+        fieldNames:
+        - randomStats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: randomStatsMax
+        fieldNames:
+        - Max Random Stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: sellPrice
+        fieldNames:
+        - Sell Price
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: sellCurrencyID
+        fieldNames:
+        - Sell Currency
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: sellCurrencyREF
+        fieldNames:
+        - sellCurrencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: buyPrice
+        fieldNames:
+        - buyPrice
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: buyCurrencyID
+        fieldNames:
+        - buyCurrencyID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: buyCurrencyREF
+        fieldNames:
+        - buyCurrencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: stackLimit
+        fieldNames:
+        - Stack Limit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dropInWorld
+        fieldNames:
+        - Drop In World?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: itemWorldModel
+        fieldNames:
+        - In World Model
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: durationInWorld
+        fieldNames:
+        - In World Duration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: worldInteractableLayer
+        fieldNames:
+        - worldInteractableLayer
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: enchantmentREF
+        fieldNames:
+        - enchantmentREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: enchantmentID
+        fieldNames:
+        - Enchantment
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isEnchantmentConsumed
+        fieldNames:
+        - Enchanting Consume Item
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: sockets
+        fieldNames:
+        - sockets
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: gemData
+        fieldNames:
+        - gemData
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: useRequirements
+        fieldNames:
+        - useRequirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: onUseActions
+        fieldNames:
+        - onUseActions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: actionAbilities
+        fieldNames:
+        - actionAbilities
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGItem+WeaponPositionData
+      categoryDisplayName: 
+      parentType: RPGItem
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: raceID
+        fieldNames:
+        - raceID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: raceREF
+        fieldNames:
+        - raceREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: genderPositionDatas
+        fieldNames:
+        - genderPositionDatas
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGItem+WeaponPositionData+GenderPositionData
+      categoryDisplayName: 
+      parentType: RPGItem
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: gender
+        fieldNames:
+        - gender
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: combatGORef
+        fieldNames:
+        - combatGORef
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: restGORef
+        fieldNames:
+        - restGORef
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: CombatPositionInSlot
+        fieldNames:
+        - CombatPositionInSlot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: CombatRotationInSlot
+        fieldNames:
+        - CombatRotationInSlot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: CombatScaleInSlot
+        fieldNames:
+        - CombatScaleInSlot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: RestPositionInSlot
+        fieldNames:
+        - RestPositionInSlot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: RestRotationInSlot
+        fieldNames:
+        - RestRotationInSlot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: RestScaleInSlot
+        fieldNames:
+        - RestScaleInSlot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGItem+ITEM_STATS
+      categoryDisplayName: Stats
+      parentType: RPGItem
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - Stat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: amount
+        fieldNames:
+        - Amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isPercent
+        fieldNames:
+        - Is Percent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGItemDATA+RandomizedStatData
+      categoryDisplayName: Random Stats
+      parentType: RPGItem
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - Stat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: minValue
+        fieldNames:
+        - Min Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: maxValue
+        fieldNames:
+        - Max Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isPercent
+        fieldNames:
+        - Is Percent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isInt
+        fieldNames:
+        - Is Int?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: chance
+        fieldNames:
+        - Chance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGItem+SOCKETS_DATA
+      categoryDisplayName: Sockets
+      parentType: RPGItem
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: socketType
+        fieldNames:
+        - Socket Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGItem+OnUseActionDATA
+      categoryDisplayName: On Use Actions
+      parentType: RPGItem
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: actionType
+        fieldNames:
+        - Action Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: treePointGained
+        fieldNames:
+        - Tree Point Amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: treePointID
+        fieldNames:
+        - Tree Point
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: treePointREF
+        fieldNames:
+        - treePointREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: classLevelGained
+        fieldNames:
+        - Level Gained
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: classXPGained
+        fieldNames:
+        - EXP Gained
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillLevelGained
+        fieldNames:
+        - Skill Level Gained
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillXPGained
+        fieldNames:
+        - Skill EXP Gained
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillID
+        fieldNames:
+        - Skill
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillREF
+        fieldNames:
+        - skillREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityID
+        fieldNames:
+        - Ability
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityREF
+        fieldNames:
+        - abilityREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: recipeID
+        fieldNames:
+        - Recipe
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: recipeREF
+        fieldNames:
+        - recipeREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: resourceNodeID
+        fieldNames:
+        - Resource Node
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: resourceNodeREF
+        fieldNames:
+        - resourceNodeREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectID
+        fieldNames:
+        - Effect
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: effectREF
+        fieldNames:
+        - effectREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusID
+        fieldNames:
+        - Bonus
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusREF
+        fieldNames:
+        - bonusREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: questID
+        fieldNames:
+        - Quest
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: questREF
+        fieldNames:
+        - questREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyID
+        fieldNames:
+        - Currency
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyREF
+        fieldNames:
+        - currencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionPointsGained
+        fieldNames:
+        - Faction Points Gained
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionID
+        fieldNames:
+        - Faction ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionREF
+        fieldNames:
+        - factionREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateXPGained
+        fieldNames:
+        - Weapon Template EXP Gained
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateID
+        fieldNames:
+        - Weapon Template
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateREF
+        fieldNames:
+        - weaponTemplateREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: target
+        fieldNames:
+        - Target
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isConsumed
+        fieldNames:
+        - Consumed?
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGSkill
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGSkill
+      categoryDisplayName: Skill
+      parentType: RPGSkill
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: automaticlyAdded
+        fieldNames:
+        - Automatically Added
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: MaxLevel
+        fieldNames:
+        - Max Level
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: levelTemplateID
+        fieldNames:
+        - Level Template
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: levelTemplateREF
+        fieldNames:
+        - levelTemplateREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: talentTrees
+        fieldNames:
+        - talentTrees
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: stats
+        fieldNames:
+        - stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startItems
+        fieldNames:
+        - startItems
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: actionAbilities
+        fieldNames:
+        - actionAbilities
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: allocatedStatsEntriesGame
+        fieldNames:
+        - allocatedStatsEntriesGame
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGSkill+TalentTreesDATA
+      categoryDisplayName: 
+      parentType: RPGSkill
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: talentTreeID
+        fieldNames:
+        - talentTreeID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: talentTreeREF
+        fieldNames:
+        - talentTreeREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGSkill+STATS_DATA
+      categoryDisplayName: 
+      parentType: RPGSkill
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: _name
+        fieldNames:
+        - _name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: amount
+        fieldNames:
+        - amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isPercent
+        fieldNames:
+        - isPercent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusPerLevel
+        fieldNames:
+        - bonusPerLevel
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGLevelsTemplate
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGLevelsTemplate
+      categoryDisplayName: Level Template
+      parentType: RPGLevelsTemplate
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: levels
+        fieldNames:
+        - Levels
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: baseXPValue
+        fieldNames:
+        - Base EXP Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: increaseAmount
+        fieldNames:
+        - Increase Amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: allLevels
+        fieldNames:
+        - allLevels
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGLevelsTemplate+LEVELS_DATA
+      categoryDisplayName: 
+      parentType: RPGLevelsTemplate
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: levelName
+        fieldNames:
+        - levelName
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: level
+        fieldNames:
+        - level
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: XPRequired
+        fieldNames:
+        - XPRequired
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGRace
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGRace
+      categoryDisplayName: Race
+      parentType: RPGRace
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: startingSceneID
+        fieldNames:
+        - startingSceneID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startingSceneREF
+        fieldNames:
+        - startingSceneREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startingPositionID
+        fieldNames:
+        - startingPositionID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startingPositionREF
+        fieldNames:
+        - startingPositionREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionREF
+        fieldNames:
+        - factionREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionID
+        fieldNames:
+        - factionID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: speciesID
+        fieldNames:
+        - speciesID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: malePrefab
+        fieldNames:
+        - Male Prefab
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maleIcon
+        fieldNames:
+        - Male Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: femalePrefab
+        fieldNames:
+        - Female Prefab
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: femaleIcon
+        fieldNames:
+        - Female Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: availableClasses
+        fieldNames:
+        - availableClasses
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplates
+        fieldNames:
+        - weaponTemplates
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: stats
+        fieldNames:
+        - stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startItems
+        fieldNames:
+        - startItems
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: actionAbilities
+        fieldNames:
+        - actionAbilities
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: allocationStatPoints
+        fieldNames:
+        - Allocation Stat Points
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: allocatedStatsEntries
+        fieldNames:
+        - allocatedStatsEntries
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGRace+RACE_CLASSES_DATA
+      categoryDisplayName: 
+      parentType: RPGRace
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: classID
+        fieldNames:
+        - classID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: classREF
+        fieldNames:
+        - classREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGRace+WEAPON_TEMPLATES_DATA
+      categoryDisplayName: 
+      parentType: RPGRace
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: weaponTemplateID
+        fieldNames:
+        - weaponTemplateID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateREF
+        fieldNames:
+        - weaponTemplateREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGRace+RACE_STATS_DATA
+      categoryDisplayName: 
+      parentType: RPGRace
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: amount
+        fieldNames:
+        - amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isPercent
+        fieldNames:
+        - isPercent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGClass
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGClass
+      categoryDisplayName: Class
+      parentType: RPGClass
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: autoAttackAbilityID
+        fieldNames:
+        - Auto Attack Ability
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: autoAttackAbilityREF
+        fieldNames:
+        - autoAttackAbilityREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: stats
+        fieldNames:
+        - stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: levelTemplateID
+        fieldNames:
+        - levelTemplateID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: levelTemplateREF
+        fieldNames:
+        - levelTemplateREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: talentTrees
+        fieldNames:
+        - talentTrees
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: spellbooks
+        fieldNames:
+        - spellbooks
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startItems
+        fieldNames:
+        - startItems
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: actionAbilities
+        fieldNames:
+        - actionAbilities
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: allocationStatPoints
+        fieldNames:
+        - Allocation Points
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: allocatedStatsEntries
+        fieldNames:
+        - allocatedStatsEntries
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: allocatedStatsEntriesGame
+        fieldNames:
+        - allocatedStatsEntriesGame
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGClass+CLASS_STATS_DATA
+      categoryDisplayName: 
+      parentType: RPGClass
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: _name
+        fieldNames:
+        - _name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: amount
+        fieldNames:
+        - amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isPercent
+        fieldNames:
+        - isPercent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusPerLevel
+        fieldNames:
+        - bonusPerLevel
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGClass+TalentTreesDATA
+      categoryDisplayName: 
+      parentType: RPGClass
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: talentTreeID
+        fieldNames:
+        - talentTreeID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: talentTreeREF
+        fieldNames:
+        - talentTreeREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGClass+SpellbookDATA
+      categoryDisplayName: 
+      parentType: RPGClass
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: spellbookID
+        fieldNames:
+        - spellbookID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: spellbookREF
+        fieldNames:
+        - spellbookREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGLootTable
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGLootTable
+      categoryDisplayName: Loot Table
+      parentType: RPGLootTable
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: lootItems
+        fieldNames:
+        - lootItems
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGLootTable+LOOT_ITEMS
+      categoryDisplayName: Items
+      parentType: RPGLootTable
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: itemID
+        fieldNames:
+        - itemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemREF
+        fieldNames:
+        - itemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: min
+        fieldNames:
+        - min
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: max
+        fieldNames:
+        - max
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: dropRate
+        fieldNames:
+        - dropRate
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGMerchantTable
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGMerchantTable
+      categoryDisplayName: Merchant Table
+      parentType: RPGMerchantTable
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: onSaleItems
+        fieldNames:
+        - onSaleItems
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGMerchantTable+ON_SALE_ITEMS_DATA
+      categoryDisplayName: 
+      parentType: RPGMerchantTable
+      showInEditor: 1
+      display: 0
+      fields:
+      - fieldBaseName: itemID
+        fieldNames:
+        - itemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemREF
+        fieldNames:
+        - itemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyID
+        fieldNames:
+        - currencyID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyREF
+        fieldNames:
+        - currencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: cost
+        fieldNames:
+        - cost
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGCurrency
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGCurrency
+      categoryDisplayName: Currency
+      parentType: RPGCurrency
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Iconn
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: minValue
+        fieldNames:
+        - Min Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maxValue
+        fieldNames:
+        - Max Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: baseValue
+        fieldNames:
+        - Base Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: AmountToConvert
+        fieldNames:
+        - Amount To Convert
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: convertToCurrencyID
+        fieldNames:
+        - convertToCurrencyID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: convertToCurrencyREF
+        fieldNames:
+        - convertToCurrencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lowestCurrencyID
+        fieldNames:
+        - lowestCurrencyID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lowestCurrencyREF
+        fieldNames:
+        - lowestCurrencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: aboveCurrencies
+        fieldNames:
+        - aboveCurrencies
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGCurrency+AboveCurrencyDATA
+      categoryDisplayName: 
+      parentType: RPGCurrency
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: currencyID
+        fieldNames:
+        - currencyID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyREF
+        fieldNames:
+        - currencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGCraftingRecipe
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGCraftingRecipe
+      categoryDisplayName: Recipe
+      parentType: RPGCraftingRecipe
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: learnedByDefault
+        fieldNames:
+        - Learned by default
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: craftingSkillID
+        fieldNames:
+        - craftingSkillID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: craftingSkillREF
+        fieldNames:
+        - craftingSkillREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: craftingStationID
+        fieldNames:
+        - craftingStationID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: craftingStationREF
+        fieldNames:
+        - craftingStationREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: ranks
+        fieldNames:
+        - ranks
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGCraftingRecipe+RPGCraftingRecipeRankData
+      categoryDisplayName: 
+      parentType: RPGCraftingRecipe
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: ShowedInEditor
+        fieldNames:
+        - ShowedInEditor
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: unlockCost
+        fieldNames:
+        - unlockCost
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: Experience
+        fieldNames:
+        - Experience
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: craftTime
+        fieldNames:
+        - craftTime
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: allCraftedItems
+        fieldNames:
+        - allCraftedItems
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: allComponents
+        fieldNames:
+        - allComponents
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGCraftingRecipe+CraftedItemsDATA
+      categoryDisplayName: 
+      parentType: RPGCraftingRecipe
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: chance
+        fieldNames:
+        - chance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: count
+        fieldNames:
+        - count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: craftedItemID
+        fieldNames:
+        - craftedItemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: craftedItemREF
+        fieldNames:
+        - craftedItemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGCraftingRecipe+ComponentsRequired
+      categoryDisplayName: 
+      parentType: RPGCraftingRecipe
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: count
+        fieldNames:
+        - count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: componentItemID
+        fieldNames:
+        - componentItemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: componentItemREF
+        fieldNames:
+        - componentItemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGCraftingStation
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGCraftingStation
+      categoryDisplayName: Crafting Station
+      parentType: RPGCraftingStation
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: maxDistance
+        fieldNames:
+        - Max Distance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: craftSkills
+        fieldNames:
+        - craftSkills
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGCraftingStation+CraftSkillsDATA
+      categoryDisplayName: 
+      parentType: RPGCraftingStation
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: craftSkillID
+        fieldNames:
+        - craftSkillID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: craftSkillREF
+        fieldNames:
+        - craftSkillREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGTalentTree
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGTalentTree
+      categoryDisplayName: Talent Tree
+      parentType: RPGTalentTree
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display ame
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: TiersAmount
+        fieldNames:
+        - Tier Amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: treePointAcceptedID
+        fieldNames:
+        - treePointAcceptedID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: treePointAcceptedREF
+        fieldNames:
+        - treePointAcceptedREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: nodeList
+        fieldNames:
+        - nodeList
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGTalentTree+Node_DATA
+      categoryDisplayName: 
+      parentType: RPGTalentTree
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: nodeType
+        fieldNames:
+        - nodeType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: _name
+        fieldNames:
+        - _name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityID
+        fieldNames:
+        - abilityID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityREF
+        fieldNames:
+        - abilityREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: recipeID
+        fieldNames:
+        - recipeID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: recipeREF
+        fieldNames:
+        - recipeREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: resourceNodeID
+        fieldNames:
+        - resourceNodeID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: resourceNodeREF
+        fieldNames:
+        - resourceNodeREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusID
+        fieldNames:
+        - bonusID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: bonusREF
+        fieldNames:
+        - bonusREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: Tier
+        fieldNames:
+        - Tier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: Row
+        fieldNames:
+        - Row
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: requirements
+        fieldNames:
+        - requirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGBonus
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGBonus
+      categoryDisplayName: Bonus
+      parentType: RPGBonus
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: learnedByDefault
+        fieldNames:
+        - Learned by default
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: ranks
+        fieldNames:
+        - ranks
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGBonus+RPGBonusRankDATA
+      categoryDisplayName: 
+      parentType: RPGBonus
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: ShowedInEditor
+        fieldNames:
+        - ShowedInEditor
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: unlockCost
+        fieldNames:
+        - unlockCost
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: activeRequirements
+        fieldNames:
+        - activeRequirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statEffectsData
+        fieldNames:
+        - statEffectsData
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGGearSet
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGGearSet
+      categoryDisplayName: Gear Set
+      parentType: RPGGearSet
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: itemsInSet
+        fieldNames:
+        - itemsInSet
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: gearSetTiers
+        fieldNames:
+        - gearSetTiers
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGGearSet+itemInSet
+      categoryDisplayName: 
+      parentType: RPGGearSet
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: itemREF
+        fieldNames:
+        - itemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemID
+        fieldNames:
+        - itemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGGearSet+GearSetTier
+      categoryDisplayName: 
+      parentType: RPGGearSet
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: equippedAmount
+        fieldNames:
+        - equippedAmount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: gearSetTierStats
+        fieldNames:
+        - gearSetTierStats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGGearSet+GearSetTier+GearSetTierStat
+      categoryDisplayName: 
+      parentType: RPGGearSet
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: amount
+        fieldNames:
+        - amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isPercent
+        fieldNames:
+        - isPercent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGEnchantment
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGEnchantment
+      categoryDisplayName: Enchantment
+      parentType: RPGEnchantment
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: applyRequirements
+        fieldNames:
+        - applyRequirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: enchantmentTiers
+        fieldNames:
+        - enchantmentTiers
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGEnchantment+ApplyRequirements
+      categoryDisplayName: 
+      parentType: RPGEnchantment
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: type
+        fieldNames:
+        - type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemType
+        fieldNames:
+        - itemType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemRarity
+        fieldNames:
+        - itemRarity
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponType
+        fieldNames:
+        - weaponType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: armorType
+        fieldNames:
+        - armorType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: armorSlot
+        fieldNames:
+        - armorSlot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponSlot
+        fieldNames:
+        - weaponSlot
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGEnchantment+EnchantmentTier
+      categoryDisplayName: 
+      parentType: RPGEnchantment
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: currencyCosts
+        fieldNames:
+        - currencyCosts
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemCosts
+        fieldNames:
+        - itemCosts
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: successRate
+        fieldNames:
+        - successRate
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: enchantTime
+        fieldNames:
+        - enchantTime
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: enchantingParticle
+        fieldNames:
+        - enchantingParticle
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillREF
+        fieldNames:
+        - skillREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillID
+        fieldNames:
+        - skillID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillXPAmount
+        fieldNames:
+        - skillXPAmount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: stats
+        fieldNames:
+        - stats
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGEnchantment+CurrencyCost
+      categoryDisplayName: 
+      parentType: RPGEnchantment
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: costCurrencyREF
+        fieldNames:
+        - costCurrencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyID
+        fieldNames:
+        - currencyID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: amount
+        fieldNames:
+        - amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGEnchantment+ItemCost
+      categoryDisplayName: 
+      parentType: RPGEnchantment
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: itemREF
+        fieldNames:
+        - itemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemID
+        fieldNames:
+        - itemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: itemCount
+        fieldNames:
+        - itemCount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGEnchantment+TierStat
+      categoryDisplayName: 
+      parentType: RPGEnchantment
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: statREF
+        fieldNames:
+        - statREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: amount
+        fieldNames:
+        - amount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isPercent
+        fieldNames:
+        - isPercent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+  - moduleName: RPGTask
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGTask
+      categoryDisplayName: Task
+      parentType: RPGTask
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: taskType
+        fieldNames:
+        - Task Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: sceneName
+        fieldNames:
+        - Scene Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: abilityToLearnID
+        fieldNames:
+        - abilityToLearnID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: abilityToLearnREF
+        fieldNames:
+        - abilityToLearnREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: npcToKillID
+        fieldNames:
+        - npcToKillID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: npcToKillREF
+        fieldNames:
+        - npcToKillREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemToGetID
+        fieldNames:
+        - itemToGetID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemToGetREF
+        fieldNames:
+        - itemToGetREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: keepItems
+        fieldNames:
+        - Keep Items
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: classRequiredID
+        fieldNames:
+        - classRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: classRequiredREF
+        fieldNames:
+        - classRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillRequiredID
+        fieldNames:
+        - skillRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillRequiredREF
+        fieldNames:
+        - skillRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemToUseID
+        fieldNames:
+        - itemToUseID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemToUseREF
+        fieldNames:
+        - itemToUseREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: npcToTalkToID
+        fieldNames:
+        - npcToTalkToID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: npcToTalkToREF
+        fieldNames:
+        - npcToTalkToREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateRequiredID
+        fieldNames:
+        - weaponTemplateRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateRequireREF
+        fieldNames:
+        - weaponTemplateRequireREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: taskValue
+        fieldNames:
+        - Task Value
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+  - moduleName: RPGQuest
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGQuest
+      categoryDisplayName: Quest
+      parentType: RPGQuest
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: ObjectiveText
+        fieldNames:
+        - Objective Text
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: ProgressText
+        fieldNames:
+        - Progress Text
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: repeatable
+        fieldNames:
+        - repeatable
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: canBeTurnedInWithoutNPC
+        fieldNames:
+        - Can Be Turned In Without NPC
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: questRequirements
+        fieldNames:
+        - questRequirements
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemsGiven
+        fieldNames:
+        - itemsGiven
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: objectives
+        fieldNames:
+        - objectives
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: rewardsGiven
+        fieldNames:
+        - rewardsGiven
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: rewardsToPick
+        fieldNames:
+        - rewardsToPick
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGQuest+QuestItemsGivenDATA
+      categoryDisplayName: 
+      parentType: RPGQuest
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: itemID
+        fieldNames:
+        - itemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemREF
+        fieldNames:
+        - itemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: count
+        fieldNames:
+        - count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGQuest+QuestObjectiveDATA
+      categoryDisplayName: 
+      parentType: RPGQuest
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: objectiveType
+        fieldNames:
+        - objectiveType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: taskID
+        fieldNames:
+        - taskID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: taskREF
+        fieldNames:
+        - taskREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: timeLimit
+        fieldNames:
+        - timeLimit
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGQuest+QuestRewardDATA
+      categoryDisplayName: 
+      parentType: RPGQuest
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: rewardType
+        fieldNames:
+        - rewardType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemID
+        fieldNames:
+        - itemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemREF
+        fieldNames:
+        - itemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyID
+        fieldNames:
+        - currencyID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyREF
+        fieldNames:
+        - currencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: treePointID
+        fieldNames:
+        - treePointID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: treePointREF
+        fieldNames:
+        - treePointREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionID
+        fieldNames:
+        - factionID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionREF
+        fieldNames:
+        - factionREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateID
+        fieldNames:
+        - weaponTemplateID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateREF
+        fieldNames:
+        - weaponTemplateREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: count
+        fieldNames:
+        - count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: Experience
+        fieldNames:
+        - Experience
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGQuest+QuestRewardDATA
+      categoryDisplayName: 
+      parentType: RPGQuest
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: rewardType
+        fieldNames:
+        - rewardType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemID
+        fieldNames:
+        - itemID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: itemREF
+        fieldNames:
+        - itemREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyID
+        fieldNames:
+        - currencyID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: currencyREF
+        fieldNames:
+        - currencyREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: treePointID
+        fieldNames:
+        - treePointID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: treePointREF
+        fieldNames:
+        - treePointREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionID
+        fieldNames:
+        - factionID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: factionREF
+        fieldNames:
+        - factionREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateID
+        fieldNames:
+        - weaponTemplateID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: weaponTemplateREF
+        fieldNames:
+        - weaponTemplateREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: count
+        fieldNames:
+        - count
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: Experience
+        fieldNames:
+        - Experience
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGWorldPosition
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGWorldPosition
+      categoryDisplayName: Coordinate
+      parentType: RPGWorldPosition
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: position
+        fieldNames:
+        - Position
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: useRotation
+        fieldNames:
+        - Use Rotation
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: rotation
+        fieldNames:
+        - Rotation
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+  - moduleName: RPGResourceNode
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGResourceNode
+      categoryDisplayName: Resource Node
+      parentType: RPGResourceNode
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: learnedByDefault
+        fieldNames:
+        - Learned by default
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: skillRequiredID
+        fieldNames:
+        - skillRequiredID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillRequiredREF
+        fieldNames:
+        - skillRequiredREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: ranks
+        fieldNames:
+        - ranks
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGResourceNode+RPGResourceNodeRankData
+      categoryDisplayName: 
+      parentType: RPGResourceNode
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: ShowedInEditor
+        fieldNames:
+        - ShowedInEditor
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: unlockCost
+        fieldNames:
+        - unlockCost
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lootTableID
+        fieldNames:
+        - lootTableID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lootTableREF
+        fieldNames:
+        - lootTableREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skillLevelRequired
+        fieldNames:
+        - skillLevelRequired
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: Experience
+        fieldNames:
+        - Experience
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: distanceMax
+        fieldNames:
+        - distanceMax
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: gatherTime
+        fieldNames:
+        - gatherTime
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: respawnTime
+        fieldNames:
+        - respawnTime
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGGameScene
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGGameScene
+      categoryDisplayName: Game Scene
+      parentType: RPGGameScene
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: loadingBG
+        fieldNames:
+        - Loading BG
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: minimapImage
+        fieldNames:
+        - Minimap Image
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: mapBounds
+        fieldNames:
+        - Map Bounds
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: mapSize
+        fieldNames:
+        - Map Size
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: startPositionID
+        fieldNames:
+        - startPositionID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: startPositionREF
+        fieldNames:
+        - startPositionREF
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: isProceduralScene
+        fieldNames:
+        - Is Procedural
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: SpawnPointName
+        fieldNames:
+        - Spawn Poi
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: regions
+        fieldNames:
+        - regions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGGameScene+REGION_DATA
+      categoryDisplayName: 
+      parentType: RPGGameScene
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: regionName
+        fieldNames:
+        - regionName
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: fogChange
+        fieldNames:
+        - fogChange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lightningChange
+        fieldNames:
+        - lightningChange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skyboxChange
+        fieldNames:
+        - skyboxChange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: cameraParticleChange
+        fieldNames:
+        - cameraParticleChange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: musicChange
+        fieldNames:
+        - musicChange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: combatModeChange
+        fieldNames:
+        - combatModeChange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: combatStateChange
+        fieldNames:
+        - combatStateChange
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: welcomeText
+        fieldNames:
+        - welcomeText
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: gameActions
+        fieldNames:
+        - gameActions
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: taskCompletion
+        fieldNames:
+        - taskCompletion
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: showInEditor
+        fieldNames:
+        - showInEditor
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: fogEnabled
+        fieldNames:
+        - fogEnabled
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: fogColor
+        fieldNames:
+        - fogColor
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: fogMode
+        fieldNames:
+        - fogMode
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: fogDensity
+        fieldNames:
+        - fogDensity
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: fogStartDistance
+        fieldNames:
+        - fogStartDistance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: fogEndDistance
+        fieldNames:
+        - fogEndDistance
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: fogTransitionSpeed
+        fieldNames:
+        - fogTransitionSpeed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lightEnabled
+        fieldNames:
+        - lightEnabled
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lightColor
+        fieldNames:
+        - lightColor
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lightIntensity
+        fieldNames:
+        - lightIntensity
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lightGameobjectName
+        fieldNames:
+        - lightGameobjectName
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: lightTransitionSpeed
+        fieldNames:
+        - lightTransitionSpeed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skyboxCubemap
+        fieldNames:
+        - skyboxCubemap
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: skyboxTransitionSpeed
+        fieldNames:
+        - skyboxTransitionSpeed
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: cameraParticle
+        fieldNames:
+        - cameraParticle
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: musicClips
+        fieldNames:
+        - musicClips
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: combatEnabled
+        fieldNames:
+        - combatEnabled
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: inCombat
+        fieldNames:
+        - inCombat
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: welcomeMessageText
+        fieldNames:
+        - welcomeMessageText
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: welcomeMessageDuration
+        fieldNames:
+        - welcomeMessageDuration
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: GameActionsList
+        fieldNames:
+        - GameActionsList
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+  - moduleName: RPGDialogue
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGDialogue
+      categoryDisplayName: Dialogue
+      parentType: RPGDialogue
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dialogueGraph
+        fieldNames:
+        - Graph
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: hasExitNode
+        fieldNames:
+        - Hax Exit Node
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: exitNodeText
+        fieldNames:
+        - Exit Node Text
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+  - moduleName: RPGGameModifier
+    moduleDisplayName: 
+    categories:
+    - categoryName: RPGGameModifier
+      categoryDisplayName: Game Modifier
+      parentType: RPGGameModifier
+      showInEditor: 1
+      display: 1
+      fields:
+      - fieldBaseName: ID
+        fieldNames:
+        - ID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: icon
+        fieldNames:
+        - Icon
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _name
+        fieldNames:
+        - Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: _fileName
+        fieldNames:
+        - File Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: displayName
+        fieldNames:
+        - Display Name
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: description
+        fieldNames:
+        - Description
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: unlockType
+        fieldNames:
+        - Unlock Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: gameModifierType
+        fieldNames:
+        - Game Modifier Type
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: cost
+        fieldNames:
+        - Cost
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: gain
+        fieldNames:
+        - Gain
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: gameModifiersList
+        fieldNames:
+        - gameModifiersList
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+    - categoryName: RPGGameModifier+GameModifierDATA
+      categoryDisplayName: 
+      parentType: RPGGameModifier
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: showModifier
+        fieldNames:
+        - showModifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: categoryType
+        fieldNames:
+        - categoryType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: combatModuleType
+        fieldNames:
+        - combatModuleType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: generalModuleType
+        fieldNames:
+        - generalModuleType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: worldModuleType
+        fieldNames:
+        - worldModuleType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: settingsModuleType
+        fieldNames:
+        - settingsModuleType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: modifierTypeName
+        fieldNames:
+        - modifierTypeName
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: showEntryList
+        fieldNames:
+        - showEntryList
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: amountModifier
+        fieldNames:
+        - amountModifier
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: amountModifierList
+        fieldNames:
+        - amountModifierList
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: entryIDs
+        fieldNames:
+        - entryIDs
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: boolValue
+        fieldNames:
+        - boolValue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isGlobal
+        fieldNames:
+        - isGlobal
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: intValue
+        fieldNames:
+        - intValue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: floatValue
+        fieldNames:
+        - floatValue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: gameObjectValue
+        fieldNames:
+        - gameObjectValue
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: abilityModifierType
+        fieldNames:
+        - abilityModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: treePointModifierType
+        fieldNames:
+        - treePointModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: factionModifierType
+        fieldNames:
+        - factionModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: spellbookModifierType
+        fieldNames:
+        - spellbookModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: statModifierType
+        fieldNames:
+        - statModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: statModifierData
+        fieldNames:
+        - statModifierData
+        isStringEnum: 0
+        isIDReference: 0
+        display: 0
+      - fieldBaseName: npcModifierType
+        fieldNames:
+        - npcModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: weaponTemplateModifierType
+        fieldNames:
+        - weaponTemplateModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: itemModifierType
+        fieldNames:
+        - itemModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: skillModifierType
+        fieldNames:
+        - skillModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: levelTemplateModifierType
+        fieldNames:
+        - levelTemplateModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: raceModifierType
+        fieldNames:
+        - raceModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: raceOverridenMalePrefab
+        fieldNames:
+        - raceOverridenMalePrefab
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: raceOverridenFemalePrefab
+        fieldNames:
+        - raceOverridenFemalePrefab
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: classModifierType
+        fieldNames:
+        - classModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: merchantTableModifierType
+        fieldNames:
+        - merchantTableModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: currencyModifierType
+        fieldNames:
+        - currencyModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: recipeModifierType
+        fieldNames:
+        - recipeModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: bonusModifierType
+        fieldNames:
+        - bonusModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: gearSetModifierType
+        fieldNames:
+        - gearSetModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: enchantmentModifierType
+        fieldNames:
+        - enchantmentModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: questModifierType
+        fieldNames:
+        - questModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: resourceNodeModifierType
+        fieldNames:
+        - resourceNodeModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: generalSettingModifierType
+        fieldNames:
+        - generalSettingModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: combatSettingModifierType
+        fieldNames:
+        - combatSettingModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: worldSettingModifierType
+        fieldNames:
+        - worldSettingModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGGameModifier+ModuleAmountModifier
+      categoryDisplayName: 
+      parentType: RPGGameModifier
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: entryID
+        fieldNames:
+        - entryID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: entryName
+        fieldNames:
+        - entryName
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: alterAmount
+        fieldNames:
+        - alterAmount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: isPercent
+        fieldNames:
+        - isPercent
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dataModifierType
+        fieldNames:
+        - dataModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+    - categoryName: RPGGameModifier+StatDataModifier
+      categoryDisplayName: 
+      parentType: RPGGameModifier
+      showInEditor: 0
+      display: 0
+      fields:
+      - fieldBaseName: statID
+        fieldNames:
+        - statID
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: dataModifierType
+        fieldNames:
+        - dataModifierType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: unitType
+        fieldNames:
+        - unitType
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: checkMin
+        fieldNames:
+        - checkMin
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: checkMax
+        fieldNames:
+        - checkMax
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: valueMin
+        fieldNames:
+        - valueMin
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: valueMax
+        fieldNames:
+        - valueMax
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: valueDefault
+        fieldNames:
+        - valueDefault
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: restShifting
+        fieldNames:
+        - restShifting
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: CombatShifting
+        fieldNames:
+        - CombatShifting
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: restShiftAmount
+        fieldNames:
+        - restShiftAmount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: restShiftInterval
+        fieldNames:
+        - restShiftInterval
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: combatShiftAmount
+        fieldNames:
+        - combatShiftAmount
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+      - fieldBaseName: combatShiftInterval
+        fieldNames:
+        - combatShiftInterval
+        isStringEnum: 0
+        isIDReference: 0
+        display: 1
+  abilityFilters: []
+  effectFilters: []
+  NPCFilters: []
+  statFilters: []
+  talentPointFilters: []
+  spellbookFilters: []
+  factionFilters: []
+  weaponTemplateFilters: []
+  itemFilters: []
+  skillFilters: []
+  levelTemplateFilters: []
+  raceFilters: []
+  classFilters: []
+  lootTablesFilters: []
+  merchantTableFilters: []
+  currencyFilters: []
+  recipeFilters: []
+  craftingStationFilters: []
+  talentTreeFilters: []
+  bonusFilters: []
+  gearsSetFilters: []
+  enchantmentFilters: []
+  taskFilters: []
+  questFilters: []
+  worldPositionFilters: []
+  resourceNodeFilters: []
+  gameSceneFilters: []
+  dialogueFilters: []
+  gameModifierFilters: []
+  speciesFilters: []
+  comboFilters: []
+  abilityModuleSection:
+    showBaseInfo: 0
+    showRanks: 1
+    showUnlockSettings: 0
+    showUseRequirements: 0
+    showEffectsRequired: 0
+    showActivation: 0
+    showAbilityType: 0
+    showHitSettings: 0
+    showCooldowns: 0
+    showEffectsApplied: 0
+    showCasterEffectsApplied: 0
+    showConditionalEffect: 0
+    showTags: 0
+    showVisualEffects: 0
+    showVisualAnimations: 0
+  effectModuleSection:
+    showBaseInfo: 0
+    showType: 0
+    showRanks: 0
+    showStateSettings: 0
+    showVisualEffects: 0
+    showVisualAnimations: 0
+  npcModuleSection:
+    showBaseInfo: 0
+    showVisual: 0
+    showFunctions: 0
+    showCombat: 0
+    showRespawn: 0
+    showRewards: 0
+    showLootTables: 0
+    showStats: 0
+    showMovement: 0
+    showMerchant: 0
+    showQuestGiven: 0
+    showQuestCompleted: 0
+    showDialogue: 0
+    showAggroLinks: 0
+  statModuleSection:
+    showBaseInfo: 0
+    showSetup: 0
+    showBonuses: 0
+    showVitalityActions: 0
+  treePointModuleSection:
+    showBaseInfo: 0
+    showSetup: 0
+    showGainRequirements: 0
+  spellbookModuleSection:
+    showBaseInfo: 0
+    showNodes: 0
+  factionModuleSection:
+    showBaseInfo: 0
+    showStances: 0
+    showInteractions: 0
+  weaponTemplateModuleSection:
+    showBaseInfo: 0
+    showProgression: 0
+    showWeaponList: 0
+    showStats: 0
+    showTalentTrees: 0
+    showSpellbook: 0
+    showStartingItems: 0
+    showStatAllocationGame: 0
+  speciesModuleSection:
+    showBaseInfo: 0
+    showStats: 0
+    showTraits: 0
+  comboModuleSection:
+    showBaseInfo: 0
+    showCombos: 0
+  itemModuleSection:
+    showBaseInfo: 0
+    showTypes: 0
+    showLootSettings: 0
+    showActionAbilities: 0
+    showSocket: 0
+    showVisuals: 0
+    showCombat: 0
+    showStats: 0
+    showRandomStats: 0
+    showRequirements: 0
+    showOnUseActions: 0
+    showGeneral: 0
+    showEnchantment: 0
+    showGem: 0
+    showWeaponPositions: 0
+  skillModuleSection:
+    showBaseInfo: 0
+    showStats: 0
+    showTalentTrees: 0
+    showActionAbilities: 0
+    showStartingItems: 0
+    showStatAllocationGame: 0
+  levelTemplateModuleSection:
+    showBaseInfo: 0
+    showTemplate: 0
+  raceModuleSection:
+    showBaseInfo: 0
+    showVisual: 0
+    showStartingSettings: 0
+    showClasses: 0
+    showWeaponTemplate: 0
+    showStats: 0
+    showActionAbilities: 0
+    showStartingItems: 0
+    showStatAllocation: 0
+  classModuleSection:
+    showBaseInfo: 0
+    showSpellbook: 0
+    showTalentTree: 0
+    showStats: 0
+    showActionAbilities: 0
+    showStartingItems: 0
+    showStatAllocation: 0
+    showStatAllocationGame: 0
+  lootTableModuleSection:
+    showBaseInfo: 0
+    showItems: 0
+  merchantTableModuleSection:
+    showBaseInfo: 0
+    showItems: 0
+  currencyModuleSection:
+    showBaseInfo: 0
+    showSetupSettings: 0
+    showConversion: 0
+    showSuperiorCurrencies: 0
+  craftingRecipeModuleSection:
+    showBaseInfo: 0
+    showRanks: 0
+    showTalentTreeSettings: 0
+    showSettings: 0
+    showCraftedItems: 0
+    showComponentsRequired: 0
+  craftingStationModuleSection:
+    showBaseInfo: 0
+    showSkills: 0
+  talentTreeModuleSection:
+    showBaseInfo: 0
+    showNodes: 0
+  bonusModuleSection:
+    showBaseInfo: 0
+    showRanks: 0
+    showTalentTreeSettings: 0
+    showRequirements: 0
+    showBonuses: 0
+  gearSetModuleSection:
+    showBaseInfo: 0
+    showItems: 0
+    showTiers: 0
+  enchantmentModuleSection:
+    showBaseInfo: 0
+    showRequirements: 0
+    showTiers: 0
+  questModuleSection:
+    showBaseInfo: 0
+    showUIData: 0
+    showQuestSettings: 0
+    showItemsGiven: 0
+    showObjectives: 0
+    showAutomaticRewards: 0
+    showRewardsToPick: 0
+    showRequirements: 0
+  taskModuleSection:
+    showBaseInfo: 0
+    showTaskData: 0
+  worldPositionModuleSection:
+    showBaseInfo: 0
+    showSettings: 0
+  resourceNodeModuleSection:
+    showBaseInfo: 0
+    showRanks: 0
+    showTalentTreeSettings: 0
+    showLootSettings: 0
+    showSkillSettings: 0
+  gameSceneModuleSection:
+    showBaseInfo: 0
+    showSettings: 0
+    showMinimapSettings: 0
+    showLoadingScreenSettings: 0
+    showRegions: 0
+  dialogueModuleSection:
+    showBaseInfo: 0
+    showSettings: 0
+    showGraphSettings: 0
+  gameModifierModuleSection:
+    showBaseInfo: 0
+    showSettings: 0
+    showModifiers: 0
+  combatSettingsModuleSection:
+    showCombatRules: 0
+    showActionBar: 0
+    showTalentTrees: 0
+    showFactionSettings: 0
+    showStatSettings: 0
+    showNodeSockets: 0
+    showStatFunctions: 0
+    showStatCategory: 0
+    showNPCs: 0
+    showAbilities: 0
+    showSprint: 0
+    showEffects: 0
+  generalSettingsModuleSection:
+    showSavingSettings: 0
+    showLoadingScreenSettings: 0
+    showMainMenuSettings: 0
+    showDeveloperSettings: 0
+    showControllerSettings: 0
+    showDialogueSettings: 0
+    showGameModifierSettings: 0
+    showActionKeys: 0
+    showActionKeyCategoryList: 0
+    showActionKeyList: 0
+    showLayers: 0
+  itemSettingsModuleSection:
+    showInventorySettings: 0
+    showItemSettings: 0
+    showWeaponSettings: 0
+    showArmorSettings: 0
+    showSocketSettings: 0
+    showItemType: 0
+    showItemRarity: 0
+    showItemColor: 0
+    showRarityImage: 0
+    showWeaponType: 0
+    showWeaponAnimatorOverride: 0
+    showWeaponSlots: 0
+    showSlotType: 0
+    showArmorType: 0
+    showArmorSlot: 0
+  editorSettingsModuleSection:
+    showThemeSettings: 0
+    showEditorUtilities: 0
+    showDatabase: 0
+    showsceneLoaderSettings: 0
+    showDatabaseExport: 0
+    showDatabaseImport: 0
+    showEditorInfo: 0
